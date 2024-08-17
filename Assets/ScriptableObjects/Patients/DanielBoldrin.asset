@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60a8cc6bc676b449981a41d430b1c56, type: 3}
+  m_Name: DanielBoldrin
+  m_EditorClassIdentifier: 
+  patientName: Daniel Boldrin
+  age: 31
+  weight: 0
+  profession: Programmer
+  blood: 4
+  symptoms: Normal
+  pathogen: 0
+  stage: 0.9
+  side: {fileID: 0}
+  skin: {fileID: 0}
+  blury: {fileID: 0}
+  visible: {fileID: 0}
+  infected: {fileID: 0}
+  torso: {fileID: 0}
+  inIso: 0
+  isMale: 1
+  isOld: 0
+  controller: {fileID: 0}
+  currentState: 0
+  onChanged:
+    m_PersistentCalls:
+      m_Calls: []

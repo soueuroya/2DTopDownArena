@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8880c793e0e85a4098afc8958937537, type: 3}
+  m_Name: responseExampleB
+  m_EditorClassIdentifier: 
+  characterID: 
+  dialogueSegments:
+  - dialogueText: Can we not settle this any other way?
+    dialogueDisplayTime: 2
+    dialogueChoices: []
+  - dialogueText: 
+    dialogueDisplayTime: 0
+    dialogueChoices:
+    - dialogueChoice: No
+      followUpDialogue: {fileID: 11400000, guid: 039a4902d6c6a674ba189f32264a01d9, type: 2}
+  characterDialogueSO: []
