@@ -3,12 +3,15 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    public float deadZone = 0.1f;
     public Rigidbody2D rb;
     public Animator animator;
 
     private Vector2 lookDir;
     private Vector2 movement;
+    private Vector2 aim;
     private Vector2 mousePosition;
+    private Vector2 prevMousePosition;
 
     private bool isBusy = false;
     private bool IsLookingUp_C = false;
@@ -42,24 +45,48 @@ public class CharacterMovement : MonoBehaviour
         // Update the Animator with the current speed
         animator.SetFloat("Speed", currentSpeed);
 
-        // Get mouse position relative to the player
-        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        lookDir = mousePosition - rb.position;
+        aim.x = Input.GetAxis("Horizontal_Aim");
+        aim.y = Input.GetAxis("Vertical_Aim");
+
+        if (prevMousePosition != mousePosition || Input.GetMouseButton(0))
+        {
+            Cursor.visible = true;
+        }
+        prevMousePosition = mousePosition;
+
+        if (aim.x != 0 || aim.y != 0)
+        {
+            Cursor.visible = false;
+        }
+
+        if (!Cursor.visible)
+        {
+            if (aim != Vector2.zero)
+            {
+                lookDir = aim;
+            }
+        }
+        else
+        {
+            // Get mouse position relative to the player
+            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            lookDir = mousePosition - rb.position;
+        }
 
         // Normalize the look direction for comparison
         lookDir.Normalize();
 
-        // Reset all direction WASD booleans
-        ResetDirectionWASDBools();
-
         // Reset all direction Cursor booleans
         ResetDirectionCursorBools();
 
-        // Reads the direction from WASD
-        ReadDirectionWithWASD();
-
         // Reads the direction of the cursor
         ReadDirectionWithCursor(lookDir);
+
+        // Reset all direction WASD booleans
+        ResetDirectionWASDBools();
+
+        // Reads the direction from WASD
+        ReadDirectionWithWASD();
 
         if (currentSpeed != 0.0f)
         {
@@ -79,35 +106,35 @@ public class CharacterMovement : MonoBehaviour
     private void ReadDirectionWithCursor(Vector2 lookDir)
     {
         // Determine which direction the player is facing - CURSOR
-        if (lookDir.x > 0.5f && Mathf.Abs(lookDir.y) < 0.5f)
+        if (lookDir.x > deadZone && Mathf.Abs(lookDir.y) < deadZone)
         {
             IsLookingRight_C = true;
         }
-        else if (lookDir.x < -0.5f && Mathf.Abs(lookDir.y) < 0.5f)
+        else if (lookDir.x < -deadZone && Mathf.Abs(lookDir.y) < deadZone)
         {
             IsLookingLeft_C = true;
         }
-        else if (lookDir.y > 0.5f && Mathf.Abs(lookDir.x) < 0.5f)
+        else if (lookDir.y > deadZone && Mathf.Abs(lookDir.x) < deadZone)
         {
             IsLookingUp_C = true;
         }
-        else if (lookDir.y < -0.5f && Mathf.Abs(lookDir.x) < 0.5f)
+        else if (lookDir.y < -deadZone && Mathf.Abs(lookDir.x) < deadZone)
         {
             IsLookingDown_C = true;
         }
-        else if (lookDir.x > 0.5f && lookDir.y > 0.5f)
+        else if (lookDir.x > deadZone && lookDir.y > deadZone)
         {
             IsLookingUpRight_C = true;
         }
-        else if (lookDir.x < -0.5f && lookDir.y > 0.5f)
+        else if (lookDir.x < -deadZone && lookDir.y > deadZone)
         {
             IsLookingUpLeft_C = true;
         }
-        else if (lookDir.x > 0.5f && lookDir.y < -0.5f)
+        else if (lookDir.x > deadZone && lookDir.y < -deadZone)
         {
             IsLookingDownRight_C = true;
         }
-        else if (lookDir.x < -0.5f && lookDir.y < -0.5f)
+        else if (lookDir.x < -deadZone && lookDir.y < -deadZone)
         {
             IsLookingDownLeft_C = true;
         }
@@ -140,37 +167,69 @@ public class CharacterMovement : MonoBehaviour
     private void ReadDirectionWithWASD()
     {
         // Determine which direction the player is facing - WALK - WASD
-        if (movement.x > 0.5f && Mathf.Abs(movement.y) < 0.5f)
+        if (movement.x > deadZone && Mathf.Abs(movement.y) < deadZone)
         {
             IsLookingRight_K = true;
+            if (!Cursor.visible)
+            {
+                IsLookingRight_C = true;
+            }
         }
-        else if (movement.x < -0.5f && Mathf.Abs(movement.y) < 0.5f)
+        else if (movement.x < -deadZone && Mathf.Abs(movement.y) < deadZone)
         {
             IsLookingLeft_K = true;
+            if (!Cursor.visible)
+            {
+                IsLookingLeft_C = true;
+            }
         }
-        else if (movement.y > 0.5f && Mathf.Abs(movement.x) < 0.5f)
+        else if (movement.y > deadZone && Mathf.Abs(movement.x) < deadZone)
         {
             IsLookingUp_K = true;
+            if (!Cursor.visible)
+            {
+                IsLookingUp_C = true;
+            }
         }
-        else if (movement.y < -0.5f && Mathf.Abs(movement.x) < 0.5f)
+        else if (movement.y < -deadZone && Mathf.Abs(movement.x) < deadZone)
         {
             IsLookingDown_K = true;
+            if (!Cursor.visible)
+            {
+                IsLookingDown_C = true;
+            }
         }
-        else if (movement.x > 0.5f && movement.y > 0.5f)
+        else if (movement.x > deadZone && movement.y > deadZone)
         {
             IsLookingUpRight_K = true;
+            if (!Cursor.visible)
+            {
+                IsLookingUpRight_C = true;
+            }
         }
-        else if (movement.x < -0.5f && movement.y > 0.5f)
+        else if (movement.x < -deadZone && movement.y > deadZone)
         {
             IsLookingUpLeft_K = true;
+            if (!Cursor.visible)
+            {
+                IsLookingUpLeft_C = true;
+            }
         }
-        else if (movement.x > 0.5f && movement.y < -0.5f)
+        else if (movement.x > deadZone && movement.y < -deadZone)
         {
             IsLookingDownRight_K = true;
+            if (!Cursor.visible)
+            {
+                IsLookingDownRight_C = true;
+            }
         }
-        else if (movement.x < -0.5f && movement.y < -0.5f)
+        else if (movement.x < -deadZone && movement.y < -deadZone)
         {
             IsLookingDownLeft_K = true;
+            if (!Cursor.visible)
+            {
+                IsLookingDownLeft_C = true;
+            }
         }
     }
 
