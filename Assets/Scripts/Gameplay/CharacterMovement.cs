@@ -155,7 +155,7 @@ public class CharacterMovement : MonoBehaviour
     private void HandleAttacks()
     {
         // Handle attack inputs
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
             if (attack1Cooldown > 0 || !CanAct()) return;
             StartCoroutine(PerformAttack1(playerStatusses[currentStatus].attack1));
