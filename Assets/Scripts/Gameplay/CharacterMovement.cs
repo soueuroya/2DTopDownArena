@@ -1,19 +1,42 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float deadZone = 0.1f;
-    public Rigidbody2D rb;
-    public Animator animator;
+    private float moveSpeed = 5f;
+    private float dashSpeed = 5f;
+    private float dashDuration = 0.2f; // How long the dash lasts
+    private float dashCooldown = 1f; // Time before the player can dash again
+    private float jumpCooldown = 1f; // Time before the player can jump again
+    private float maxHealth = 5f;
+    private float deadZone = 0.1f;
+    [SerializeField]private Rigidbody2D rb;
+    [SerializeField]private Animator animator;
+    [SerializeField]private Transform directional;
+    [SerializeField] private Transform spawner;
+    [SerializeField] private Transform shieldSpawner;
 
+    [SerializeField] List<PlayerStatus> playerStatusses;
+    int currentStatus = 0;
+
+    private bool isDead = false;
+    private bool isDashing = false; // To track if currently dashing
     private Vector2 lookDir;
     private Vector2 movement;
     private Vector2 aim;
     private Vector2 mousePosition;
     private Vector2 prevMousePosition;
+    private Vector2 playerPosition;
+    private Vector2 prevPlayerPosition;
+    private Vector2 respawnPosition;
 
-    private bool isBusy = false;
+    private float generalCooldown = 0;
+    private float stunnedCooldown = 0;
+    private float attack1Cooldown = 0;
+    private float attack2Cooldown = 0;
+    private float shieldCooldown = 0;
+
     private bool IsLookingUp_C = false;
     private bool IsLookingDown_C = false;
     private bool IsLookingLeft_C = false;
@@ -32,9 +55,19 @@ public class CharacterMovement : MonoBehaviour
     private bool IsLookingDownLeft_K = false;
     private bool IsLookingDownRight_K = false;
 
+    private void Awake()
+    {
+        UpdateValuesWithCurrentClass();
+        SaveRespawnPosition();
+    }
 
     void Update()
     {
+        if (isDead)
+        {
+            return;
+        }
+
         // Get movement input
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
@@ -48,7 +81,7 @@ public class CharacterMovement : MonoBehaviour
         aim.x = Input.GetAxis("Horizontal_Aim");
         aim.y = Input.GetAxis("Vertical_Aim");
 
-        if (prevMousePosition != mousePosition || Input.GetMouseButton(0))
+        if (prevMousePosition != mousePosition || Input.GetMouseButton(0) || Input.GetMouseButton(1) || Input.GetMouseButton(2))
         {
             Cursor.visible = true;
         }
@@ -76,6 +109,12 @@ public class CharacterMovement : MonoBehaviour
         // Normalize the look direction for comparison
         lookDir.Normalize();
 
+        // Handle dash input (e.g., pressing Space)
+        if (Input.GetKeyDown(KeyCode.Space) && dashCooldown <= 0 && CanAct())
+        {
+            StartCoroutine(Dash());
+        }
+
         // Reset all direction Cursor booleans
         ResetDirectionCursorBools();
 
@@ -87,6 +126,14 @@ public class CharacterMovement : MonoBehaviour
 
         // Reads the direction from WASD
         ReadDirectionWithWASD();
+
+        // Reads the character switch
+        HandleStatusSwitch();
+
+        // Handles the angle of the directional
+        HandleDirectional();
+
+        HandleAttacks();
 
         if (currentSpeed != 0.0f)
         {
@@ -101,6 +148,30 @@ public class CharacterMovement : MonoBehaviour
 
         // Normalize the movement vector if the player is moving diagonally
         movement.Normalize();
+
+        HandleCooldowns();
+    }
+
+    private void HandleAttacks()
+    {
+        // Handle attack inputs
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (attack1Cooldown > 0 || !CanAct()) return;
+            StartCoroutine(PerformAttack1(playerStatusses[currentStatus].attack1));
+        }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            if (attack2Cooldown > 0 || !CanAct()) return;
+            StartCoroutine(PerformAttack2(playerStatusses[currentStatus].attack2));
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (shieldCooldown > 0 || !CanAct()) return;
+            StartCoroutine(PerformShield(playerStatusses[currentStatus].shield));
+        }
     }
 
     private void ReadDirectionWithCursor(Vector2 lookDir)
@@ -236,7 +307,10 @@ public class CharacterMovement : MonoBehaviour
     void FixedUpdate()
     {
         // Move the character
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (CanWalk())
+        {
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
     }
 
     private void ResetDirectionWASDBools()
@@ -261,5 +335,261 @@ public class CharacterMovement : MonoBehaviour
         IsLookingUpLeft_C = false;
         IsLookingDownRight_C = false;
         IsLookingDownLeft_C = false;
+    }
+
+    private void HandleStatusSwitch()
+    {
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            currentStatus++;
+            if (currentStatus >= playerStatusses.Count)
+            {
+                currentStatus = 0;
+            }
+
+            UpdateValuesWithCurrentClass();
+        }
+    }
+
+    private void UpdateValuesWithCurrentClass()
+    {
+        moveSpeed = playerStatusses[currentStatus].speed;
+        maxHealth = playerStatusses[currentStatus].maxHealth;
+        dashSpeed = playerStatusses[currentStatus].dashSpeed;
+        animator.runtimeAnimatorController = playerStatusses[currentStatus].anim;
+    }
+
+    private IEnumerator Dash()
+    {
+        dashCooldown = playerStatusses[currentStatus].dashCooldown;
+        generalCooldown = playerStatusses[currentStatus].dashGeneralCooldown;
+
+        Debug.Log("dashing: " + lookDir);
+        isDashing = true;
+
+        Vector2 dashDirection = movement; // Dash in the direction of the movement
+        if (dashDirection == Vector2.zero)
+        {
+            dashDirection = lookDir; // Dash in the direction of the cursor
+        }
+
+        // Temporarily disable normal movement while dashing
+        float originalMoveSpeed = moveSpeed;
+        moveSpeed = 0f; // Stop normal movement during dash
+
+        rb.velocity = dashDirection.normalized * dashSpeed; // Use velocity for dash
+
+        yield return new WaitForSeconds(dashDuration);
+
+        // Reset velocity and movement speed after dash
+        rb.velocity = Vector2.zero;
+        moveSpeed = originalMoveSpeed;
+
+        isDashing = false;
+    }
+
+    private void HandleDirectional()
+    {
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        directional.rotation = Quaternion.Euler(0, 0, angle);
+    }
+
+    private bool CanAct()
+    {
+        return (generalCooldown <= 0 && stunnedCooldown <= 0 && jumpCooldown <= 0 && !isDashing && !isDead);
+    }
+
+    private bool CanWalk()
+    {
+        return (stunnedCooldown <= 0 && !isDead && !isDashing);
+    }
+
+    private IEnumerator PerformAttack1(Cast cast)
+    {
+        attack1Cooldown = cast.cooldown;
+        generalCooldown = cast.generalCooldown;
+
+        if (cast.attackRate == 0 && cast.length == 0)
+        {
+            GameObject castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+
+            if (cast.position == Cast.Positions.Center)
+            {
+                castObject.transform.position = transform.position;
+            }
+            else if (cast.position == Cast.Positions.Spawner)
+            {
+                castObject.transform.position = spawner.position;
+            }
+
+            castObject.transform.rotation = directional.rotation;
+        }
+        else
+        {
+            // For continuous attacks over the duration specified by cast.lenght
+            float elapsedTime = 0f;
+
+            while (elapsedTime < cast.length)
+            {
+                // Instantiate a new attack prefab at the specified position and rotation
+                GameObject castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+
+                if (cast.position == Cast.Positions.Center)
+                {
+                    castObject.transform.position = transform.position;
+                }
+                else if (cast.position == Cast.Positions.Spawner)
+                {
+                    castObject.transform.position = spawner.position;
+                }
+
+                castObject.transform.rotation = directional.rotation;
+
+                // Wait for the next attack based on attackRate
+                yield return new WaitForSeconds(cast.attackRate);
+
+                elapsedTime += cast.attackRate;
+            }
+        }
+
+        yield return null;
+    }
+
+    private IEnumerator PerformAttack2(Cast cast)
+    {
+        attack2Cooldown = cast.cooldown;
+        generalCooldown = cast.generalCooldown;
+
+        if (cast.attackRate == 0 || cast.length == 0)
+        {
+            GameObject castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+
+            if (cast.position == Cast.Positions.Center)
+            {
+                castObject.transform.position = transform.position;
+            }
+            else if (cast.position == Cast.Positions.Spawner)
+            {
+                castObject.transform.position = spawner.position;
+            }
+
+            castObject.transform.rotation = directional.rotation;
+        }
+        else
+        {
+            // For continuous attacks over the duration specified by cast.lenght
+            float elapsedTime = 0f;
+
+            while (elapsedTime < cast.length)
+            {
+                // Instantiate a new attack prefab at the specified position and rotation
+                GameObject castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+
+                if (cast.position == Cast.Positions.Center)
+                {
+                    castObject.transform.position = transform.position;
+                }
+                else if (cast.position == Cast.Positions.Spawner)
+                {
+                    castObject.transform.position = spawner.position;
+                }
+
+                castObject.transform.rotation = directional.rotation;
+
+                // Wait for the next attack based on attackRate
+                yield return new WaitForSeconds(cast.attackRate);
+
+                elapsedTime += cast.attackRate;
+            }
+        }
+
+        yield return null;
+    }
+
+    private IEnumerator PerformShield(Cast cast)
+    {
+        shieldCooldown = cast.cooldown;
+        generalCooldown = cast.generalCooldown;
+        GameObject castObject = Instantiate(cast.prefab, shieldSpawner.position, Quaternion.identity, transform);
+        yield return null;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Abyss"))
+        {
+            Fall();
+        }
+    }
+
+    private void Fall()
+    {
+        isDead = true;
+        animator.SetFloat("Speed", 0);
+        directional.gameObject.SetActive(false);
+        ResetDirectionWASDBools();
+        UpdateDirectionWithWASD();
+        ResetDirectionCursorBools();
+        UpdateDirectionWithCursor();
+        animator.ResetTrigger("Reshow");
+        animator.SetTrigger("Fall");
+        Invoke("Reposition", Constants.respawnTime);
+        Invoke("Reshow", Constants.respawnTime);
+        rb.velocity = Vector2.zero;
+    }
+
+    private void Reposition()
+    {
+        transform.position = respawnPosition;
+    }
+
+    private void Reshow()
+    {
+        isDead = false;
+        animator.SetTrigger("Reshow");
+        directional.gameObject.SetActive(true);
+    }
+
+    private void HandleCooldowns()
+    {
+        if (generalCooldown > 0)
+        {
+            generalCooldown -= Time.deltaTime;
+        }
+
+        if (stunnedCooldown > 0)
+        {
+            stunnedCooldown -= Time.deltaTime;
+        }
+
+        if (shieldCooldown > 0)
+        {
+            shieldCooldown -= Time.deltaTime;
+        }
+
+        if (attack1Cooldown > 0)
+        {
+            attack1Cooldown -= Time.deltaTime;
+        }
+
+        if (attack2Cooldown > 0)
+        {
+            attack2Cooldown -= Time.deltaTime;
+        }
+
+        if (dashCooldown > 0)
+        {
+            dashCooldown -= Time.deltaTime;
+        }
+
+        if (jumpCooldown > 0)
+        {
+            jumpCooldown -= Time.deltaTime;
+        }
+    }
+
+    private void SaveRespawnPosition()
+    {
+        respawnPosition = transform.position;
     }
 }
