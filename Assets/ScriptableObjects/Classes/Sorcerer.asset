@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f46fc3dfae006e4fa5797e51ecf1747, type: 3}
   m_Name: Sorcerer
   m_EditorClassIdentifier: 
-  playerClass: 0
+  playerClass: 1
   maxHealth: 10
-  speed: 1
+  speed: 2
   jumpCooldown: 0
   jumpGeneralCooldown: 0
   dashSpeed: 6
