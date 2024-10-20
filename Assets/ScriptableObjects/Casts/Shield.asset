@@ -17,5 +17,5 @@ MonoBehaviour:
   prefab: {fileID: 9031799967256116833, guid: e50479c582b0b9249a3d8e9f547a4c72, type: 3}
   attackRate: 0
   length: 0
-  cooldown: 6
-  generalCooldown: 5.5
+  cooldown: 30
+  generalCooldown: 5

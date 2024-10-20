@@ -4,7 +4,7 @@ using UnityEngine;
 public class Cast : ScriptableObject
 {
     public string name;
-    public enum Positions { Center, Spawner };
+    public enum Positions { Center, Spawner, Melee };
     public Positions position = Positions.Center;
     public GameObject prefab;
     public float attackRate;

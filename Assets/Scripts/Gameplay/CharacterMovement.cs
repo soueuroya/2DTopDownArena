@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
@@ -13,14 +14,26 @@ public class CharacterMovement : MonoBehaviour
     private float deadZone = 0.1f;
     [SerializeField]private Rigidbody2D rb;
     [SerializeField]private Animator animator;
+    [SerializeField] private AudioSource audioSource;
     [SerializeField]private Transform directional;
+    [SerializeField] private Transform spawnerAxis;
     [SerializeField] private Transform spawner;
+    [SerializeField] private Transform meleeSpawner;
     [SerializeField] private Transform shieldSpawner;
+    [SerializeField] private Transform shadow;
+
+    [SerializeField] private TMP_InputField moveSpeedInput;
+    [SerializeField] private TMP_InputField dashSpeedInput;
+    [SerializeField] private TMP_InputField dashDurationInput;
+    [SerializeField] private TMP_InputField dashCooldownInput;
+
 
     [SerializeField] List<PlayerStatus> playerStatusses;
     int currentStatus = 0;
 
+    private bool isSlow = false;
     private bool isDead = false;
+    private bool isFalling = false;
     private bool isDashing = false; // To track if currently dashing
     private Vector2 lookDir;
     private Vector2 movement;
@@ -36,6 +49,9 @@ public class CharacterMovement : MonoBehaviour
     private float attack1Cooldown = 0;
     private float attack2Cooldown = 0;
     private float shieldCooldown = 0;
+    private float dashingCooldown = 0;
+
+    private bool isAttacking = false;
 
     private bool IsLookingUp_C = false;
     private bool IsLookingDown_C = false;
@@ -57,6 +73,11 @@ public class CharacterMovement : MonoBehaviour
 
     private void Awake()
     {
+        moveSpeedInput.onValueChanged.AddListener(OnMoveSpeedChanged);
+        dashSpeedInput.onValueChanged.AddListener(OnDashSpeedChanged);
+        dashDurationInput.onValueChanged.AddListener(OnDashDurationChanged);
+        dashCooldownInput.onValueChanged.AddListener(OnDashCooldownChanged);
+
         UpdateValuesWithCurrentClass();
         SaveRespawnPosition();
     }
@@ -81,7 +102,7 @@ public class CharacterMovement : MonoBehaviour
         aim.x = Input.GetAxis("Horizontal_Aim");
         aim.y = Input.GetAxis("Vertical_Aim");
 
-        if (prevMousePosition != mousePosition || Input.GetMouseButton(0) || Input.GetMouseButton(1) || Input.GetMouseButton(2))
+        if (prevMousePosition != mousePosition || Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
         {
             Cursor.visible = true;
         }
@@ -110,9 +131,15 @@ public class CharacterMovement : MonoBehaviour
         lookDir.Normalize();
 
         // Handle dash input (e.g., pressing Space)
-        if (Input.GetKeyDown(KeyCode.Space) && dashCooldown <= 0 && CanAct())
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            StartCoroutine(Dash());
+            if (dashingCooldown <= 0)
+            {
+                if (CanAct())
+                {
+                    StartCoroutine(Dash());
+                }
+            }
         }
 
         // Reset all direction Cursor booleans
@@ -135,7 +162,7 @@ public class CharacterMovement : MonoBehaviour
 
         HandleAttacks();
 
-        if (currentSpeed != 0.0f)
+        if (currentSpeed != 0.0f && !isAttacking)
         {
             // Updates animator with cursor direction
             UpdateDirectionWithWASD();
@@ -155,13 +182,15 @@ public class CharacterMovement : MonoBehaviour
     private void HandleAttacks()
     {
         // Handle attack inputs
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && MouseGameScreenTarget.Instance.mouseOver)
         {
+            isSlow = true;
+
             if (attack1Cooldown > 0 || !CanAct()) return;
             StartCoroutine(PerformAttack1(playerStatusses[currentStatus].attack1));
         }
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             if (attack2Cooldown > 0 || !CanAct()) return;
             StartCoroutine(PerformAttack2(playerStatusses[currentStatus].attack2));
@@ -309,6 +338,10 @@ public class CharacterMovement : MonoBehaviour
         // Move the character
         if (CanWalk())
         {
+            if (isSlow)
+            {
+                movement *= 0.5f;
+            }
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         }
     }
@@ -354,15 +387,46 @@ public class CharacterMovement : MonoBehaviour
     private void UpdateValuesWithCurrentClass()
     {
         moveSpeed = playerStatusses[currentStatus].speed;
-        maxHealth = playerStatusses[currentStatus].maxHealth;
+        moveSpeedInput.text = moveSpeed.ToString();
+
         dashSpeed = playerStatusses[currentStatus].dashSpeed;
+        dashSpeedInput.text = dashSpeed.ToString();
+
+        dashDuration = playerStatusses[currentStatus].dashDuration;
+        dashDurationInput.text = dashDuration.ToString();
+
+        dashCooldown = playerStatusses[currentStatus].dashCooldown;
+        dashCooldownInput.text = dashCooldown.ToString();
+
+        maxHealth = playerStatusses[currentStatus].maxHealth;
         animator.runtimeAnimatorController = playerStatusses[currentStatus].anim;
+    }
+
+    private void OnMoveSpeedChanged(string value)
+    {
+        moveSpeed = float.Parse(value);
+    }
+
+    private void OnDashSpeedChanged(string value)
+    {
+        dashSpeed = float.Parse(value);
+    }
+
+    private void OnDashDurationChanged(string value)
+    {
+        dashDuration = float.Parse(value);
+    }
+
+    private void OnDashCooldownChanged(string value)
+    {
+        dashCooldown = float.Parse(value);
     }
 
     private IEnumerator Dash()
     {
-        dashCooldown = playerStatusses[currentStatus].dashCooldown;
-        generalCooldown = playerStatusses[currentStatus].dashGeneralCooldown;
+        dashingCooldown = dashCooldown;
+        generalCooldown = dashDuration;
+        audioSource.PlayOneShot(playerStatusses[currentStatus].dashAudio);
 
         Debug.Log("dashing: " + lookDir);
         isDashing = true;
@@ -392,11 +456,12 @@ public class CharacterMovement : MonoBehaviour
     {
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
         directional.rotation = Quaternion.Euler(0, 0, angle);
+        spawnerAxis.rotation = Quaternion.Euler(0, 0, angle);
     }
 
     private bool CanAct()
     {
-        return (generalCooldown <= 0 && stunnedCooldown <= 0 && jumpCooldown <= 0 && !isDashing && !isDead);
+        return (generalCooldown <= 0 && stunnedCooldown <= 0 && jumpCooldown <= 0 && !isDashing && !isDead/* && !isAttacking*/);
     }
 
     private bool CanWalk()
@@ -408,18 +473,26 @@ public class CharacterMovement : MonoBehaviour
     {
         attack1Cooldown = cast.cooldown;
         generalCooldown = cast.generalCooldown;
+        GameObject castObject = null;
+
+        isAttacking = true;
+        animator.SetBool("Attacking", true);
+        animator.SetTrigger("Attack1");
 
         if (cast.attackRate == 0 && cast.length == 0)
         {
-            GameObject castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+            castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
 
-            if (cast.position == Cast.Positions.Center)
+            switch (cast.position)
             {
-                castObject.transform.position = transform.position;
-            }
-            else if (cast.position == Cast.Positions.Spawner)
-            {
-                castObject.transform.position = spawner.position;
+                case Cast.Positions.Center:castObject.transform.position = transform.position;
+                    break;
+                case Cast.Positions.Spawner: castObject.transform.position = spawner.position;
+                    break;
+                case Cast.Positions.Melee: castObject.transform.position = meleeSpawner.position;
+                    break;
+                default:
+                    break;
             }
 
             castObject.transform.rotation = directional.rotation;
@@ -432,7 +505,7 @@ public class CharacterMovement : MonoBehaviour
             while (elapsedTime < cast.length)
             {
                 // Instantiate a new attack prefab at the specified position and rotation
-                GameObject castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+                castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
 
                 if (cast.position == Cast.Positions.Center)
                 {
@@ -450,6 +523,23 @@ public class CharacterMovement : MonoBehaviour
 
                 elapsedTime += cast.attackRate;
             }
+        }
+
+        if (castObject != null)
+        {
+            Projectile proj = castObject.GetComponent<Projectile>();
+            if (proj != null)
+            {
+                proj.Initialize(this);
+            }
+        }
+
+        yield return new WaitForSeconds(generalCooldown);
+
+        isAttacking = false;
+        if (!Input.GetMouseButton(0))
+        {
+            animator.SetBool("Attacking", false);
         }
 
         yield return null;
@@ -459,10 +549,15 @@ public class CharacterMovement : MonoBehaviour
     {
         attack2Cooldown = cast.cooldown;
         generalCooldown = cast.generalCooldown;
+        GameObject castObject = null;
+
+        isAttacking = true;
+        //animator.SetBool("Attacking", true);
+        animator.SetTrigger("Attack2");
 
         if (cast.attackRate == 0 || cast.length == 0)
         {
-            GameObject castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+            castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
 
             if (cast.position == Cast.Positions.Center)
             {
@@ -483,7 +578,7 @@ public class CharacterMovement : MonoBehaviour
             while (elapsedTime < cast.length)
             {
                 // Instantiate a new attack prefab at the specified position and rotation
-                GameObject castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+                castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
 
                 if (cast.position == Cast.Positions.Center)
                 {
@@ -503,6 +598,19 @@ public class CharacterMovement : MonoBehaviour
             }
         }
 
+        if (castObject != null)
+        {
+            Projectile proj = castObject.GetComponent<Projectile>();
+            if (proj != null)
+            {
+                proj.Initialize(this);
+            }
+        }
+
+        yield return new WaitForSeconds(generalCooldown);
+        isAttacking = false;
+        //animator.SetBool("Attacking", false);
+
         yield return null;
     }
 
@@ -511,14 +619,49 @@ public class CharacterMovement : MonoBehaviour
         shieldCooldown = cast.cooldown;
         generalCooldown = cast.generalCooldown;
         GameObject castObject = Instantiate(cast.prefab, shieldSpawner.position, Quaternion.identity, transform);
+
+        //isAttacking = true;
+        //animator.SetBool("Attacking", true);
+        animator.SetTrigger("Shield");
+
+        if (castObject != null)
+        {
+            Projectile proj = castObject.GetComponent<Projectile>();
+            if (proj != null)
+            {
+                proj.Initialize(this);
+            }
+        }
+
+        yield return new WaitForSeconds(generalCooldown);
+        //isAttacking = false;
+        //animator.SetBool("Attacking", false);
+
         yield return null;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Abyss"))
         {
-            Fall();
+            if (!isDashing && !isDead && !isFalling)
+            {
+                isFalling = true;
+                CancelInvoke("Fall");
+                Invoke("Fall", playerStatusses[currentStatus].coyoteTime);
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Abyss"))
+        {
+            if (!isDead)
+            {
+                isFalling = false;
+                CancelInvoke("Fall");
+            }
         }
     }
 
@@ -536,6 +679,7 @@ public class CharacterMovement : MonoBehaviour
         Invoke("Reposition", Constants.respawnTime);
         Invoke("Reshow", Constants.respawnTime);
         rb.velocity = Vector2.zero;
+        isFalling = false;
     }
 
     private void Reposition()
@@ -571,15 +715,19 @@ public class CharacterMovement : MonoBehaviour
         {
             attack1Cooldown -= Time.deltaTime;
         }
+        else if (isSlow)
+        {
+            isSlow = false;
+        }
 
         if (attack2Cooldown > 0)
         {
             attack2Cooldown -= Time.deltaTime;
         }
 
-        if (dashCooldown > 0)
+        if (dashingCooldown > 0)
         {
-            dashCooldown -= Time.deltaTime;
+            dashingCooldown -= Time.deltaTime;
         }
 
         if (jumpCooldown > 0)

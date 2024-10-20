@@ -4,7 +4,9 @@ using UnityEngine;
 public static class Constants
 {
     public static float respawnTime = 2f;
-    public enum Effects { Nothing, Ice, Fire };
+    public enum StatusEffects { Nothing, Ice, Fire };
+    public enum Ability{ Nothing, Teleport };
+
     public static class Prefs
     {
         public static string masterVolume = "masterVolume";

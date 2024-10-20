@@ -6,6 +6,9 @@ public class Shield : MonoBehaviour
 {
     //[SerializeField] private Rigidbody2D rb;
     [SerializeField] private SpriteRenderer sr; // The SpriteRenderer to control transparency
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip initialAudio;
+    [SerializeField] private AudioClip finalAudio;
     [SerializeField] private float startSpeed;
     [SerializeField] private float moveTime = 0f; // Duration for how long the object rb will be moving around with the start speed, after this duration, it will stop where it is and trigger the sequence
     [SerializeField] private float startTime = 0.2f; // Duration for scaling up and fading in
@@ -15,7 +18,7 @@ public class Shield : MonoBehaviour
     [SerializeField] private float startFade = 0.2f; // Starting Opacity
 
     
-    [SerializeField] public Constants.Effects effect;
+    [SerializeField] public Constants.StatusEffects effect;
     
     private Vector3 originalScale; // To store the initial scale of the object
     private Color originalColor;   // To store the initial color of the sprite
@@ -49,6 +52,8 @@ public class Shield : MonoBehaviour
         {
             StartSequence();
         }
+
+        audioSource.PlayOneShot(initialAudio);
     }
 
     private void StartSequence()
@@ -72,6 +77,7 @@ public class Shield : MonoBehaviour
         yield return new WaitForSeconds(endTime);
 
         // Optionally, destroy the object after the effect ends
+        audioSource.PlayOneShot(finalAudio); // TODO wait for audio
         Destroy(gameObject);
     }
 
@@ -105,12 +111,12 @@ public class Shield : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // Apply specific effects based on the effect type
-            if (effect == Constants.Effects.Ice)
+            if (effect == Constants.StatusEffects.Ice)
             {
                 Debug.Log("Applying Ice effect to the player.");
                 // Add slippery movement here
             }
-            else if (effect == Constants.Effects.Fire)
+            else if (effect == Constants.StatusEffects.Fire)
             {
                 Debug.Log("Applying Fire effect to the player.");
                 // Add damage-over-time effect here
@@ -123,12 +129,12 @@ public class Shield : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // Remove the effect when the player leaves the area
-            if (effect == Constants.Effects.Ice)
+            if (effect == Constants.StatusEffects.Ice)
             {
                 Debug.Log("Removing Ice effect from the player.");
                 // Remove slippery movement here
             }
-            else if (effect == Constants.Effects.Fire)
+            else if (effect == Constants.StatusEffects.Fire)
             {
                 Debug.Log("Removing Fire effect from the player.");
                 // Remove damage-over-time effect here

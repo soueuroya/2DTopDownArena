@@ -10,10 +10,14 @@ public class PlayerStatus : ScriptableObject
     public float jumpCooldown;
     public float jumpGeneralCooldown;
     public float dashSpeed; // Movement speed of this class
+    public float dashDuration; // Dash Duration
     public float dashCooldown; // Movement speed of this class
-    public float dashGeneralCooldown;
+    public float coyoteTime;
+    //public float dashGeneralCooldown;
     public AnimatorOverrideController anim;
     public Cast attack1;
     public Cast attack2;
     public Cast shield;
+
+    public AudioClip dashAudio;
 }
