@@ -41,7 +41,7 @@ public class AreaOfEffect : MonoBehaviour
     private void Start()
     {
         // start rb with start speed
-        rb.velocity = startSpeed * transform.right;
+        rb.linearVelocity = startSpeed * transform.right;
         transform.localScale = Vector2.one * startSize;
         sr.color = new Color(originalColor.r, originalColor.g, originalColor.b, startFade);
         if (moveTime != 0)
@@ -58,7 +58,7 @@ public class AreaOfEffect : MonoBehaviour
 
     private void StartSequence()
     {
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
         StartCoroutine(AOESequence());
     }

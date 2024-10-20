@@ -43,7 +43,7 @@ public class Projectile : MonoBehaviour
         // start rb with start speed
         if (rb != null)
         {
-            rb.velocity = startSpeed * transform.right;
+            rb.linearVelocity = startSpeed * transform.right;
         }
         transform.localScale = Vector2.one * startSize;
         if (sr != null)

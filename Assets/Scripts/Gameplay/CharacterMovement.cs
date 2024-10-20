@@ -29,11 +29,13 @@ public class CharacterMovement : MonoBehaviour
 
 
     [SerializeField] List<PlayerStatus> playerStatusses;
-    int currentStatus = 0;
+    [SerializeField] int currentStatus = 0;
+    [SerializeField] bool localPlayer = false;
 
     private bool isSlow = false;
     private bool isDead = false;
     private bool isFalling = false;
+    private bool shouldFall = false;
     private bool isDashing = false; // To track if currently dashing
     private Vector2 lookDir;
     private Vector2 movement;
@@ -73,17 +75,27 @@ public class CharacterMovement : MonoBehaviour
 
     private void Awake()
     {
+        UpdateValuesWithCurrentClass();
+        SaveRespawnPosition();
+
+        if (!localPlayer)
+        {
+            return;
+        }
+
         moveSpeedInput.onValueChanged.AddListener(OnMoveSpeedChanged);
         dashSpeedInput.onValueChanged.AddListener(OnDashSpeedChanged);
         dashDurationInput.onValueChanged.AddListener(OnDashDurationChanged);
         dashCooldownInput.onValueChanged.AddListener(OnDashCooldownChanged);
-
-        UpdateValuesWithCurrentClass();
-        SaveRespawnPosition();
     }
 
     void Update()
     {
+        if (!localPlayer)
+        {
+            return;
+        }
+
         if (isDead)
         {
             return;
@@ -335,6 +347,11 @@ public class CharacterMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!localPlayer)
+        {
+            return;
+        }
+
         // Move the character
         if (CanWalk())
         {
@@ -441,15 +458,19 @@ public class CharacterMovement : MonoBehaviour
         float originalMoveSpeed = moveSpeed;
         moveSpeed = 0f; // Stop normal movement during dash
 
-        rb.velocity = dashDirection.normalized * dashSpeed; // Use velocity for dash
+        rb.linearVelocity = dashDirection.normalized * dashSpeed; // Use velocity for dash
 
         yield return new WaitForSeconds(dashDuration);
 
         // Reset velocity and movement speed after dash
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         moveSpeed = originalMoveSpeed;
 
         isDashing = false;
+        if (shouldFall)
+        {
+            Fall();
+        }
     }
 
     private void HandleDirectional()
@@ -660,6 +681,7 @@ public class CharacterMovement : MonoBehaviour
             if (!isDead)
             {
                 isFalling = false;
+                shouldFall = false;
                 CancelInvoke("Fall");
             }
         }
@@ -667,6 +689,13 @@ public class CharacterMovement : MonoBehaviour
 
     private void Fall()
     {
+        if (isDashing)
+        {
+            shouldFall = true;
+            return;
+        }
+
+
         isDead = true;
         animator.SetFloat("Speed", 0);
         directional.gameObject.SetActive(false);
@@ -678,7 +707,7 @@ public class CharacterMovement : MonoBehaviour
         animator.SetTrigger("Fall");
         Invoke("Reposition", Constants.respawnTime);
         Invoke("Reshow", Constants.respawnTime);
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         isFalling = false;
     }
 
