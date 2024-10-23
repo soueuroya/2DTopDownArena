@@ -19,8 +19,8 @@ MonoBehaviour:
   jumpGeneralCooldown: 0
   dashSpeed: 8
   dashDuration: 0.3
-  dashCooldown: 2
-  coyoteTime: 3
+  dashCooldown: 12
+  coyoteTime: 1.5
   anim: {fileID: 22100000, guid: 79250443ee79545409163d68dc7b63f3, type: 2}
   attack1: {fileID: 11400000, guid: 862043eb7231428479012799c1fd3399, type: 2}
   attack2: {fileID: 11400000, guid: 729f1953e549c57469cc30419682f40e, type: 2}

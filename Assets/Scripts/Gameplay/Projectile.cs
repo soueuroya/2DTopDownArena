@@ -158,6 +158,11 @@ public class Projectile : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            CharacterMovement tempCm = collision.gameObject.GetComponent<CharacterMovement>();
+            if (tempCm.Equals(cm))
+            {
+                return;
+            }
             // Apply specific effects based on the effect type
             if (statusEffect == Constants.StatusEffects.Ice)
             {

@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 3355598449948290116}
   m_Layer: 0
   m_Name: MonkYellow
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,6 +127,7 @@ MonoBehaviour:
   meleeSpawner: {fileID: 2647878636801828053}
   shieldSpawner: {fileID: 5825190278697683184}
   shadow: {fileID: 7663770916843165671}
+  target: {fileID: 5075712926467197129}
   moveSpeedInput: {fileID: 0}
   dashSpeedInput: {fileID: 0}
   dashDurationInput: {fileID: 0}
@@ -134,6 +135,8 @@ MonoBehaviour:
   playerStatusses:
   - {fileID: 11400000, guid: d4fba7c727c44d74b920eee6d559f348, type: 2}
   - {fileID: 11400000, guid: 027875d1a5bb9b2448049c60f97e6d38, type: 2}
+  currentStatus: 0
+  localPlayer: 0
 --- !u!50 &6631861588095179166
 Rigidbody2D:
   serializedVersion: 5

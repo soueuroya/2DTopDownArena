@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Punch
   m_EditorClassIdentifier: Assembly-CSharp::Cast
   name: Punch
-  position: 1
+  position: 2
   prefab: {fileID: 9031799967256116833, guid: 8ef78a78b34b92249bd64252dd10b9e9, type: 3}
   attackRate: 0
   length: 0
-  cooldown: 0.5
-  generalCooldown: 0.5
+  cooldown: 0.4
+  generalCooldown: 0.4

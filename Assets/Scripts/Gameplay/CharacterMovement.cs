@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 
@@ -11,7 +12,8 @@ public class CharacterMovement : MonoBehaviour
     private float dashCooldown = 1f; // Time before the player can dash again
     private float jumpCooldown = 1f; // Time before the player can jump again
     private float maxHealth = 5f;
-    private float deadZone = 0.1f;
+    private float deadZone = 0.3f;
+    private float maxDistance = 1f;
     [SerializeField]private Rigidbody2D rb;
     [SerializeField]private Animator animator;
     [SerializeField] private AudioSource audioSource;
@@ -21,6 +23,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private Transform meleeSpawner;
     [SerializeField] private Transform shieldSpawner;
     [SerializeField] private Transform shadow;
+    [SerializeField] private GameObject target;
 
     [SerializeField] private TMP_InputField moveSpeedInput;
     [SerializeField] private TMP_InputField dashSpeedInput;
@@ -32,6 +35,8 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] int currentStatus = 0;
     [SerializeField] bool localPlayer = false;
 
+    private CharacterMovement targetedPlayer;
+    
     private bool isSlow = false;
     private bool isDead = false;
     private bool isFalling = false;
@@ -54,6 +59,7 @@ public class CharacterMovement : MonoBehaviour
     private float dashingCooldown = 0;
 
     private bool isAttacking = false;
+    private bool isInPlace = false;
 
     private bool IsLookingUp_C = false;
     private bool IsLookingDown_C = false;
@@ -114,11 +120,14 @@ public class CharacterMovement : MonoBehaviour
         aim.x = Input.GetAxis("Horizontal_Aim");
         aim.y = Input.GetAxis("Vertical_Aim");
 
-        if (prevMousePosition != mousePosition || Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
+        if (/*prevMousePosition != mousePosition || */Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
         {
             Cursor.visible = true;
         }
-        prevMousePosition = mousePosition;
+        else
+        {
+            //prevMousePosition = mousePosition;
+        }
 
         if (aim.x != 0 || aim.y != 0)
         {
@@ -143,7 +152,7 @@ public class CharacterMovement : MonoBehaviour
         lookDir.Normalize();
 
         // Handle dash input (e.g., pressing Space)
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("AButton"))
         {
             if (dashingCooldown <= 0)
             {
@@ -174,7 +183,7 @@ public class CharacterMovement : MonoBehaviour
 
         HandleAttacks();
 
-        if (currentSpeed != 0.0f && !isAttacking)
+        if (currentSpeed != 0.0f && !isAttacking && attack1Cooldown <= 0 && attack2Cooldown <= 0 /*&& dashingCooldown <= 0*/ /*&& generalCooldown <= 0*/)
         {
             // Updates animator with cursor direction
             UpdateDirectionWithWASD();
@@ -193,24 +202,27 @@ public class CharacterMovement : MonoBehaviour
 
     private void HandleAttacks()
     {
-        // Handle attack inputs
-        if (Input.GetMouseButton(0) && MouseGameScreenTarget.Instance.mouseOver)
+        if (!CanAct())
         {
-            isSlow = true;
+            return;
+        }
 
-            if (attack1Cooldown > 0 || !CanAct()) return;
+        // Handle attack inputs
+        if ((Input.GetMouseButton(0) && MouseGameScreenTarget.Instance.mouseOver) || Input.GetAxis("LT") > 0.5f)
+        {
+            if (attack1Cooldown > 0) return;
             StartCoroutine(PerformAttack1(playerStatusses[currentStatus].attack1));
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("BButton"))
         {
-            if (attack2Cooldown > 0 || !CanAct()) return;
+            if (attack2Cooldown > 0) return;
             StartCoroutine(PerformAttack2(playerStatusses[currentStatus].attack2));
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("XButton"))
         {
-            if (shieldCooldown > 0 || !CanAct()) return;
+            if (shieldCooldown > 0) return;
             StartCoroutine(PerformShield(playerStatusses[currentStatus].shield));
         }
     }
@@ -355,12 +367,19 @@ public class CharacterMovement : MonoBehaviour
         // Move the character
         if (CanWalk())
         {
+            if (isInPlace)
+            {
+                movement *= 0;
+            }
+            else
             if (isSlow)
             {
                 movement *= 0.5f;
             }
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         }
+
+        HandlePlayerClose();
     }
 
     private void ResetDirectionWASDBools()
@@ -389,7 +408,7 @@ public class CharacterMovement : MonoBehaviour
 
     private void HandleStatusSwitch()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetKeyDown(KeyCode.Backspace) || Input.GetButtonDown("YButton"))
         {
             currentStatus++;
             if (currentStatus >= playerStatusses.Count)
@@ -482,7 +501,7 @@ public class CharacterMovement : MonoBehaviour
 
     private bool CanAct()
     {
-        return (generalCooldown <= 0 && stunnedCooldown <= 0 && jumpCooldown <= 0 && !isDashing && !isDead/* && !isAttacking*/);
+        return (generalCooldown <= 0 && stunnedCooldown <= 0 && jumpCooldown <= 0 && !isDashing && !isDead && !isAttacking);
     }
 
     private bool CanWalk()
@@ -496,13 +515,15 @@ public class CharacterMovement : MonoBehaviour
         generalCooldown = cast.generalCooldown;
         GameObject castObject = null;
 
+        isSlow = true;
         isAttacking = true;
         animator.SetBool("Attacking", true);
         animator.SetTrigger("Attack1");
 
-        if (cast.attackRate == 0 && cast.length == 0)
+        if (cast.attackRate == 0 && cast.length == 0) // if this is a one time cast
         {
             castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+            castObject.transform.rotation = directional.rotation;
 
             switch (cast.position)
             {
@@ -510,15 +531,16 @@ public class CharacterMovement : MonoBehaviour
                     break;
                 case Cast.Positions.Spawner: castObject.transform.position = spawner.position;
                     break;
-                case Cast.Positions.Melee: castObject.transform.position = meleeSpawner.position;
+                case Cast.Positions.Melee: 
+                    castObject.transform.position = meleeSpawner.position;
+                    isInPlace = true;
                     break;
                 default:
                     break;
             }
 
-            castObject.transform.rotation = directional.rotation;
         }
-        else
+        else // if this cast has to repeat multiple times
         {
             // For continuous attacks over the duration specified by cast.lenght
             float elapsedTime = 0f;
@@ -556,11 +578,25 @@ public class CharacterMovement : MonoBehaviour
         }
 
         yield return new WaitForSeconds(generalCooldown);
-
+        //isInPlace = false;
         isAttacking = false;
-        if (!Input.GetMouseButton(0))
+        isSlow = false;
+        //animator.SetBool("Attacking", false);
+        if (!Input.GetMouseButton(0) && !(Input.GetAxis("LT") > 0.5f))
         {
+            isInPlace = false;
             animator.SetBool("Attacking", false);
+        }
+
+        yield return new WaitForSeconds(0.01f);
+
+        if (!Input.GetMouseButton(0) && !(Input.GetAxis("LT") > 0.5f))
+        {
+            if (isInPlace)
+            {
+                isInPlace = false;
+                animator.SetBool("Attacking", false);
+            }
         }
 
         yield return null;
@@ -572,7 +608,7 @@ public class CharacterMovement : MonoBehaviour
         generalCooldown = cast.generalCooldown;
         GameObject castObject = null;
 
-        isAttacking = true;
+        //isAttacking = true;
         //animator.SetBool("Attacking", true);
         animator.SetTrigger("Attack2");
 
@@ -629,7 +665,7 @@ public class CharacterMovement : MonoBehaviour
         }
 
         yield return new WaitForSeconds(generalCooldown);
-        isAttacking = false;
+        //isAttacking = false;
         //animator.SetBool("Attacking", false);
 
         yield return null;
@@ -672,6 +708,15 @@ public class CharacterMovement : MonoBehaviour
                 Invoke("Fall", playerStatusses[currentStatus].coyoteTime);
             }
         }
+        //else if (collision.gameObject.CompareTag("Player"))
+        //{
+        //    CharacterMovement cm = collision.gameObject.GetComponent<CharacterMovement>();
+        //    if (!otherPlayers.Contains(cm))
+        //    {
+        //        otherPlayers.Add(cm);
+        //        HandlePlayerClose();
+        //    }
+        //}
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -685,6 +730,69 @@ public class CharacterMovement : MonoBehaviour
                 CancelInvoke("Fall");
             }
         }
+        //else if (collision.gameObject.CompareTag("Player"))
+        //{
+        //    CharacterMovement cm = collision.gameObject.GetComponent<CharacterMovement>();
+        //    if (otherPlayers.Contains(cm))
+        //    {
+        //        otherPlayers.Remove(cm);
+        //        HandlePlayerClose();
+        //    }
+        //}
+    }
+
+    private void HandlePlayerClose()
+    {
+        CharacterMovement closest = GetClosestPlayerToCursor();
+        if (closest == null)
+        {
+            return;
+        }
+
+        if (targetedPlayer != null)
+        {
+            if (targetedPlayer != closest)
+            {
+                targetedPlayer.UntargetPlayer();
+                targetedPlayer = closest;
+                targetedPlayer.TargetPlayer();
+            }
+        }
+        else
+        {
+            targetedPlayer = closest;
+            targetedPlayer.TargetPlayer();
+        }
+    }
+
+
+    private CharacterMovement GetClosestPlayerToCursor()
+    {
+        if (GameManager.Instance.allPlayers.Count <= 0)
+        {
+            Debug.Log("No other players to target");
+            return null; // No other players to target
+        }
+
+        // Find the closest player to the cursor
+        CharacterMovement closestPlayer = GameManager.Instance.allPlayers
+            .Where(player => player != this) // Exclude "this" player
+            .OrderBy(player => Vector2.Distance(player.transform.position, mousePosition))
+            .FirstOrDefault(); // Get the closest player
+
+        if (closestPlayer != null)
+        {
+            // Calculate the distance from the cursor to the closest player
+            float distanceToCursor = Vector2.Distance(closestPlayer.transform.position, transform.position);
+
+            // Return null if the distance exceeds maxDistance
+            if (distanceToCursor > maxDistance)
+            {
+                return null;
+            }
+        }
+
+        return closestPlayer;
     }
 
     private void Fall()
@@ -768,5 +876,15 @@ public class CharacterMovement : MonoBehaviour
     private void SaveRespawnPosition()
     {
         respawnPosition = transform.position;
+    }
+
+    private void TargetPlayer()
+    {
+        target.SetActive(true);
+    }
+
+    private void UntargetPlayer()
+    {
+        target.SetActive(false);
     }
 }
