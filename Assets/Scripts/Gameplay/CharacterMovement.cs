@@ -12,8 +12,10 @@ public class CharacterMovement : MonoBehaviour
     private float dashCooldown = 1f; // Time before the player can dash again
     private float jumpCooldown = 1f; // Time before the player can jump again
     private float maxHealth = 5f;
-    private float deadZone = 0.3f;
+    private float directionRange = 0.3f;
+    private float deadZone = 0.05f;
     private float maxDistance = 1f;
+    private bool readingWASD;
     [SerializeField]private Rigidbody2D rb;
     [SerializeField]private Animator animator;
     [SerializeField] private AudioSource audioSource;
@@ -36,7 +38,8 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] bool localPlayer = false;
 
     private CharacterMovement targetedPlayer;
-    
+
+    private bool directionUpdated = false;
     private bool isSlow = false;
     private bool isDead = false;
     private bool isFalling = false;
@@ -51,10 +54,12 @@ public class CharacterMovement : MonoBehaviour
     private Vector2 prevPlayerPosition;
     private Vector2 respawnPosition;
 
+    private float castingCooldown = 0;
     private float generalCooldown = 0;
     private float stunnedCooldown = 0;
     private float attack1Cooldown = 0;
     private float attack2Cooldown = 0;
+    private float attack3Cooldown = 0;
     private float shieldCooldown = 0;
     private float dashingCooldown = 0;
 
@@ -107,52 +112,111 @@ public class CharacterMovement : MonoBehaviour
             return;
         }
 
-        // Get movement input
+        // Get movement input (from controller directional and WASD)
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-
-        // Calculate movement speed
-        float currentSpeed = movement.sqrMagnitude;
-
-        // Update the Animator with the current speed
-        animator.SetFloat("Speed", currentSpeed);
 
         aim.x = Input.GetAxis("Horizontal_Aim");
         aim.y = Input.GetAxis("Vertical_Aim");
 
-        if (/*prevMousePosition != mousePosition || */Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
+        directionUpdated = false;
+
+        // Detect Mouse vs Directional
+        if (prevMousePosition != mousePosition || Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
         {
             Cursor.visible = true;
         }
-        else
-        {
-            //prevMousePosition = mousePosition;
-        }
+        prevMousePosition = mousePosition;
 
-        if (aim.x != 0 || aim.y != 0)
-        {
-            Cursor.visible = false;
-        }
+        // Calculate movement speed
+        float currentSpeed = movement.magnitude;
 
-        if (!Cursor.visible)
-        {
-            if (aim != Vector2.zero)
-            {
-                lookDir = aim;
-            }
-        }
-        else
-        {
-            // Get mouse position relative to the player
-            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            lookDir = mousePosition - rb.position;
-        }
+        // Normalize the movement vector if the player is moving diagonally
+        movement.Normalize();
 
         // Normalize the look direction for comparison
         lookDir.Normalize();
 
+        // Reset all direction WASD booleans
+        ResetDirectionWASDBools();                                          // IsLookingRight_K = false;
+
+        // Reset all directions with cursor
+        ResetDirectionCursorBools();                                        // IsLookingRight_C = false;
+
+        // Reads the direction of the cursor
+        ReadDirectionWithCursor(lookDir);                                   // if (lookDir.x > deadZone && Mathf.Abs(lookDir.y) < deadZone)  { IsLookingRight_C = true; }
+
+        // Reads the direction from WASD
+        ReadDirectionWithWASD();
+
+        // Reads cast inputs
+        HandleAttacks();
+
+        // Handle movement and velocity
+        HandleMovement(currentSpeed);
+
+        // reads and Handles the dash
+        HandleDash();
+
+        // Reads the character switch
+        HandleStatusSwitch();
+
+        // Handles the angle of the directional
+        HandleDirectional();
+
+        // Handles the time of cooldowns
+        HandleCooldowns();
+    }
+
+    private void HandleMovement(float currentSpeed)
+    {
+        if (currentSpeed != 0.0f && !isAttacking /* && attack1Cooldown <= 0*/ /*&& attack2Cooldown <= 0*/ /*&& dashingCooldown <= 0*/ /*&& generalCooldown <= 0*/ /*&& !isInPlace*/ && castingCooldown <= 0)
+        {
+            // Updates animator with cursor direction
+            UpdateDirectionWithWASD();                                      // animator.SetBool("IsLookingUp", IsLookingUp_K);
+            readingWASD = true;
+        }
+        else
+        {
+            // Updates animator with cursor direction
+            UpdateDirectionWithCursor();                                    // animator.SetBool("IsLookingUp", IsLookingUp_C);
+            readingWASD = false;
+        }
+
+        // If controller directional is being used
+        if (aim.magnitude >= deadZone)
+        {
+            Cursor.visible = false;
+        }
+
+        // if mouse not being used
+        if (!Cursor.visible)
+        {
+            // if directional is being used
+            if (aim != Vector2.zero)
+            {
+                lookDir = aim; // overwrite direction with directional
+                directionUpdated = true;
+            }
+            else if (movement != Vector2.zero)
+            {
+                lookDir = movement; // use movement direction
+                directionUpdated = true;
+            }
+        }
+        else // if mouse is being used
+        {
+            // Get mouse position relative to the player
+            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            lookDir = mousePosition - rb.position;
+            directionUpdated = true;
+        }
+    }
+
+    private void HandleDash()
+    {
         // Handle dash input (e.g., pressing Space)
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("AButton"))
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("AButton"))
         {
             if (dashingCooldown <= 0)
             {
@@ -162,42 +226,21 @@ public class CharacterMovement : MonoBehaviour
                 }
             }
         }
+    }
 
-        // Reset all direction Cursor booleans
-        ResetDirectionCursorBools();
-
-        // Reads the direction of the cursor
-        ReadDirectionWithCursor(lookDir);
-
-        // Reset all direction WASD booleans
-        ResetDirectionWASDBools();
-
-        // Reads the direction from WASD
-        ReadDirectionWithWASD();
-
-        // Reads the character switch
-        HandleStatusSwitch();
-
-        // Handles the angle of the directional
-        HandleDirectional();
-
-        HandleAttacks();
-
-        if (currentSpeed != 0.0f && !isAttacking && attack1Cooldown <= 0 && attack2Cooldown <= 0 /*&& dashingCooldown <= 0*/ /*&& generalCooldown <= 0*/)
+    private void HandleJump()
+    {
+        // Handle jump input (e.g., pressing ctrl)
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("YButton"))
         {
-            // Updates animator with cursor direction
-            UpdateDirectionWithWASD();
+            if (dashingCooldown <= 0)
+            {
+                if (CanAct())
+                {
+                    StartCoroutine(Dash());
+                }
+            }
         }
-        else
-        {
-            // Updates animator with cursor direction
-            UpdateDirectionWithCursor();
-        }
-
-        // Normalize the movement vector if the player is moving diagonally
-        movement.Normalize();
-
-        HandleCooldowns();
     }
 
     private void HandleAttacks()
@@ -220,6 +263,12 @@ public class CharacterMovement : MonoBehaviour
             StartCoroutine(PerformAttack2(playerStatusses[currentStatus].attack2));
         }
 
+        if ((Input.GetMouseButton(1) && MouseGameScreenTarget.Instance.mouseOver) || Input.GetAxis("RT") > 0.5f)
+        {
+            if (attack3Cooldown > 0) return;
+            StartCoroutine(PerformAttack3(playerStatusses[currentStatus].attack3));
+        }
+
         if (Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("XButton"))
         {
             if (shieldCooldown > 0) return;
@@ -230,35 +279,35 @@ public class CharacterMovement : MonoBehaviour
     private void ReadDirectionWithCursor(Vector2 lookDir)
     {
         // Determine which direction the player is facing - CURSOR
-        if (lookDir.x > deadZone && Mathf.Abs(lookDir.y) < deadZone)
+        if (lookDir.x > directionRange && Mathf.Abs(lookDir.y) < directionRange)
         {
             IsLookingRight_C = true;
         }
-        else if (lookDir.x < -deadZone && Mathf.Abs(lookDir.y) < deadZone)
+        else if (lookDir.x < -directionRange && Mathf.Abs(lookDir.y) < directionRange)
         {
             IsLookingLeft_C = true;
         }
-        else if (lookDir.y > deadZone && Mathf.Abs(lookDir.x) < deadZone)
+        else if (lookDir.y > directionRange && Mathf.Abs(lookDir.x) < directionRange)
         {
             IsLookingUp_C = true;
         }
-        else if (lookDir.y < -deadZone && Mathf.Abs(lookDir.x) < deadZone)
+        else if (lookDir.y < -directionRange && Mathf.Abs(lookDir.x) < directionRange)
         {
             IsLookingDown_C = true;
         }
-        else if (lookDir.x > deadZone && lookDir.y > deadZone)
+        else if (lookDir.x > directionRange && lookDir.y > directionRange)
         {
             IsLookingUpRight_C = true;
         }
-        else if (lookDir.x < -deadZone && lookDir.y > deadZone)
+        else if (lookDir.x < -directionRange && lookDir.y > directionRange)
         {
             IsLookingUpLeft_C = true;
         }
-        else if (lookDir.x > deadZone && lookDir.y < -deadZone)
+        else if (lookDir.x > directionRange && lookDir.y < -directionRange)
         {
             IsLookingDownRight_C = true;
         }
-        else if (lookDir.x < -deadZone && lookDir.y < -deadZone)
+        else if (lookDir.x < -directionRange && lookDir.y < -directionRange)
         {
             IsLookingDownLeft_C = true;
         }
@@ -266,14 +315,14 @@ public class CharacterMovement : MonoBehaviour
 
     private void UpdateDirectionWithCursor()
     {
-        animator.SetBool("IsLookingRight", IsLookingRight_C);
-        animator.SetBool("IsLookingLeft", IsLookingLeft_C);
         animator.SetBool("IsLookingUp", IsLookingUp_C);
+        animator.SetBool("IsLookingLeft", IsLookingLeft_C);
         animator.SetBool("IsLookingDown", IsLookingDown_C);
-        animator.SetBool("IsLookingUpRight", IsLookingUpRight_C);
+        animator.SetBool("IsLookingRight", IsLookingRight_C);
         animator.SetBool("IsLookingUpLeft", IsLookingUpLeft_C);
-        animator.SetBool("IsLookingDownRight", IsLookingDownRight_C);
+        animator.SetBool("IsLookingUpRight", IsLookingUpRight_C);
         animator.SetBool("IsLookingDownLeft", IsLookingDownLeft_C);
+        animator.SetBool("IsLookingDownRight", IsLookingDownRight_C);
     }
 
     private void UpdateDirectionWithWASD()
@@ -291,7 +340,7 @@ public class CharacterMovement : MonoBehaviour
     private void ReadDirectionWithWASD()
     {
         // Determine which direction the player is facing - WALK - WASD
-        if (movement.x > deadZone && Mathf.Abs(movement.y) < deadZone)
+        if (movement.x > directionRange && Mathf.Abs(movement.y) < directionRange)
         {
             IsLookingRight_K = true;
             if (!Cursor.visible)
@@ -299,7 +348,7 @@ public class CharacterMovement : MonoBehaviour
                 IsLookingRight_C = true;
             }
         }
-        else if (movement.x < -deadZone && Mathf.Abs(movement.y) < deadZone)
+        else if (movement.x < -directionRange && Mathf.Abs(movement.y) < directionRange)
         {
             IsLookingLeft_K = true;
             if (!Cursor.visible)
@@ -307,7 +356,7 @@ public class CharacterMovement : MonoBehaviour
                 IsLookingLeft_C = true;
             }
         }
-        else if (movement.y > deadZone && Mathf.Abs(movement.x) < deadZone)
+        else if (movement.y > directionRange && Mathf.Abs(movement.x) < directionRange)
         {
             IsLookingUp_K = true;
             if (!Cursor.visible)
@@ -315,7 +364,7 @@ public class CharacterMovement : MonoBehaviour
                 IsLookingUp_C = true;
             }
         }
-        else if (movement.y < -deadZone && Mathf.Abs(movement.x) < deadZone)
+        else if (movement.y < -directionRange && Mathf.Abs(movement.x) < directionRange)
         {
             IsLookingDown_K = true;
             if (!Cursor.visible)
@@ -323,7 +372,7 @@ public class CharacterMovement : MonoBehaviour
                 IsLookingDown_C = true;
             }
         }
-        else if (movement.x > deadZone && movement.y > deadZone)
+        else if (movement.x > directionRange && movement.y > directionRange)
         {
             IsLookingUpRight_K = true;
             if (!Cursor.visible)
@@ -331,7 +380,7 @@ public class CharacterMovement : MonoBehaviour
                 IsLookingUpRight_C = true;
             }
         }
-        else if (movement.x < -deadZone && movement.y > deadZone)
+        else if (movement.x < -directionRange && movement.y > directionRange)
         {
             IsLookingUpLeft_K = true;
             if (!Cursor.visible)
@@ -339,7 +388,7 @@ public class CharacterMovement : MonoBehaviour
                 IsLookingUpLeft_C = true;
             }
         }
-        else if (movement.x > deadZone && movement.y < -deadZone)
+        else if (movement.x > directionRange && movement.y < -directionRange)
         {
             IsLookingDownRight_K = true;
             if (!Cursor.visible)
@@ -347,7 +396,7 @@ public class CharacterMovement : MonoBehaviour
                 IsLookingDownRight_C = true;
             }
         }
-        else if (movement.x < -deadZone && movement.y < -deadZone)
+        else if (movement.x < -directionRange && movement.y < -directionRange)
         {
             IsLookingDownLeft_K = true;
             if (!Cursor.visible)
@@ -377,6 +426,9 @@ public class CharacterMovement : MonoBehaviour
                 movement *= 0.5f;
             }
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+
+            // Update the Animator with the current speed
+            animator.SetFloat("Speed", movement.magnitude);
         }
 
         HandlePlayerClose();
@@ -408,7 +460,7 @@ public class CharacterMovement : MonoBehaviour
 
     private void HandleStatusSwitch()
     {
-        if (Input.GetKeyDown(KeyCode.Backspace) || Input.GetButtonDown("YButton"))
+        if (Input.GetKeyDown(KeyCode.Backspace) || Input.GetButtonDown("Switch"))
         {
             currentStatus++;
             if (currentStatus >= playerStatusses.Count)
@@ -436,6 +488,12 @@ public class CharacterMovement : MonoBehaviour
 
         maxHealth = playerStatusses[currentStatus].maxHealth;
         animator.runtimeAnimatorController = playerStatusses[currentStatus].anim;
+
+        AbilitiesManager.Instance.SetImageAbility1(playerStatusses[currentStatus].attack1.sprite);
+        AbilitiesManager.Instance.SetImageAbility2(playerStatusses[currentStatus].attack2.sprite);
+        AbilitiesManager.Instance.SetImageAbility3(playerStatusses[currentStatus].attack3.sprite);
+        AbilitiesManager.Instance.SetImageAbility4(playerStatusses[currentStatus].shield.sprite);
+        AbilitiesManager.Instance.SetImageAbility5(playerStatusses[currentStatus].dashIcon);
     }
 
     private void OnMoveSpeedChanged(string value)
@@ -477,15 +535,22 @@ public class CharacterMovement : MonoBehaviour
         float originalMoveSpeed = moveSpeed;
         moveSpeed = 0f; // Stop normal movement during dash
 
-        rb.linearVelocity = dashDirection.normalized * dashSpeed; // Use velocity for dash
+        float elapsedTime = 0f;
 
-        yield return new WaitForSeconds(dashDuration);
+        // Keep applying velocity while the dash is happening
+        while (elapsedTime < dashDuration)
+        {
+            rb.linearVelocity = dashDirection.normalized * dashSpeed; // Apply velocity every frame
+            elapsedTime += Time.deltaTime;
+            yield return null; // Wait for the next frame
+        }
 
         // Reset velocity and movement speed after dash
         rb.linearVelocity = Vector2.zero;
         moveSpeed = originalMoveSpeed;
 
         isDashing = false;
+
         if (shouldFall)
         {
             Fall();
@@ -494,9 +559,12 @@ public class CharacterMovement : MonoBehaviour
 
     private void HandleDirectional()
     {
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-        directional.rotation = Quaternion.Euler(0, 0, angle);
-        spawnerAxis.rotation = Quaternion.Euler(0, 0, angle);
+        if (directionUpdated)
+        {
+            float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+            directional.rotation = Quaternion.Euler(0, 0, angle);
+            spawnerAxis.rotation = Quaternion.Euler(0, 0, angle);
+        }
     }
 
     private bool CanAct()
@@ -513,6 +581,7 @@ public class CharacterMovement : MonoBehaviour
     {
         attack1Cooldown = cast.cooldown;
         generalCooldown = cast.generalCooldown;
+        castingCooldown = cast.castingCooldown;
         GameObject castObject = null;
 
         isSlow = true;
@@ -577,35 +646,41 @@ public class CharacterMovement : MonoBehaviour
             }
         }
 
-        yield return new WaitForSeconds(generalCooldown);
-        //isInPlace = false;
-        isAttacking = false;
-        isSlow = false;
-        //animator.SetBool("Attacking", false);
-        if (!Input.GetMouseButton(0) && !(Input.GetAxis("LT") > 0.5f))
+        yield return new WaitForSeconds(cast.castingCooldown);
+        isInPlace = false;
+
+        if (cast.generalCooldown != cast.castingCooldown)
         {
-            isInPlace = false;
+            isAttacking = false;
             animator.SetBool("Attacking", false);
         }
 
-        yield return new WaitForSeconds(0.01f);
+        float elapsedTime2 = 0f;
+
+        // Keep applying velocity while the dash is happening
+        while (elapsedTime2 < cast.generalCooldown - cast.castingCooldown)
+        {
+            if (!Input.GetMouseButton(0) && !(Input.GetAxis("LT") > 0.5f))
+            {
+                isAttacking = false;
+                animator.SetBool("Attacking", false);
+            }
+            elapsedTime2 += Time.deltaTime;
+            yield return null; // Wait for the next frame
+        }
 
         if (!Input.GetMouseButton(0) && !(Input.GetAxis("LT") > 0.5f))
         {
-            if (isInPlace)
-            {
-                isInPlace = false;
-                animator.SetBool("Attacking", false);
-            }
+            isAttacking = false;
+            animator.SetBool("Attacking", false);
         }
-
-        yield return null;
     }
 
     private IEnumerator PerformAttack2(Cast cast)
     {
         attack2Cooldown = cast.cooldown;
         generalCooldown = cast.generalCooldown;
+        castingCooldown = cast.generalCooldown;
         GameObject castObject = null;
 
         //isAttacking = true;
@@ -663,18 +738,77 @@ public class CharacterMovement : MonoBehaviour
                 proj.Initialize(this);
             }
         }
+    }
 
-        yield return new WaitForSeconds(generalCooldown);
-        //isAttacking = false;
-        //animator.SetBool("Attacking", false);
+    private IEnumerator PerformAttack3(Cast cast)
+    {
+        attack3Cooldown = cast.cooldown;
+        generalCooldown = cast.generalCooldown;
+        castingCooldown = cast.generalCooldown;
+        GameObject castObject = null;
 
-        yield return null;
+        //isAttacking = true;
+        //animator.SetBool("Attacking", true);
+        animator.SetTrigger("Attack3");
+
+        if (cast.attackRate == 0 || cast.length == 0)
+        {
+            castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+
+            if (cast.position == Cast.Positions.Center)
+            {
+                castObject.transform.position = transform.position;
+            }
+            else if (cast.position == Cast.Positions.Spawner)
+            {
+                castObject.transform.position = spawner.position;
+            }
+
+            castObject.transform.rotation = directional.rotation;
+        }
+        else
+        {
+            // For continuous attacks over the duration specified by cast.lenght
+            float elapsedTime = 0f;
+
+            while (elapsedTime < cast.length)
+            {
+                // Instantiate a new attack prefab at the specified position and rotation
+                castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
+
+                if (cast.position == Cast.Positions.Center)
+                {
+                    castObject.transform.position = transform.position;
+                }
+                else if (cast.position == Cast.Positions.Spawner)
+                {
+                    castObject.transform.position = spawner.position;
+                }
+
+                castObject.transform.rotation = directional.rotation;
+
+                // Wait for the next attack based on attackRate
+                yield return new WaitForSeconds(cast.attackRate);
+
+                elapsedTime += cast.attackRate;
+            }
+        }
+
+        if (castObject != null)
+        {
+            Projectile proj = castObject.GetComponent<Projectile>();
+            if (proj != null)
+            {
+                proj.Initialize(this);
+            }
+        }
     }
 
     private IEnumerator PerformShield(Cast cast)
     {
         shieldCooldown = cast.cooldown;
         generalCooldown = cast.generalCooldown;
+        //castingCooldown = cast.castingCooldown;
         GameObject castObject = Instantiate(cast.prefab, shieldSpawner.position, Quaternion.identity, transform);
 
         //isAttacking = true;
@@ -689,11 +823,6 @@ public class CharacterMovement : MonoBehaviour
                 proj.Initialize(this);
             }
         }
-
-        yield return new WaitForSeconds(generalCooldown);
-        //isAttacking = false;
-        //animator.SetBool("Attacking", false);
-
         yield return null;
     }
 
@@ -788,6 +917,11 @@ public class CharacterMovement : MonoBehaviour
             // Return null if the distance exceeds maxDistance
             if (distanceToCursor > maxDistance)
             {
+                if (closestPlayer == targetedPlayer)
+                {
+                    targetedPlayer.UntargetPlayer();
+                    targetedPlayer = null;
+                }
                 return null;
             }
         }
@@ -805,8 +939,8 @@ public class CharacterMovement : MonoBehaviour
 
 
         isDead = true;
-        animator.SetFloat("Speed", 0);
         directional.gameObject.SetActive(false);
+        animator.SetFloat("Speed", 0);
         ResetDirectionWASDBools();
         UpdateDirectionWithWASD();
         ResetDirectionCursorBools();
@@ -846,30 +980,69 @@ public class CharacterMovement : MonoBehaviour
         if (shieldCooldown > 0)
         {
             shieldCooldown -= Time.deltaTime;
+            AbilitiesManager.Instance.HighlightAbility4();
+            AbilitiesManager.Instance.SetCoolDownAbility4(shieldCooldown / playerStatusses[currentStatus].shield.cooldown, shieldCooldown);
+        }
+        else
+        {
+            AbilitiesManager.Instance.UnhighlightAbility4();
         }
 
         if (attack1Cooldown > 0)
         {
             attack1Cooldown -= Time.deltaTime;
+            AbilitiesManager.Instance.HighlightAbility1();
+            AbilitiesManager.Instance.SetCoolDownAbility1(attack1Cooldown / playerStatusses[currentStatus].attack1.cooldown, attack1Cooldown);
         }
-        else if (isSlow)
-        {
-            isSlow = false;
+        else {
+            AbilitiesManager.Instance.UnhighlightAbility1();
+            if (isSlow)
+            { 
+                isSlow = false;        
+            }
         }
 
         if (attack2Cooldown > 0)
         {
             attack2Cooldown -= Time.deltaTime;
+            AbilitiesManager.Instance.HighlightAbility2();
+            AbilitiesManager.Instance.SetCoolDownAbility2(attack2Cooldown / playerStatusses[currentStatus].attack2.cooldown, attack2Cooldown);
+        }
+        else
+        {
+            AbilitiesManager.Instance.UnhighlightAbility2();
+        }
+
+        if (attack3Cooldown > 0)
+        {
+            attack3Cooldown -= Time.deltaTime;
+            AbilitiesManager.Instance.HighlightAbility3();
+            AbilitiesManager.Instance.SetCoolDownAbility3(attack3Cooldown / playerStatusses[currentStatus].attack3.cooldown, attack3Cooldown);
+        }
+        else
+        {
+            AbilitiesManager.Instance.UnhighlightAbility3();
         }
 
         if (dashingCooldown > 0)
         {
             dashingCooldown -= Time.deltaTime;
+            AbilitiesManager.Instance.HighlightAbility5();
+            AbilitiesManager.Instance.SetCoolDownAbility5(dashingCooldown / dashCooldown, dashingCooldown);
+        }
+        else
+        {
+            AbilitiesManager.Instance.UnhighlightAbility5();
         }
 
         if (jumpCooldown > 0)
         {
             jumpCooldown -= Time.deltaTime;
+        }
+
+        if (castingCooldown > 0)
+        {
+            castingCooldown -= Time.deltaTime;
         }
     }
 

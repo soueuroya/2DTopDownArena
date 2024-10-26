@@ -1,0 +1,1599 @@
+fileFormatVersion: 2
+guid: df9137f5cf2a4c049a1795c232364ddb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3270964246997293120
+    second: Monk-Punch-All-Directions_0
+  - first:
+      213: -6055939305841048204
+    second: Monk-Punch-All-Directions_1
+  - first:
+      213: -360677595579413602
+    second: Monk-Punch-All-Directions_2
+  - first:
+      213: 2304244306761164654
+    second: Monk-Punch-All-Directions_3
+  - first:
+      213: 8892659712829146537
+    second: Monk-Punch-All-Directions_4
+  - first:
+      213: -1741194520190944583
+    second: Monk-Punch-All-Directions_5
+  - first:
+      213: 6724777467368755673
+    second: Monk-Punch-All-Directions_6
+  - first:
+      213: 8171164182044309132
+    second: Monk-Punch-All-Directions_7
+  - first:
+      213: -3836376839886438992
+    second: Monk-Punch-All-Directions_8
+  - first:
+      213: 9168467991038124081
+    second: Monk-Punch-All-Directions_9
+  - first:
+      213: 510886359887970801
+    second: Monk-Punch-All-Directions_10
+  - first:
+      213: 6050843312108097952
+    second: Monk-Punch-All-Directions_11
+  - first:
+      213: 3145580938125258553
+    second: Monk-Punch-All-Directions_12
+  - first:
+      213: -4029560416684496706
+    second: Monk-Punch-All-Directions_13
+  - first:
+      213: -7918392130892837256
+    second: Monk-Punch-All-Directions_14
+  - first:
+      213: 4333357831600965993
+    second: Monk-Punch-All-Directions_15
+  - first:
+      213: -369197904278254024
+    second: Monk-Punch-All-Directions_16
+  - first:
+      213: 7311103847442845448
+    second: Monk-Punch-All-Directions_17
+  - first:
+      213: -6256865451227392408
+    second: Monk-Punch-All-Directions_18
+  - first:
+      213: 3774393600808555218
+    second: Monk-Punch-All-Directions_19
+  - first:
+      213: 5799627129212165915
+    second: Monk-Punch-All-Directions_20
+  - first:
+      213: -22450705017958777
+    second: Monk-Punch-All-Directions_21
+  - first:
+      213: -4552409544804076222
+    second: Monk-Punch-All-Directions_22
+  - first:
+      213: -8944705953060720846
+    second: Monk-Punch-All-Directions_23
+  - first:
+      213: 3526814188899775251
+    second: Monk-Punch-All-Directions_24
+  - first:
+      213: 3310672245675102753
+    second: Monk-Punch-All-Directions_25
+  - first:
+      213: -4958922475498753817
+    second: Monk-Punch-All-Directions_26
+  - first:
+      213: 2326776251155931194
+    second: Monk-Punch-All-Directions_27
+  - first:
+      213: 6143409558976702770
+    second: Monk-Punch-All-Directions_28
+  - first:
+      213: 2106980147005994297
+    second: Monk-Punch-All-Directions_29
+  - first:
+      213: -3323944822099281993
+    second: Monk-Punch-All-Directions_30
+  - first:
+      213: -5710739525856453268
+    second: Monk-Punch-All-Directions_31
+  - first:
+      213: -7264495146752603575
+    second: Monk-Punch-All-Directions_32
+  - first:
+      213: -4860585767924507668
+    second: Monk-Punch-All-Directions_33
+  - first:
+      213: 7038796002061555276
+    second: Monk-Punch-All-Directions_34
+  - first:
+      213: 7973215889918010446
+    second: Monk-Punch-All-Directions_35
+  - first:
+      213: 2474574331445020360
+    second: Monk-Punch-All-Directions_36
+  - first:
+      213: 6309070711231734662
+    second: Monk-Punch-All-Directions_37
+  - first:
+      213: 3595793522084651598
+    second: Monk-Punch-All-Directions_38
+  - first:
+      213: 8734465851652403447
+    second: Monk-Punch-All-Directions_39
+  - first:
+      213: -7403308741334268787
+    second: Monk-Punch-All-Directions_40
+  - first:
+      213: 8845307904729209854
+    second: Monk-Punch-All-Directions_41
+  - first:
+      213: 2771888695794298395
+    second: Monk-Punch-All-Directions_42
+  - first:
+      213: -3677198787001588488
+    second: Monk-Punch-All-Directions_43
+  - first:
+      213: -5640927921489489229
+    second: Monk-Punch-All-Directions_44
+  - first:
+      213: -3685310406296159843
+    second: Monk-Punch-All-Directions_45
+  - first:
+      213: 6413803963808082495
+    second: Monk-Punch-All-Directions_46
+  - first:
+      213: 4433226141563643595
+    second: Monk-Punch-All-Directions_47
+  - first:
+      213: 2658342692501280403
+    second: Monk-Punch-All-Directions_48
+  - first:
+      213: -959654726217861602
+    second: Monk-Punch-All-Directions_49
+  - first:
+      213: -5860316636727897745
+    second: Monk-Punch-All-Directions_50
+  - first:
+      213: 1227782099354549832
+    second: Monk-Punch-All-Directions_51
+  - first:
+      213: -3670031336295361804
+    second: Monk-Punch-All-Directions_52
+  - first:
+      213: 8898185136567257162
+    second: Monk-Punch-All-Directions_53
+  - first:
+      213: 3872656691730730417
+    second: Monk-Punch-All-Directions_54
+  - first:
+      213: -3278988152738588819
+    second: Monk-Punch-All-Directions_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048d64ff6acc46d20800000000000000
+      internalID: 3270964246997293120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475c40e794bf4fba0800000000000000
+      internalID: -6055939305841048204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b0c0543ad9efaf0800000000000000
+      internalID: -360677595579413602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6727341df15aff10800000000000000
+      internalID: 2304244306761164654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5cb9bb4e2196b70800000000000000
+      internalID: 8892659712829146537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba79232fc806d7e0800000000000000
+      internalID: -1741194520190944583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1d0182a75335d50800000000000000
+      internalID: 6724777467368755673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c867528e78ec56170800000000000000
+      internalID: 8171164182044309132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd7802179372cac0800000000000000
+      internalID: -3836376839886438992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130ed5caf01fc3f70800000000000000
+      internalID: 9168467991038124081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f107b10078071700800000000000000
+      internalID: 510886359887970801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a150c10fe9e8f350800000000000000
+      internalID: 6050843312108097952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f223d723957ab20800000000000000
+      internalID: 3145580938125258553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8ab8a86202418c0800000000000000
+      internalID: -4029560416684496706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e42e57f483c1290800000000000000
+      internalID: -7918392130892837256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9698b3d1dfd232c30800000000000000
+      internalID: 4333357831600965993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e0daf467850eaf0800000000000000
+      internalID: -369197904278254024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f82de9632467560800000000000000
+      internalID: 7311103847442845448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8665d2cb5062b29a0800000000000000
+      internalID: -6256865451227392408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d293ba7bf6516430800000000000000
+      internalID: 3774393600808555218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fd862752a6c7050800000000000000
+      internalID: 5799627129212165915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e8276e33d30bff0800000000000000
+      internalID: -22450705017958777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245fad183a792d0c0800000000000000
+      internalID: -4552409544804076222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f6e77a3550ed380800000000000000
+      internalID: -8944705953060720846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313bd26a1d2c1f030800000000000000
+      internalID: 3526814188899775251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1229533edded1fd20800000000000000
+      internalID: 3310672245675102753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e03233384e5e2bb0800000000000000
+      internalID: -4958922475498753817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30e6f13cae5a4020800000000000000
+      internalID: 2326776251155931194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239ab88d176c14550800000000000000
+      internalID: 6143409558976702770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935b71bc74f7d3d10800000000000000
+      internalID: 2106980147005994297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7f5c99bc9fed1d0800000000000000
+      internalID: -3323944822099281993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d1b8478a06fb0b0800000000000000
+      internalID: -5710739525856453268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a034927245f2b90800000000000000
+      internalID: -7264495146752603575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb5a8e1ffabb8cb0800000000000000
+      internalID: -4860585767924507668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c469155bba3dea160800000000000000
+      internalID: 7038796002061555276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e442014ab9d86ae60800000000000000
+      internalID: 7973215889918010446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6841c5e34775220800000000000000
+      internalID: 2474574331445020360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683e9cd82625e8750800000000000000
+      internalID: 6309070711231734662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42a1813823d6e130800000000000000
+      internalID: 3595793522084651598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f075863a6e073970800000000000000
+      internalID: 8734465851652403447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d840a369ce9224990800000000000000
+      internalID: -7403308741334268787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbd656cca8d0ca70800000000000000
+      internalID: 8845307904729209854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e6dbd251ab77620800000000000000
+      internalID: 2771888695794298395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4e5449f27f7fcc0800000000000000
+      internalID: -3677198787001588488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2590c31f567b1b0800000000000000
+      internalID: -5640927921489489229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99baa906b52bdcc0800000000000000
+      internalID: -3685310406296159843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ae5c929b8620950800000000000000
+      internalID: 6413803963808082495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc660e000bbf58d30800000000000000
+      internalID: 4433226141563643595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3965bc5289454e420800000000000000
+      internalID: 2658342692501280403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1672c86c1f9ea2f0800000000000000
+      internalID: -959654726217861602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6195847119fbaea0800000000000000
+      internalID: -5860316636727897745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e7c957055f90110800000000000000
+      internalID: 1227782099354549832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2109db1fd611dc0800000000000000
+      internalID: -3670031336295361804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4880c2bc34bc7b70800000000000000
+      internalID: 8898185136567257162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd46af2eb07eb530800000000000000
+      internalID: 3872656691730730417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk-Punch-All-Directions_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d675d4dd5a1be72d0800000000000000
+      internalID: -3278988152738588819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f7467c50400e16846a6183f1763aeccb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monk-Punch-All-Directions_0: 3270964246997293120
+      Monk-Punch-All-Directions_1: -6055939305841048204
+      Monk-Punch-All-Directions_10: 510886359887970801
+      Monk-Punch-All-Directions_11: 6050843312108097952
+      Monk-Punch-All-Directions_12: 3145580938125258553
+      Monk-Punch-All-Directions_13: -4029560416684496706
+      Monk-Punch-All-Directions_14: -7918392130892837256
+      Monk-Punch-All-Directions_15: 4333357831600965993
+      Monk-Punch-All-Directions_16: -369197904278254024
+      Monk-Punch-All-Directions_17: 7311103847442845448
+      Monk-Punch-All-Directions_18: -6256865451227392408
+      Monk-Punch-All-Directions_19: 3774393600808555218
+      Monk-Punch-All-Directions_2: -360677595579413602
+      Monk-Punch-All-Directions_20: 5799627129212165915
+      Monk-Punch-All-Directions_21: -22450705017958777
+      Monk-Punch-All-Directions_22: -4552409544804076222
+      Monk-Punch-All-Directions_23: -8944705953060720846
+      Monk-Punch-All-Directions_24: 3526814188899775251
+      Monk-Punch-All-Directions_25: 3310672245675102753
+      Monk-Punch-All-Directions_26: -4958922475498753817
+      Monk-Punch-All-Directions_27: 2326776251155931194
+      Monk-Punch-All-Directions_28: 6143409558976702770
+      Monk-Punch-All-Directions_29: 2106980147005994297
+      Monk-Punch-All-Directions_3: 2304244306761164654
+      Monk-Punch-All-Directions_30: -3323944822099281993
+      Monk-Punch-All-Directions_31: -5710739525856453268
+      Monk-Punch-All-Directions_32: -7264495146752603575
+      Monk-Punch-All-Directions_33: -4860585767924507668
+      Monk-Punch-All-Directions_34: 7038796002061555276
+      Monk-Punch-All-Directions_35: 7973215889918010446
+      Monk-Punch-All-Directions_36: 2474574331445020360
+      Monk-Punch-All-Directions_37: 6309070711231734662
+      Monk-Punch-All-Directions_38: 3595793522084651598
+      Monk-Punch-All-Directions_39: 8734465851652403447
+      Monk-Punch-All-Directions_4: 8892659712829146537
+      Monk-Punch-All-Directions_40: -7403308741334268787
+      Monk-Punch-All-Directions_41: 8845307904729209854
+      Monk-Punch-All-Directions_42: 2771888695794298395
+      Monk-Punch-All-Directions_43: -3677198787001588488
+      Monk-Punch-All-Directions_44: -5640927921489489229
+      Monk-Punch-All-Directions_45: -3685310406296159843
+      Monk-Punch-All-Directions_46: 6413803963808082495
+      Monk-Punch-All-Directions_47: 4433226141563643595
+      Monk-Punch-All-Directions_48: 2658342692501280403
+      Monk-Punch-All-Directions_49: -959654726217861602
+      Monk-Punch-All-Directions_5: -1741194520190944583
+      Monk-Punch-All-Directions_50: -5860316636727897745
+      Monk-Punch-All-Directions_51: 1227782099354549832
+      Monk-Punch-All-Directions_52: -3670031336295361804
+      Monk-Punch-All-Directions_53: 8898185136567257162
+      Monk-Punch-All-Directions_54: 3872656691730730417
+      Monk-Punch-All-Directions_55: -3278988152738588819
+      Monk-Punch-All-Directions_6: 6724777467368755673
+      Monk-Punch-All-Directions_7: 8171164182044309132
+      Monk-Punch-All-Directions_8: -3836376839886438992
+      Monk-Punch-All-Directions_9: 9168467991038124081
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

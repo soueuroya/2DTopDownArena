@@ -7,8 +7,10 @@ public class Cast : ScriptableObject
     public enum Positions { Center, Spawner, Melee };
     public Positions position = Positions.Center;
     public GameObject prefab;
+    public Sprite sprite;
     public float attackRate;
     public float length;
     public float cooldown;
     public float generalCooldown;
+    public float castingCooldown;
 }

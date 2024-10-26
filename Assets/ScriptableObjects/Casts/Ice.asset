@@ -15,7 +15,9 @@ MonoBehaviour:
   name: Ice
   position: 1
   prefab: {fileID: 9031799967256116833, guid: c6b0b00ca93cb4e4d8d15bbc40339228, type: 3}
+  sprite: {fileID: -726317778, guid: e8703af6759db7b49aa5f35f03ab9573, type: 3}
   attackRate: 0.2
   length: 3
   cooldown: 4
   generalCooldown: 3
+  castingCooldown: 3

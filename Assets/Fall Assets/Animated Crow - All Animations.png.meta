@@ -1,0 +1,2268 @@
+fileFormatVersion: 2
+guid: 1f63384dbb897cc49b186eaa261a4890
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4442744002438089251
+    second: Animated Crow - All Animations_0
+  - first:
+      213: -5120552832102791322
+    second: Animated Crow - All Animations_1
+  - first:
+      213: 1559152947325769521
+    second: Animated Crow - All Animations_2
+  - first:
+      213: -2716652682158203761
+    second: Animated Crow - All Animations_3
+  - first:
+      213: 4127809364670483963
+    second: Animated Crow - All Animations_4
+  - first:
+      213: -8960827247667761173
+    second: Animated Crow - All Animations_5
+  - first:
+      213: 8055604354929893072
+    second: Animated Crow - All Animations_6
+  - first:
+      213: -8252330488007489085
+    second: Animated Crow - All Animations_7
+  - first:
+      213: 3277362350123690178
+    second: Animated Crow - All Animations_8
+  - first:
+      213: 1291042756503496094
+    second: Animated Crow - All Animations_9
+  - first:
+      213: -6025413481906190059
+    second: Animated Crow - All Animations_10
+  - first:
+      213: -5062284557938322779
+    second: Animated Crow - All Animations_11
+  - first:
+      213: -7769460620584346192
+    second: Animated Crow - All Animations_12
+  - first:
+      213: 644022588883418098
+    second: Animated Crow - All Animations_13
+  - first:
+      213: -1116590193212565342
+    second: Animated Crow - All Animations_14
+  - first:
+      213: 7083461770199771486
+    second: Animated Crow - All Animations_15
+  - first:
+      213: 8172563785829871387
+    second: Animated Crow - All Animations_16
+  - first:
+      213: -4031450655141800506
+    second: Animated Crow - All Animations_17
+  - first:
+      213: 7603733812607533034
+    second: Animated Crow - All Animations_18
+  - first:
+      213: 6711326764688801999
+    second: Animated Crow - All Animations_19
+  - first:
+      213: 6847441939527592274
+    second: Animated Crow - All Animations_20
+  - first:
+      213: -8585736248122517223
+    second: Animated Crow - All Animations_21
+  - first:
+      213: 745553438708224150
+    second: Animated Crow - All Animations_22
+  - first:
+      213: 7685508546838863292
+    second: Animated Crow - All Animations_23
+  - first:
+      213: -9079867916889455774
+    second: Animated Crow - All Animations_24
+  - first:
+      213: 823660732831721363
+    second: Animated Crow - All Animations_25
+  - first:
+      213: 3764178585368351615
+    second: Animated Crow - All Animations_26
+  - first:
+      213: -4666846318288813825
+    second: Animated Crow - All Animations_27
+  - first:
+      213: 7733267447092594595
+    second: Animated Crow - All Animations_28
+  - first:
+      213: -1595370092921427865
+    second: Animated Crow - All Animations_29
+  - first:
+      213: 3143158666046263147
+    second: Animated Crow - All Animations_30
+  - first:
+      213: 2174165145685308315
+    second: Animated Crow - All Animations_31
+  - first:
+      213: -555991832488257153
+    second: Animated Crow - All Animations_32
+  - first:
+      213: -174264803146287006
+    second: Animated Crow - All Animations_33
+  - first:
+      213: -3724253401752560809
+    second: Animated Crow - All Animations_34
+  - first:
+      213: -6478932443972444331
+    second: Animated Crow - All Animations_35
+  - first:
+      213: 1657563106993593938
+    second: Animated Crow - All Animations_36
+  - first:
+      213: -7329345530898278269
+    second: Animated Crow - All Animations_37
+  - first:
+      213: 7606028185050449841
+    second: Animated Crow - All Animations_38
+  - first:
+      213: -7154210952102680696
+    second: Animated Crow - All Animations_39
+  - first:
+      213: 8699340896364375038
+    second: Animated Crow - All Animations_40
+  - first:
+      213: 3633756631227657614
+    second: Animated Crow - All Animations_41
+  - first:
+      213: 6267498030393514141
+    second: Animated Crow - All Animations_42
+  - first:
+      213: 2752116564593583050
+    second: Animated Crow - All Animations_43
+  - first:
+      213: -1402489599273290128
+    second: Animated Crow - All Animations_44
+  - first:
+      213: -7384894066620185926
+    second: Animated Crow - All Animations_45
+  - first:
+      213: 1088691727961411372
+    second: Animated Crow - All Animations_46
+  - first:
+      213: -6817239871320610319
+    second: Animated Crow - All Animations_47
+  - first:
+      213: -8451865230059118523
+    second: Animated Crow - All Animations_48
+  - first:
+      213: -3429280013040133076
+    second: Animated Crow - All Animations_49
+  - first:
+      213: 3199517162332335726
+    second: Animated Crow - All Animations_50
+  - first:
+      213: 7427021848652482191
+    second: Animated Crow - All Animations_51
+  - first:
+      213: 4911078334583113915
+    second: Animated Crow - All Animations_52
+  - first:
+      213: -2763377393986652603
+    second: Animated Crow - All Animations_53
+  - first:
+      213: 6349508318251238404
+    second: Animated Crow - All Animations_54
+  - first:
+      213: -8864505393674806716
+    second: Animated Crow - All Animations_55
+  - first:
+      213: -1814589899497469044
+    second: Animated Crow - All Animations_56
+  - first:
+      213: 5460570044666102577
+    second: Animated Crow - All Animations_57
+  - first:
+      213: -487471333593217185
+    second: Animated Crow - All Animations_58
+  - first:
+      213: 8371067336141847059
+    second: Animated Crow - All Animations_59
+  - first:
+      213: 2943347211549057512
+    second: Animated Crow - All Animations_60
+  - first:
+      213: -8744119943108384704
+    second: Animated Crow - All Animations_61
+  - first:
+      213: 2514764086963749491
+    second: Animated Crow - All Animations_62
+  - first:
+      213: -5818994888400055646
+    second: Animated Crow - All Animations_63
+  - first:
+      213: -8847025163697510586
+    second: Animated Crow - All Animations_64
+  - first:
+      213: 827621233225534162
+    second: Animated Crow - All Animations_65
+  - first:
+      213: -6932023496253244545
+    second: Animated Crow - All Animations_66
+  - first:
+      213: 3751317032612290800
+    second: Animated Crow - All Animations_67
+  - first:
+      213: -8005882267489448821
+    second: Animated Crow - All Animations_68
+  - first:
+      213: -3478330431737702520
+    second: Animated Crow - All Animations_69
+  - first:
+      213: -2493289274407991954
+    second: Animated Crow - All Animations_70
+  - first:
+      213: 5215873053239120013
+    second: Animated Crow - All Animations_71
+  - first:
+      213: 3730283887262410721
+    second: Animated Crow - All Animations_72
+  - first:
+      213: -2809082194285199529
+    second: Animated Crow - All Animations_73
+  - first:
+      213: -8913137054515416979
+    second: Animated Crow - All Animations_74
+  - first:
+      213: -3001762022990984487
+    second: Animated Crow - All Animations_75
+  - first:
+      213: 5842805031530154226
+    second: Animated Crow - All Animations_76
+  - first:
+      213: -1209553727878777893
+    second: Animated Crow - All Animations_77
+  - first:
+      213: -5550144937884572187
+    second: Animated Crow - All Animations_78
+  - first:
+      213: 4760012375166595257
+    second: Animated Crow - All Animations_79
+  - first:
+      213: -6597930082152406025
+    second: Animated Crow - All Animations_80
+  - first:
+      213: -6447052902622926796
+    second: Animated Crow - All Animations_81
+  - first:
+      213: 6504294346562626617
+    second: Animated Crow - All Animations_82
+  - first:
+      213: -4645786732106965839
+    second: Animated Crow - All Animations_83
+  - first:
+      213: -5159256318628892445
+    second: Animated Crow - All Animations_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 345
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ac15da12cc7ad30800000000000000
+      internalID: 4442744002438089251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 345
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66784ec345420f8b0800000000000000
+      internalID: -5120552832102791322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 345
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1371bd7485933a510800000000000000
+      internalID: 1559152947325769521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c19dd67c28c4ad0800000000000000
+      internalID: -2716652682158203761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 281
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd07b14fbce84930800000000000000
+      internalID: 4127809364670483963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef2f11481fb4a380800000000000000
+      internalID: -8960827247667761173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de9faafa714bcf60800000000000000
+      internalID: 8055604354929893072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c90035d425d97d80800000000000000
+      internalID: -8252330488007489085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_8
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8ac5771b78b7d20800000000000000
+      internalID: 3277362350123690178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e956b3bfb84bae110800000000000000
+      internalID: 1291042756503496094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_10
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519c12abc5e616ca0800000000000000
+      internalID: -6025413481906190059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_11
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2142404072fb9b0800000000000000
+      internalID: -5062284557938322779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 281
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd1faddab45d2490800000000000000
+      internalID: -7769460620584346192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_13
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb39b5e12700f800800000000000000
+      internalID: 644022588883418098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_14
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a851ed92231180f0800000000000000
+      internalID: -1116590193212565342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_15
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5921d043f28d4260800000000000000
+      internalID: 7083461770199771486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_16
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f6c9e8677ca6170800000000000000
+      internalID: 8172563785829871387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_17
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 281
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5d1ca1df86d08c0800000000000000
+      internalID: -4031450655141800506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 217
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef3913cd93e58960800000000000000
+      internalID: 7603733812607533034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 217
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc009d4622c632d50800000000000000
+      internalID: 6711326764688801999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25967a92a20070f50800000000000000
+      internalID: 6847441939527592274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919567b1f5659d880800000000000000
+      internalID: -8585736248122517223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690564307ecb85a00800000000000000
+      internalID: 745553438708224150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_23
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd1f84cd4968aa60800000000000000
+      internalID: 7685508546838863292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263865e9c34ddf180800000000000000
+      internalID: -9079867916889455774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_25
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3976fd3921b3e6b00800000000000000
+      internalID: 823660732831721363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_26
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 217
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73530cda7c0d3430800000000000000
+      internalID: 3764178585368351615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_27
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff04e01eff70c3fb0800000000000000
+      internalID: -4666846318288813825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_28
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7cb0145c5125b60800000000000000
+      internalID: 7733267447092594595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_29
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768e2266a5b1cd9e0800000000000000
+      internalID: -1595370092921427865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_30
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fc062572ebe9b20800000000000000
+      internalID: 3143158666046263147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_31
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93bb974eaf2c2e10800000000000000
+      internalID: 2174165145685308315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_32
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79d486cf58b848f0800000000000000
+      internalID: -555991832488257153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_33
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268bc97b513e49df0800000000000000
+      internalID: -174264803146287006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_34
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b9ff6534bc05cc0800000000000000
+      internalID: -3724253401752560809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_35
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fd441e4453616a0800000000000000
+      internalID: -6478932443972444331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_36
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e55291dd8d00710800000000000000
+      internalID: 1657563106993593938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_37
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38816ba721fe84a90800000000000000
+      internalID: -7329345530898278269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_38
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b78a89f55a0e8960800000000000000
+      internalID: 7606028185050449841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_39
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887e5bf2b0327bc90800000000000000
+      internalID: -7154210952102680696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_40
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 217
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efba3d344744ab870800000000000000
+      internalID: 8699340896364375038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_41
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 217
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d6b845762bd6230800000000000000
+      internalID: 3633756631227657614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_42
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 217
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98d0148040aaf650800000000000000
+      internalID: 6267498030393514141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_43
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3a1152f6b713620800000000000000
+      internalID: 2752116564593583050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_44
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076b222e32b598ce0800000000000000
+      internalID: -1402489599273290128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_45
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2c63729f5938990800000000000000
+      internalID: -7384894066620185926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_46
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fcb03cb5fcb1f00800000000000000
+      internalID: 1088691727961411372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_47
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f92e41d47c4461a0800000000000000
+      internalID: -6817239871320610319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_48
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540e9d86a51f4ba80800000000000000
+      internalID: -8451865230059118523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_49
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 153
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c556b4fffb860d0800000000000000
+      internalID: -3429280013040133076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_50
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 153
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ea59948e7f66c20800000000000000
+      internalID: 3199517162332335726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_51
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 153
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f860ff37505121760800000000000000
+      internalID: 7427021848652482191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_52
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 153
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb881fca9b7a72440800000000000000
+      internalID: 4911078334583113915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_53
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 153
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546b413b6e286a9d0800000000000000
+      internalID: -2763377393986652603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_54
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 153
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404c0cf9c2cfd1850800000000000000
+      internalID: 6349508318251238404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_55
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 153
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a9a748f43faf480800000000000000
+      internalID: -8864505393674806716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_56
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 153
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b017bb91841d6e0800000000000000
+      internalID: -1814589899497469044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_57
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13346773687d7cb40800000000000000
+      internalID: 5460570044666102577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_58
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 153
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f578df2a7672c39f0800000000000000
+      internalID: -487471333593217185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_59
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 100
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a3c91f3610c2470800000000000000
+      internalID: 8371067336141847059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_60
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 99
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1a403c1bed8d820800000000000000
+      internalID: 2943347211549057512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_61
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 98
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048ad957d35a6a680800000000000000
+      internalID: -8744119943108384704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_62
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 93
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37242610d9c36e220800000000000000
+      internalID: 2514764086963749491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_63
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 99
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2d917baf6ce3fa0800000000000000
+      internalID: -5818994888400055646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_64
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 98
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6472ed6bc7d093580800000000000000
+      internalID: -8847025163697510586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_65
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 100
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da8afe602d4c7b00800000000000000
+      internalID: 827621233225534162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_66
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 101
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bf92b8b518ccf90800000000000000
+      internalID: -6932023496253244545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_67
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 36
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f06ab047fa5f0430800000000000000
+      internalID: 3751317032612290800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_68
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 32
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c41b4ae7465e090800000000000000
+      internalID: -8005882267489448821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_69
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 30
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887d7dcb6ec7abfc0800000000000000
+      internalID: -3478330431737702520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_70
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 27
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65ce9c6d9e066dd0800000000000000
+      internalID: -2493289274407991954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_71
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 26
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8099d338e0826840800000000000000
+      internalID: 5215873053239120013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_72
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 24
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7a3ab7e61a4c330800000000000000
+      internalID: 3730283887262410721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_73
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 25
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f71c0a0a22409d0800000000000000
+      internalID: -2809082194285199529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_74
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 25
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60bc3f921d2e4480800000000000000
+      internalID: -8913137054515416979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_75
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 25
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da4d5718599756d0800000000000000
+      internalID: -3001762022990984487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_76
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 25
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8483c3830d51150800000000000000
+      internalID: 5842805031530154226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_77
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 25
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd339010b4dc63fe0800000000000000
+      internalID: -1209553727878777893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_78
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 25
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5257db59ce9f2b0800000000000000
+      internalID: -5550144937884572187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_79
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 25
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0b44c1906fe0240800000000000000
+      internalID: 4760012375166595257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_80
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f321703c817f64a0800000000000000
+      internalID: -6597930082152406025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_81
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43862030b877786a0800000000000000
+      internalID: -6447052902622926796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_82
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93462793f35e34a50800000000000000
+      internalID: 6504294346562626617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_83
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc9a82e499d68fb0800000000000000
+      internalID: -4645786732106965839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Crow - All Animations_84
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 25
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e07fee86b3a668b0800000000000000
+      internalID: -5159256318628892445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

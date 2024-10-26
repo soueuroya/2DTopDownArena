@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="76" nextobjectid="101">
+ <editorsettings>
+  <export target="LandofSavages..tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" source="Prison-Skulls-Tombs-WoodPlanks.tsx"/>
+ <tileset firstgid="2715" source="Tileset-Terrain-new grass(fall).tsx"/>
+ <tileset firstgid="6180" source="Ancient Ruins Props.tsx"/>
+ <tileset firstgid="8680" source="Cemetary Props.tsx"/>
+ <tileset firstgid="10669" source="Animated-Lantern-Swaying.tsx"/>
+ <tileset firstgid="10709" source="wall2.tsx"/>
+ <tileset firstgid="10949" source="Trees-Dead-Fall-2.tsx"/>
+ <tileset firstgid="14469" source="hole-extra grass shade(fall)-2.tsx"/>
+ <tileset firstgid="14709" source="Animated Crow - All Animations-2.tsx"/>
+ <tileset firstgid="15309" name="Sorcerer-Idle-All-Directions" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Sorcerer/Character Colors/Purple/Sorcerer-Idle-All-Directions.png" width="512" height="512"/>
+  <tile id="192">
+   <animation>
+    <frame tileid="192" duration="100"/>
+    <frame tileid="194" duration="100"/>
+    <frame tileid="196" duration="100"/>
+    <frame tileid="198" duration="100"/>
+    <frame tileid="200" duration="100"/>
+    <frame tileid="202" duration="100"/>
+    <frame tileid="204" duration="100"/>
+    <frame tileid="206" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="193">
+   <animation>
+    <frame tileid="193" duration="100"/>
+    <frame tileid="195" duration="100"/>
+    <frame tileid="197" duration="100"/>
+    <frame tileid="199" duration="100"/>
+    <frame tileid="201" duration="100"/>
+    <frame tileid="203" duration="100"/>
+    <frame tileid="205" duration="100"/>
+    <frame tileid="207" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="208">
+   <animation>
+    <frame tileid="208" duration="100"/>
+    <frame tileid="210" duration="100"/>
+    <frame tileid="212" duration="100"/>
+    <frame tileid="214" duration="100"/>
+    <frame tileid="216" duration="100"/>
+    <frame tileid="218" duration="100"/>
+    <frame tileid="220" duration="100"/>
+    <frame tileid="222" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="209">
+   <animation>
+    <frame tileid="209" duration="100"/>
+    <frame tileid="211" duration="100"/>
+    <frame tileid="213" duration="100"/>
+    <frame tileid="215" duration="100"/>
+    <frame tileid="217" duration="100"/>
+    <frame tileid="219" duration="100"/>
+    <frame tileid="221" duration="100"/>
+    <frame tileid="223" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="15565" name="Monk-Idle-All-Directions" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Monk/Character/Blue/Monk-Idle-All-Directions.png" width="512" height="512"/>
+  <tile id="224">
+   <animation>
+    <frame tileid="224" duration="100"/>
+    <frame tileid="226" duration="100"/>
+    <frame tileid="228" duration="100"/>
+    <frame tileid="230" duration="100"/>
+    <frame tileid="232" duration="100"/>
+    <frame tileid="234" duration="100"/>
+    <frame tileid="236" duration="100"/>
+    <frame tileid="238" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="225">
+   <animation>
+    <frame tileid="225" duration="100"/>
+    <frame tileid="227" duration="100"/>
+    <frame tileid="229" duration="100"/>
+    <frame tileid="231" duration="100"/>
+    <frame tileid="233" duration="100"/>
+    <frame tileid="235" duration="100"/>
+    <frame tileid="237" duration="100"/>
+    <frame tileid="239" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="240">
+   <animation>
+    <frame tileid="240" duration="100"/>
+    <frame tileid="242" duration="100"/>
+    <frame tileid="244" duration="100"/>
+    <frame tileid="246" duration="100"/>
+    <frame tileid="248" duration="100"/>
+    <frame tileid="250" duration="100"/>
+    <frame tileid="252" duration="100"/>
+    <frame tileid="254" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="241">
+   <animation>
+    <frame tileid="241" duration="100"/>
+    <frame tileid="243" duration="100"/>
+    <frame tileid="245" duration="100"/>
+    <frame tileid="247" duration="100"/>
+    <frame tileid="249" duration="100"/>
+    <frame tileid="251" duration="100"/>
+    <frame tileid="253" duration="100"/>
+    <frame tileid="255" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="15821" name="Chi Orb Shadow" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../../Chi Orb Shadow.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="15822" name="new_front-Sheet" tilewidth="32" tileheight="32" tilecount="32" columns="16">
+  <image source="../../new_front-Sheet.png" width="512" height="64"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="12" duration="100"/>
+    <frame tileid="14" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="13" duration="100"/>
+    <frame tileid="15" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="16">
+   <animation>
+    <frame tileid="16" duration="100"/>
+    <frame tileid="18" duration="100"/>
+    <frame tileid="20" duration="100"/>
+    <frame tileid="22" duration="100"/>
+    <frame tileid="24" duration="100"/>
+    <frame tileid="26" duration="100"/>
+    <frame tileid="28" duration="100"/>
+    <frame tileid="30" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="17">
+   <animation>
+    <frame tileid="17" duration="100"/>
+    <frame tileid="19" duration="100"/>
+    <frame tileid="21" duration="100"/>
+    <frame tileid="23" duration="100"/>
+    <frame tileid="25" duration="100"/>
+    <frame tileid="27" duration="100"/>
+    <frame tileid="29" duration="100"/>
+    <frame tileid="31" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="15854" name="front-Sheet-spell" tilewidth="32" tileheight="32" tilecount="28" columns="14">
+  <image source="../../front-Sheet-spell.png" width="448" height="64"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="12" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="13" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="14">
+   <animation>
+    <frame tileid="14" duration="100"/>
+    <frame tileid="16" duration="100"/>
+    <frame tileid="18" duration="100"/>
+    <frame tileid="20" duration="100"/>
+    <frame tileid="22" duration="100"/>
+    <frame tileid="24" duration="100"/>
+    <frame tileid="26" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="15">
+   <animation>
+    <frame tileid="15" duration="100"/>
+    <frame tileid="17" duration="100"/>
+    <frame tileid="19" duration="100"/>
+    <frame tileid="21" duration="100"/>
+    <frame tileid="23" duration="100"/>
+    <frame tileid="25" duration="100"/>
+    <frame tileid="27" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="15882" source="Sewer Props(Fall)-2.tsx"/>
+ <tileset firstgid="19009" name="Boxes-Foilage4" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="../../Game Design/Tile Assets/Dystopian Assets/Scene Props/Boxes-Foilage4.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="19201" name="Monk-Punch-All-Directions" tilewidth="32" tileheight="32" tilecount="224" columns="14">
+  <image source="../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Monk/Character/Yellow/Monk-Punch-All-Directions.png" width="448" height="512"/>
+  <tile id="28">
+   <animation>
+    <frame tileid="28" duration="60"/>
+    <frame tileid="30" duration="60"/>
+    <frame tileid="32" duration="60"/>
+    <frame tileid="34" duration="60"/>
+    <frame tileid="36" duration="60"/>
+    <frame tileid="38" duration="60"/>
+    <frame tileid="40" duration="60"/>
+   </animation>
+  </tile>
+  <tile id="29">
+   <animation>
+    <frame tileid="29" duration="60"/>
+    <frame tileid="31" duration="60"/>
+    <frame tileid="33" duration="60"/>
+    <frame tileid="35" duration="60"/>
+    <frame tileid="37" duration="60"/>
+    <frame tileid="39" duration="60"/>
+    <frame tileid="41" duration="60"/>
+   </animation>
+  </tile>
+  <tile id="42">
+   <animation>
+    <frame tileid="42" duration="60"/>
+    <frame tileid="44" duration="60"/>
+    <frame tileid="46" duration="60"/>
+    <frame tileid="48" duration="60"/>
+    <frame tileid="50" duration="60"/>
+    <frame tileid="52" duration="60"/>
+    <frame tileid="54" duration="60"/>
+   </animation>
+  </tile>
+  <tile id="43">
+   <animation>
+    <frame tileid="43" duration="60"/>
+    <frame tileid="45" duration="60"/>
+    <frame tileid="47" duration="60"/>
+    <frame tileid="49" duration="60"/>
+    <frame tileid="51" duration="60"/>
+    <frame tileid="53" duration="60"/>
+    <frame tileid="55" duration="60"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="19425" name="Sorcerer-Run-All-Directions" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Sorcerer/Character Colors/Red/Sorcerer-Run-All-Directions.png" width="512" height="512"/>
+  <tile id="96">
+   <animation>
+    <frame tileid="96" duration="80"/>
+    <frame tileid="98" duration="80"/>
+    <frame tileid="100" duration="80"/>
+    <frame tileid="102" duration="80"/>
+    <frame tileid="104" duration="80"/>
+    <frame tileid="106" duration="80"/>
+    <frame tileid="108" duration="80"/>
+    <frame tileid="110" duration="80"/>
+   </animation>
+  </tile>
+  <tile id="97">
+   <animation>
+    <frame tileid="97" duration="80"/>
+    <frame tileid="99" duration="80"/>
+    <frame tileid="101" duration="80"/>
+    <frame tileid="103" duration="80"/>
+    <frame tileid="105" duration="80"/>
+    <frame tileid="107" duration="80"/>
+    <frame tileid="109" duration="80"/>
+    <frame tileid="111" duration="80"/>
+   </animation>
+  </tile>
+  <tile id="112">
+   <animation>
+    <frame tileid="112" duration="80"/>
+    <frame tileid="114" duration="80"/>
+    <frame tileid="116" duration="80"/>
+    <frame tileid="118" duration="80"/>
+    <frame tileid="120" duration="80"/>
+    <frame tileid="122" duration="80"/>
+    <frame tileid="124" duration="80"/>
+    <frame tileid="126" duration="80"/>
+   </animation>
+  </tile>
+  <tile id="113">
+   <animation>
+    <frame tileid="113" duration="80"/>
+    <frame tileid="115" duration="80"/>
+    <frame tileid="117" duration="80"/>
+    <frame tileid="119" duration="80"/>
+    <frame tileid="121" duration="80"/>
+    <frame tileid="123" duration="80"/>
+    <frame tileid="125" duration="80"/>
+    <frame tileid="127" duration="80"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="19681" source="deep water.tsx"/>
+ <tileset firstgid="19881" source="leaves to transp.tsx"/>
+ <tileset firstgid="19926" source="crashed-ship2-red-small.tsx"/>
+ <group id="3" name="Terrain">
+  <layer id="23" name="Ground" width="100" height="100">
+   <data encoding="base64" compression="zlib">
+   eJzt0zERgEAQBMHP0fBgCvAvhXPBBB1sVQvY2cda5+yabf7d9+yZvZxw5Resj6Irv2B9FF35Beuj6MovWB9FV37B+ii68gvWR9GVX7A+iq78gvVRdOUXrI+iK79gfRRd+QXro+jKL1gfRVd+wfoouvIL1kfRlV+wPoqu/IL1UXTlF6yPoiu/YH0UXfkF66Poyi9YH0VXfsH6KLryC9ZH0ZVfsD6KrvyC9VF05Resj6Irv2B9FF35Beuj6MovWB9FV37B+ii68gvWR9GVX7A+iq78gvVRdOUXrI+iK79gfRRd+QXro+jKL1gfRVd+wfoouvIL1kfRlV+wPoqu/IL1UXTlF6yPoiu/YH0UXfkF66Poyi9YH0VXfsH6KLryC9ZH0ZVfsD6KrvyC9VF05Resj6I/Dg1z+w==
+  </data>
+  </layer>
+  <layer id="15" name="Pathways" width="100" height="100">
+   <data encoding="base64" compression="zlib">
+   eJzt2mtuEzEQwPEVj37vTgpsTgDcIKXcIEByk/I4QlE4SkuPALQHKLRHKCon4JXPndGutaN1gjYSiy36/0nWZtV1Fdmxx/ZsUQAAAAAAAAAAAAAAAAAAAAAAAAAAAADAzXRZFsXXsr4elqm/De5JUdyX+npJfwxmR9q2fiDxfRgTz/Tzc2mvfethM1PXxi8kvrd2tfY90PLWXfvWwzBm2rbzpp2v+N0Pxn7DldQx+kjL+7KN3ZWbd8ZuPqqkfz1sxuaWWadd/ed58/du/OhbD8Ow3/zYxQ8Mw6+LxhLf25wzlTZ+HJWrn1tXD5vx66K5xPehVNLGh1XPhbnKz1mMo+F09xdIq7u/QFo2Pmzf8Y01bBZsfHzScsJ8lQVb5/7S8pv5Khs2Nk7piywstB9eauxY6vViO/W3wU6zx1gSP7IwbfaDP4gfWbDx8V3q/hjTH8nZ+Hg4KopHo/p8BOlZf9zROesue8Lkbmkf7Lo8OtKalPV6l/xHHvbdWTpwE4V805A+697+i5Zz9vgr+RxTyJFb7L5dtmuprTV91H0uxHo7T+nmr8626xhka4InWva0PGXui3TfF7G9Rd9288+F/2OxfquM81fWd/vNmuCVltda3tAfEZ/vNmH9tJD4b3+qH+r5OgcS59N9fwD/ixCH2Zvnweb/DzrffOS8PQuT5qz9J+ftWbC1kZ3tPh7xjkkOrtx8Rf4jvUra+Yr8R3q2Vwzz1Tv6I7mZtO/7ED/SWzTvwi2JH1kI+UE7q+L9q/Qm7ixw3Xkv/h2fH+ScPD3LX4R8Fefk6Vn8sPwSeYt8HDZ5jGP6AwAAAAAAAAAA/AXXZSirKQ==
+  </data>
+  </layer>
+  <layer id="4" name="Craters" width="100" height="100" offsetx="-10.6667" offsety="2.66667">
+   <data encoding="base64" compression="zlib">
+   eJzt19ltwkAUBdApyw0GSAFsBZBAAWwFsDUAKSfPwpZA/NtP8jnS/bfe4pkpBQAAAAAAAAAAAAAAAAAAAAAAAAAA4N20KmUcWVZ9fwm1VfRhHtl02I9RMwMTM/DhFDV5RP46qk29j7NmBhYD38vXufzuqQ71Pv5EfiPrjvcykyxzeW/2sc1toP0wl7nU58Q5so9cBzyXmbT/iq7OboA+fFU57ss8Zbkv8+S+nMs26r9r7suHyFE/etW+Xy7eL2l4vwAAAAAAAAAAAAAAQC7/i+tEVg==
+  </data>
+  </layer>
+  <layer id="25" name="Walls" width="100" height="100">
+   <data encoding="base64" compression="zlib">
+   eJzt1k9KAzEUB+BsFD2AVg9g/91LQanuFJQqPaYXUPQALrrzRTJQNOl01SL9Pniboc1j8ksekxIAAAAAAAAAAAAAAAAAAAAAAAD8T5+TtNhBTxqWO8hjKY+m42laHE23l0n0yj1pOI8szjbM5GNSnzVv8ex9gzOfs4heuSfFa2XfxiWTWdRV1OWafGqz5quRRd7/WCvFmmlWshjveRaHv94/n/FWJvOoh6j7xp1pzZqD6d8+3V2ItVKsmeay+FE7u625s6q7M9exhzdRgzWz5iSenZY7cBt15y401c5u1veNcxH/GUY9Rj1Fjcr+Tiprdb/Nd+A56qUni9oa+6I7u6uZ+MbZrWHJZNAzd9ieYZk5I3MdAAAAAAAAAAAAAAAAAAAA2APfgjw6Ew==
+  </data>
+  </layer>
+  <layer id="5" name="Wooden Planks" width="100" height="100" offsetx="-12.4444" offsety="-7.11111">
+   <data encoding="base64" compression="zlib">
+   eJzt0dkNgDAMREEXl764ugoJtbFdgGBGev/WugoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvmdpVWva0p6O9vRF/9az/5lGmunyDwAAAAAAAAAAAAAAAF7sBjj2CNo=
+  </data>
+  </layer>
+  <layer id="44" name="Wooden Planks 2" width="100" height="100" offsetx="-2.22222" offsety="17.3333">
+   <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+  </layer>
+  <layer id="67" name="Leaves" width="100" height="100">
+   <data encoding="base64" compression="zlib">
+   eJzt2gtOwkAQANBesAcVEf+KCv4TMVHP5DbYUEsX2lJbTN5LJkshEDKzyyxtkwQAAAAAAAAAAAAAAAAAAAAAALr1kibJazr0tyC3CLV4Vw/4ZWpN7KV7ddkLo1CHQ7UYRJ77cYiDnyg+lxurTy+y/B+HOAlxGmJSOj4rjGwXm891nYf3XIS4DHGVrh9fF0a2q5rPTWR7qZsQtyHu0vXjWWFku6r53FZWi3m63Fc9hHgM8aQOjVTN53kph3LanyHnc7l3Od/1NyY1czqp2B8fqUdrXezNdt1PsLIpl4saeZ1G9se0E8vlRxg/a+R1Htkf004XubQ/bi7WJ2K5rDrfvmuvYaWLnqtvd2dTz52W1kSxb2SPv9JlP9G3u9O0T4wqXte3u1On5+bXAmcVa6fuZ9Ct2P9y19P7Jd/7T42G9xypQdXv2LPzub0or4vYPT9vqfsXAQAAAAAAAAAAAPj/vgGFyd0S
+  </data>
+  </layer>
+ </group>
+ <group id="9" name="Terrain Props">
+  <group id="71" name="Misc">
+   <layer id="24" name="Structures" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt2MsNwjAQRdGpxEVAS0BIQ+GTZjMFeKRsHIlwzvIunzcjRwAAAAAAAAAAAAAAAAAAAAAAAMD5XVrEte3vjHXLze+d3avOWEtu/ursXnUAAAAA4H89W8Tc+Td8ZJv8Jx7um5uvnd3f2T7eAwB+QnVfVZ2xqvuq6gAAAAAAAAAAAAAAnNsGPmQQDw==
+  </data>
+   </layer>
+   <layer id="30" name="Statue Crosses" width="100" height="100" offsetx="-13.3333" offsety="0">
+    <data encoding="base64" compression="zlib">
+   eJztyCEBAAAIA7CHob+lHhnQ3+QSAAAAAAAAAAAAAAAAAAAAAAAA6LDzewAAAAAAAAAAAAAAAAAAAAAAAACg0wG+3gG3
+  </data>
+   </layer>
+   <layer id="19" name="Tree Shadows" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt0UENACAMBMGKqhtAD+CaoqKfmWT/l1wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMmJWK7uX8O364VTXHwAAAAAAAAAAAAAAAAAANHiJwAPl
+  </data>
+   </layer>
+   <layer id="13" name="Rocks " width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt2klOw0AQBVBfgPkiyZL5PhwHhDgJsABCGC4CLBiEOAOVhaUQWYltbKeTvCf1LrKs+nF1l+wsAwAAAAAAAAAAAAAAAAAAgPQM+ll235/3XQD89VDQl571KiBBo371ONGfnK9YZje9LLuNddeb950w8h45fMT6nJLHUwP9SF+rp2iPqGs7rrMjg1qaeAYmHcU1j+XRuCpZNfl8rZLvEjUb9otnctr1M1bzofp3ZtRH2tgniuhb1c3qR3lNp2XoHNuuqv3qMuaWq1jX5skkvEQOr7He5MGCm7ZX5PvEf94v2UuqOY1anZWs11r8bj3WhvomYTdy2Iu130IeXZ67l0Xee5qYD83482MOXBwDOQGJ2Ix+tKUnJeMgsjiURzLqzhVfMiytqe+BmpxnVlmZ74Hoxvi7jfOW/9dm+NmqvNsw6y2uE9l17kLNAQAAAAAAAACAxPwCKYJWrw==
+  </data>
+   </layer>
+   <layer id="12" name="Trees Back Layer" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt2T1OVGEYhuEvim5DOGNjA+gM6grkH2oThRWgKGqpAuIKBERlA/xtAFRU1qDianySIXFCZeMcIteV3M1UX96nmpxSAAAAAAAAAAAAAAAAgLPqWlX3CwAAAAAAAPjfDTVKuZlupduNP79PVKVMpqk07btV19zLBvfTTJrt2GMhGzxJT9Mze3TNcjZ4lVbS64493mWD9+lD2rRH12xlg+20k3Y79viSDb6mb+nIHgCceN4s5UV6mRbTUrPuF51vW7n/dtpJu2nPHrX6nvv/SD/Tcfr1F3vctdk/c6FVysXUky6ly626X3S+9ef+A2kwXU83Tu1xpWrXm/pSlRrpqv8itbmT2w+nkTSaxtK4PWozl9s/SA/TfHqUHtujFm+qdqtpLa2nt2nDHrXYr9odpI/pU/qcDu0BAAAAAAAAAAAAAAAAcOb9Boi2N7Y=
+  </data>
+   </layer>
+   <layer id="29" name="Trees Front Layer" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt2qdVREEAheFnSSUsYteQBKkQgiAZQhEEQyiBYAmC1AepDlIJBMcVa6AA5sF+3zm/WPfO3DNqtqoAAAAAAAAAAAAAAACAv+CxWVVP6Tm9pNdm6S/qbF2tqupOPak39bVKf1FnWWt8/z2a8x9L42kiTdqjqLmc/3xaSItpyR7FbWeDnbSb9uxR1HnO/yJdpqt0bY9fNdxf+gsAAAAAgN802KyqoTScRryvFjeVDabTTJq1R3Hr2WAjbaYtexR3nA1O0mk6s0dxt9ngLt2nB3sA/9TP/19Bp1rOXVhJqw33og72s8FBOkxH7T0+7VLMTc7+Nt2l+/YO/n9Vzls2eE8fDfeiDgZyFwbTUL97AXQW7y714t2lXry71It3l3rx7gIAAAAAAAAAAADAf/AFABA5HA==
+  </data>
+   </layer>
+   <layer id="27" name="Tree Roots" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt1LENgDAMBEAPAQskUwDLZWGYgQiULjUEcVf6XVi25AgAAAAAAAAAAAAAAAAAAAAAAAAAABjbmiO23M/2FHGkKy+1rzw62E+1eyydfU+1Pt8ZfE77J4yh/RMAAAAAAAAAAAAAAAAAAAAAeMMJJ4kJhg==
+  </data>
+   </layer>
+   <layer id="43" name="Ferns" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt2V0KgkAQAGBPUL0adMGe+71Qv1cqz9JKCSFJJq6ZfR/4IrosM8PsoEkCAAAAAAAAAAAAAAAAAAAAAAAAwD+7pPerLHvcm0y73c8QvYovEMdYz4oia9jHVuG9tR4Y3ahm3R9CLo7yUcnM81uuafPe9GwT1th+sI46iRuDU8jFWZ+KQu0Om5mrXUU8685YZWaueurEN39GPOG9rOL7bn7+tzEz076iB8oPAPRTPkdV/T93fndnEWK9FO/e2IVc7OUDKs1n394BAAAAAAAAAAAAENMN3a0dQA==
+  </data>
+   </layer>
+   <layer id="8" name="Corpses" width="100" height="100" offsetx="-16.4444" offsety="32">
+    <data encoding="base64" compression="zlib">
+   eJzt2c0JwkAQBtAEwWYU27IIi1FUTAGaIBblTwfO0UNC1GxckPdgLrshDN+QPWSLAgAAAAAAAAAAAAAAAAAAAMZV9+yvy5+0wYtzy9o25rAzCwAAAICPzP1PATJYOnuyaDrWNwPn0fVe+i1G+BZmZfs9Cvk5+9I6Rp6nqDqqSZStu8bvXSO7W9Q96jEgx70ZJFNFlocBeV7StQLQaTp577nVuG0AAAAAAAAAAAAAAAAAwF97AlOLEeA=
+  </data>
+   </layer>
+  </group>
+  <group id="58" name="Crashed Ship">
+   <layer id="74" name="Ferns Back" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt0bENgDAMBECv4UVJ2IiEJXEbhESB6O66t756RwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8t2VEy/XWK+/53OdfR+0+btvPyqd/AAAAAAAAAAAAALy6AAFgBU0=
+  </data>
+   </layer>
+   <layer id="75" name="Leaves Back" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJztzqENACAAA8Eu2KWBwZBoEhLMnXn7CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA7o8ns6ervIwAAAAAAAAAAAAC4swEszgVQ
+  </data>
+   </layer>
+   <layer id="60" name="Ship" width="100" height="100" offsetx="15.5556" offsety="0">
+    <data encoding="base64" compression="zlib">
+   eJzt0VkOglAQRNG3QbavOCs4I+ASrD2QqAnnJPe/U10KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwHSLqpRlqtMqrdMmbdMu7atfXzgvh+x9TKfUpDad0yVd080/vuqevR/pmbr0Sn0a0pje/gEAAAAAAAAAAAB/5QP50CAR
+  </data>
+   </layer>
+   <layer id="61" name="Cargo" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+   </layer>
+   <layer id="59" name="Pilot Corpse" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+   </layer>
+   <layer id="73" name="Leaves Front" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt0zsOgzAURUFv0BsFujQI8QtsjCfZBU3K4IIZ6fXWPXJKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/T55SG3PoV77XF9l3cEXfWDpo87/Nj76n20eRZYy53337O5b/o0MYSu6+1wR731QEAAAAAAAAAAGjsAqfmGjA=
+  </data>
+   </layer>
+   <layer id="72" name="Ferns Front" width="100" height="100" offsetx="-2.22222" offsety="2.22222">
+    <data encoding="base64" compression="zlib">
+   eJzt1CEOgEAMBMBKMICl/38TGPgL50jIWVJxM0lF3WabNAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgf/denWBMR+v9/HR/uUWJJSOmNnO++9pmy9pco/ObAAAAAAAAAAAA6HkAVw8FqQ==
+  </data>
+   </layer>
+  </group>
+  <group id="33" name="Skulls &amp; Pikes" offsetx="5.77778" offsety="-22.2222">
+   <layer id="39" name="Ferns 2" width="100" height="100" offsetx="-0.888889" offsety="5.33333">
+    <data encoding="base64" compression="zlib">
+   eJzt0cENgCAURMHfBm0KdqTSJtuFhMwk777JVgEAAAAAAAAAAAAAAAAAAAAAAAAAAADAvkarutOVevt7DV8+mOlJrz8AAAAAAAAAAAAAAAAAAAA41ALCjQUt
+  </data>
+   </layer>
+   <layer id="36" name="Tree" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt0ccNQkEQRMG94pL4PwFcLrhccLng0sLFQQeBtIetkt591FMKAAAAAAAAAAAAAAAAAAAAAAAAAAAArXl2pbzSO33St6t9UdsGfSnDNErjNOlrX9S2afafpXlapKV/VLXK/uu0Sdu084+q9tn/kI7plM7+UdUl+1/TLd3Twz8AAAAAAAAAAAAAAAAAAAD+5gdQuBE7
+  </data>
+   </layer>
+   <layer id="31" name="Pikes" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt0bENgDAMAEGP45UCyxCWYU0k5IIBIsXFXfX9RwAAAAAAAAAAAAAAAAAAAAAAAAAAAABAX2fG9Ws2u+vHkV/H8KSFWR8ePwAAAAAAAAAAAAAAAAAAAJZ4ATH6BdY=
+  </data>
+   </layer>
+   <layer id="32" name="Skulls" width="100" height="100" offsetx="1.77778" offsety="12">
+    <data encoding="base64" compression="zlib">
+   eJzt0bENACAMA8GMg8gm2X8gCiagwsWd5N7SVwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvOn1+wHkm31HBj2yaAEAAAAAAAAAAAAAAAAApDux9AKY
+  </data>
+   </layer>
+   <layer id="34" name="Skulls 2" width="100" height="100" offsetx="-7.55556" offsety="11.5556">
+    <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+   </layer>
+   <layer id="35" name="Skull 3" width="100" height="100" offsetx="-28" offsety="44.8889">
+    <data encoding="base64" compression="zlib">
+   eJzt0bENADAIwDDOQZzY67szsCEW+4JIiQAAAAAAAAAAAAAAAAAAAAAAAAAAAABgUnldQPc8AQAAAAAAAAAAAAAAAAAAABZ98qoA9Q==
+  </data>
+   </layer>
+   <layer id="41" name="Skull 4" width="100" height="100" offsetx="-4" offsety="14.6667">
+    <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7D5N8yLjJHQKmgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHdNOwAAAAAAAAAAAAAAAAAAAAC8s0eBAPg=
+  </data>
+   </layer>
+   <layer id="37" name="Tree Roots" width="100" height="100" offsetx="17.3333" offsety="-18.6667">
+    <data encoding="base64" compression="zlib">
+   eJzt0dEJwCAQA9CboW7gTeF27qtDtNAh5PA9CPkNJAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgMp2j7m+nN5xu5F/t4z5pD8AAAAAAAAAAAAAAAAAAKCyF4SQBOM=
+  </data>
+   </layer>
+   <layer id="38" name="Ferns" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt0bENwCAQA0BPkB4mJSuFlRCzQJEdIpQ7yfrW8icAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJzqqkkryb0zytdt/m2++z/7dr8AAAAAAAAAAAAAAAAAAICjLb1nBL8=
+  </data>
+   </layer>
+  </group>
+  <group id="57" name="Graveyard">
+   <group id="69" name="Grave Stones">
+    <layer id="49" name="Grave Ferns Back" width="100" height="100" offsetx="13.7778" offsety="201.333">
+     <data encoding="base64" compression="zlib">
+   eJzt1tsJAjEQBdB8KmgB2TJ9NqSrNqSgzXgRgrIFmP04By7J55Ahw5QCAAAAAAAAAAAAAAAAzMWzlvJKdsk+uSeP2rsqxvTgkiyGUpZD72qgr+lcanPrkBzNq7+bzqVV7uvkml7c9AM+NvkL25/9qp30ccrbn+t3v2onAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDcvAFs+xVm
+  </data>
+    </layer>
+    <layer id="47" name="Graves" width="100" height="100">
+     <data encoding="base64" compression="zlib">
+   eJzt1LEJgDAUBND0guIMuv8GWtjoIA5ikZ8BYkghvtccKa75hEsJAAAAAAAAAAAAAAAAAAAA+prXnNeS84jclr5dgFplc8rW7JFXxV696cKX3Q1/vKX7d2Nszhk3nOI9rH27AAAAAAAAAAAAAAAAAAAAAAAAAADwFw9sARCh
+  </data>
+    </layer>
+    <layer id="48" name="Grave Ferns Front" width="100" height="100" offsetx="-26.6667" offsety="-17.7778">
+     <data encoding="base64" compression="zlib">
+   eJzt1k0KwjAQBtAsFerPNh7TM/VMCtr2LI40oRvdmoDvQRiyGxi+ZFICAAAAAAAAAAAAAAAAAAAA/s2SU5rjTHm91zrndj2xqXM4Xdr2AT2oOTiWei7VewWr65cs+EN+Zyp71Xu/Gj/MwyzauMUs7v6KbuwiB3tZaO4RmXjKRTeGyMRBLgAAAAAAAAAAAAAAAAAAAAAAAKBrL2fiEDI=
+  </data>
+    </layer>
+   </group>
+   <group id="63" name="Blood Pool">
+    <layer id="65" name="Blood Pool" width="100" height="100" offsetx="16" offsety="-55.1111">
+     <data encoding="base64" compression="zlib">
+   eJzt0UsOglAQRcG3QPY/94eICn5QdOZdArNHYlVy5p3bpQAAAAAAAAAAAAAAAAAAAAAAS2yaUrZpl/bp0NS+6L+12f+YunRKvX9Udc7+l3RNQxr9o6pb9r+nR3qmyT+qemX/d5rTJ339AwAAAAAAAAAAAAAAAAAAAAAAAABg9X6whh6S
+  </data>
+    </layer>
+    <layer id="64" name="Leaves" width="100" height="100" offsetx="10.2222" offsety="-24.8889">
+     <data encoding="base64" compression="zlib">
+   eJzt0bENACAMA8EsyKCIBSgYDtGlpSJIdxNY/ggAAAAAAAAAAAAAAAAAAAAA4NZqrxdwzNRBk7fy/12LMoYWZUwtAAAAAAAAAAAAAAAAAAAAAAAAAAC+sgHHtwcU
+  </data>
+    </layer>
+    <layer id="66" name="Corpses" width="100" height="100" offsetx="67.5556" offsety="-1.77778">
+     <data encoding="base64" compression="zlib">
+   eJzt0UENADAIADHM4RlfM7AvDiCkVXDJRQAAAAAAAAAAAAAAAAAAAACwXeV0Ad3zAwAAAAAAAAAAAAAAAAAAAAAAAAAAAE77n40CNg==
+  </data>
+    </layer>
+   </group>
+  </group>
+  <group id="46" name="Animated Props">
+   <layer id="22" name="Crows" width="100" height="100">
+    <data encoding="base64" compression="zlib">
+   eJzt2LEJgEAQBMDLtSEftCVtSVvSRKvxky9ARXxwJl842GgvAgAAAAAAAAAAAAAAAAAAAAAAAAAAAADetXcRR/f1FRRNimjT9dycM8uNHO9YcxebPgAAAH6pz3twsAmrMeYuJn0A8ID/e1383wEAAAAAAAAAAChOrhoMlw==
+  </data>
+   </layer>
+   <layer id="45" name="Crows 2" width="100" height="100" offsetx="135.556" offsety="25.3333">
+    <data encoding="base64" compression="zlib">
+   eJzt0cEJACAMBMH8tSFTnW1qNQoWkYczsP+DiwAAAAAAAAAAAAAAAAAAAAAAAADgd3vEXLfqHTw9Y7b0BwAAAAAAAAAAAAAAAAAAAAAAAFQ5KMQEsQ==
+  </data>
+   </layer>
+   <layer id="62" name="Flames" width="100" height="100" offsetx="-16.4444" offsety="-3.11111">
+    <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+   </layer>
+   <layer id="28" name="Lanterns" width="100" height="100" offsetx="-12.4444" offsety="12">
+    <data encoding="base64" compression="zlib">
+   eJzt0DENACAQBMGz8+LBAygDA7SEkJlu200AAAAAAAAAAAAAAAAAAAAAAAAAgJe0Snqdm7vGfj/r3AAAAAAAAAAAAAAAAAAAAAAAAPxnAXZoBwU=
+  </data>
+   </layer>
+  </group>
+ </group>
+ <group id="56" name="Classes">
+  <layer id="55" name="Shadows" width="100" height="100" offsetx="-14.6667" offsety="-14.6667">
+   <data encoding="base64" compression="zlib">
+   eJzt2iEOADAIA0A+tv+r/Qk/t2QC2J2sJaloiAAAAAAAAAAAAAAAAAAAAACgir3ucmpwHwAAAABeObcm2xMAAAAAnfmJA6bSYwAAAAAAAAAAAAAAf0jE7QhR
+  </data>
+  </layer>
+  <layer id="53" name="Character" width="100" height="100">
+   <data encoding="base64" compression="zlib">
+   eJzt2rENwjAQQNFbBBaAEZIC2qSBvWAD2AA2gJFgAZBwg4QMiaBJkPxe6eqkX/l0EQAAAAAAAAAAAAAAAAAAAECpNlXEtnp/P9QRx3r4eUq3Sy32H3qcUovzS49JEzFthpuLfrPUYq4HAABA0S7p3361S/kbt9TirsfX8h2h3eC48h1hvhsEAAAAoF/XTZybq3F03cS5uYLfLdqIZTv2FDytUou1HgAAAAAAAAAAAAAARXgAvEAcAw==
+  </data>
+  </layer>
+  <layer id="54" name="Spells" width="100" height="100">
+   <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+  </layer>
+ </group>
+ <objectgroup id="26" name="Collisions">
+  <object id="39" x="967.111" y="2240" width="51.5556" height="26.6667"/>
+  <object id="40" x="1159.11" y="2240" width="51.5556" height="26.6667"/>
+  <object id="41" x="1159.11" y="2048" width="51.5556" height="26.6667"/>
+  <object id="42" x="966.111" y="2048" width="51.5556" height="26.6667"/>
+  <object id="54" x="906.222" y="2320.89">
+   <polygon points="0,0 29.7778,9.33333 77.7778,-4 77.3333,-10.2222 59.1111,-18.6667 10.6667,-20 0,-12.4444"/>
+  </object>
+  <object id="56" x="839.111" y="2007.56">
+   <polygon points="0,0 68.8889,-7.11111 76,-19.5556 66.6667,-27.1111 8,-24 -3.11111,-8.88889"/>
+  </object>
+  <object id="57" x="868.889" y="2380.89">
+   <polygon points="0,0 42.6667,14.6667 80.8889,-8.44444 80,-19.5556 70.2222,-25.3333 21.7778,-21.3333"/>
+  </object>
+  <object id="58" x="1256" y="2220.89">
+   <polygon points="0,0 22.2222,10.2222 45.3333,2.22222 44.8889,-7.11111 43.1111,-13.3333 4.44444,-14.2223"/>
+  </object>
+  <object id="59" x="1263.56" y="2092.44">
+   <polygon points="0,0 29.7778,12.8889 48.8889,3.55556 48.4444,-1.77778 36.8889,-9.33333 6.22222,-7.11111"/>
+  </object>
+  <object id="60" x="931.444" y="1959.56">
+   <polygon points="0,0 25.7778,-0.888889 32.8889,16 -8.88889,16"/>
+  </object>
+  <object id="69" x="864.333" y="1395.33" width="30.6667" height="12"/>
+  <object id="76" x="927.333" y="1395.33" width="30.6667" height="12"/>
+  <object id="77" x="931" y="1299.33" width="28" height="12"/>
+  <object id="78" x="863" y="1299.33" width="32.4444" height="12"/>
+  <object id="79" x="800" y="1299.33" width="30.6667" height="12"/>
+  <object id="80" x="739" y="1299.33" width="26.6667" height="12"/>
+  <object id="70" x="800.333" y="1395.33" width="30.6667" height="12"/>
+  <object id="71" x="739.333" y="1395.33" width="24" height="12"/>
+  <object id="72" x="739.333" y="1491.33" width="24" height="12"/>
+  <object id="73" x="867.333" y="1491.33" width="24" height="12"/>
+  <object id="75" x="927.333" y="1491.33" width="32" height="12"/>
+  <object id="74" x="804.333" y="1492.33" width="24" height="12"/>
+  <object id="81" x="967.556" y="1591.11" width="52" height="36.4444"/>
+  <object id="83" x="1159.56" y="1591.11" width="52" height="36.4444"/>
+  <object id="84" x="1020.44" y="1628.89">
+   <polygon points="0,0 1.33333,107.111 -46.6667,157.333 -182.222,157.333 -220.889,95.5556 -331.556,92.4444 -411.111,15.1111 -412.444,-60.8889 -404,-80.4444 -382.667,-90.6667 -381.778,-81.3333 -392.889,-72 -392.889,-28 -369.333,-17.7778 -358.222,7.55556 -337.778,12.8889 -327.556,39.5556 -214.222,42.2222 -200,70.2222 -198.222,73.3333 -178.667,75.1111 -166.667,104.889 -51.5556,105.333 -16.4444,65.3333 -16.4444,26.6667 -53.3333,-1.33333"/>
+  </object>
+  <object id="85" x="1157.56" y="1628.78">
+   <polygon points="0,0 -1.33333,107.111 46.6667,157.333 182.222,157.333 220.889,95.5556 331.556,92.4444 411.111,15.1111 412.444,-60.8889 404,-80.4444 382.667,-90.6667 381.778,-81.3333 392.889,-72 392.889,-28 369.333,-17.7778 360.889,6.66667 337.778,12.8889 327.556,39.5556 214.222,42.2222 200,70.2222 198.222,73.3333 178.667,75.1111 166.667,104.889 51.5556,105.333 16.4444,65.3333 16.4444,26.6667 53.3333,-1.33333"/>
+  </object>
+  <object id="86" x="1157.78" y="1870.67">
+   <polygon points="0,0 40.8889,5.77778 69.3333,-1.77778 78.2222,-20.8889 33.7778,-21.7778"/>
+  </object>
+  <object id="88" x="1615.11" y="1816.44">
+   <polygon points="0,0 26.2222,-13.7778 23.5556,-33.3333 54.2222,-44.8889 80.8889,-34.6667 82.6667,-16 100.444,-1.33333 122.667,23.1111 108,52.8889 -4,53.7778 -10.2222,26.2222 0,13.3333"/>
+  </object>
+  <object id="89" x="1466.22" y="1920.44">
+   <polygon points="0,0 36,-10.6667 56,-30.2222 -2.66667,-32.4444 -16.8889,-5.33333"/>
+  </object>
+  <object id="94" x="650.667" y="1564.44" width="66.6667" height="19.1111"/>
+  <object id="95" x="421.778" y="1793.33" width="35.5556" height="20.4444"/>
+  <object id="96" x="1035.11" y="2128">
+   <polygon points="0,0 31.5556,-54.2222 52.8889,-61.7778 72.4444,-60.8889 85.7778,-51.5556 84.8889,-37.7778 102.222,-21.7778 125.333,-2.22222"/>
+  </object>
+  <object id="97" x="1026.67" y="2167.56">
+   <polygon points="0,0 128.889,1.33333 119.556,19.1111 110.222,19.1111 92.4444,40.4444 89.3333,50.2222 74.6667,51.5556 66.6667,58.2222 44.8889,48.8889 36.8889,36 39.1111,30.2222 11.1111,16.8889"/>
+  </object>
+  <object id="98" x="518.667" y="1911.11">
+   <polygon points="0,0 62.2222,-68.4444 85.7778,-50.6667 128.889,-5.33333 115.556,17.3333 106.667,20 88,39.1111 84.8889,48.8889 61.3333,58.2222 32.8889,41.3333 32.8889,26.6667 9.33333,17.3333"/>
+  </object>
+  <object id="99" x="1334.67" y="2346.67">
+   <polygon points="0,0 0.444444,28.4444 147.111,37.3333 176.444,34.2222 180.889,33.7778 169.778,-25.3333 121.778,-22.2222 76.8889,-18.6667 20.8889,-5.77778"/>
+  </object>
+  <object id="100" x="1384" y="2303.11" width="33.7778" height="17.7778"/>
+ </objectgroup>
+</map>

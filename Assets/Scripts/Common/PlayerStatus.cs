@@ -17,7 +17,10 @@ public class PlayerStatus : ScriptableObject
     public AnimatorOverrideController anim;
     public Cast attack1;
     public Cast attack2;
+    public Cast attack3;
     public Cast shield;
+
+    public Sprite dashIcon;
 
     public AudioClip dashAudio;
 }

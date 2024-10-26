@@ -88,7 +88,7 @@ public class Projectile : MonoBehaviour
 
     private void HandleTeleport()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("BButton"))
         {
             if (cm != null)
             {
@@ -176,10 +176,10 @@ public class Projectile : MonoBehaviour
             }
             Destroy(gameObject);
         }
-        else if (collision.CompareTag("Object"))
-        {
-            Destroy(gameObject);
-        }
+        //else if (collision.CompareTag("Object"))
+        //{
+        //    Destroy(gameObject);
+        //}
     }
 
     private void OnTriggerExit2D(Collider2D collision)

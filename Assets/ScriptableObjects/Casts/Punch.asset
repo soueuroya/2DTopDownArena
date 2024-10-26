@@ -15,7 +15,9 @@ MonoBehaviour:
   name: Punch
   position: 2
   prefab: {fileID: 9031799967256116833, guid: 8ef78a78b34b92249bd64252dd10b9e9, type: 3}
+  sprite: {fileID: -3349694655073911091, guid: 08fdfb4d45facd34d80c21b14259f6cc, type: 3}
   attackRate: 0
   length: 0
-  cooldown: 0.4
-  generalCooldown: 0.4
+  cooldown: 0.9
+  generalCooldown: 0.9
+  castingCooldown: 0.4

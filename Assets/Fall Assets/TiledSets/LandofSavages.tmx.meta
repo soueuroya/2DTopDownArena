@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: f1d33dabbaa18c94abf88872c9b6ffbd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles:
+  - ../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Sorcerer/Character
+    Colors/Purple/Sorcerer-Idle-All-Directions.png
+  - ../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Monk/Character/Blue/Monk-Idle-All-Directions.png
+  - ../../Chi Orb Shadow.png
+  - ../../new_front-Sheet.png
+  - ../../front-Sheet-spell.png
+  - ../../Game Design/Tile Assets/Dystopian Assets/Scene Props/Boxes-Foilage4.png
+  - ../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Monk/Character/Yellow/Monk-Punch-All-Directions.png
+  - ../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Sorcerer/Character
+    Colors/Red/Sorcerer-Run-All-Directions.png
+  errors:
+  - Errors detected in tileset 'Trees-Dead-Fall-2.tsx'. Check the tileset inspector
+    for more details. Your map may be broken until these are fixed.
+  - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Class
+    Sprites/Sorcerer/Character Colors/Purple/Sorcerer-Idle-All-Directions.png'
+  - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Class
+    Sprites/Monk/Character/Blue/Monk-Idle-All-Directions.png'
+  - 'Missing texture asset: ../../Chi Orb Shadow.png'
+  - 'Missing texture asset: ../../new_front-Sheet.png'
+  - 'Missing texture asset: ../../front-Sheet-spell.png'
+  - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Scene
+    Props/Boxes-Foilage4.png'
+  - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Class
+    Sprites/Monk/Character/Yellow/Monk-Punch-All-Directions.png'
+  - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Class
+    Sprites/Sorcerer/Character Colors/Red/Sorcerer-Run-All-Directions.png'
+  - Could not find tile 13403. Make sure the tilesets were successfully imported.
+  - Could not find tile 13404. Make sure the tilesets were successfully imported.
+  - Could not find tile 13405. Make sure the tilesets were successfully imported.
+  - Could not find tile 13447. Make sure the tilesets were successfully imported.
+  - Could not find tile 13448. Make sure the tilesets were successfully imported.
+  - Could not find tile 13449. Make sure the tilesets were successfully imported.
+  - Could not find tile 12734. Make sure the tilesets were successfully imported.
+  - Could not find tile 12735. Make sure the tilesets were successfully imported.
+  - Could not find tile 12737. Make sure the tilesets were successfully imported.
+  - Could not find tile 12740. Make sure the tilesets were successfully imported.
+  - Could not find tile 12738. Make sure the tilesets were successfully imported.
+  - Could not find tile 12475. Make sure the tilesets were successfully imported.
+  - Could not find tile 12476. Make sure the tilesets were successfully imported.
+  - Could not find tile 12477. Make sure the tilesets were successfully imported.
+  - Could not find tile 12519. Make sure the tilesets were successfully imported.
+  - Could not find tile 12520. Make sure the tilesets were successfully imported.
+  - Could not find tile 12521. Make sure the tilesets were successfully imported.
+  - Could not find tile 12739. Make sure the tilesets were successfully imported.
+  - Could not find tile 12562. Make sure the tilesets were successfully imported.
+  - Could not find tile 12563. Make sure the tilesets were successfully imported.
+  - Could not find tile 12606. Make sure the tilesets were successfully imported.
+  - Could not find tile 12607. Make sure the tilesets were successfully imported.
+  - Could not find tile 12780. Make sure the tilesets were successfully imported.
+  - Could not find tile 12736. Make sure the tilesets were successfully imported.
+  - Could not find tile 12782. Make sure the tilesets were successfully imported.
+  - Could not find tile 12469. Make sure the tilesets were successfully imported.
+  - Could not find tile 12470. Make sure the tilesets were successfully imported.
+  - Could not find tile 12471. Make sure the tilesets were successfully imported.
+  - Could not find tile 12513. Make sure the tilesets were successfully imported.
+  - Could not find tile 12514. Make sure the tilesets were successfully imported.
+  - Could not find tile 12515. Make sure the tilesets were successfully imported.
+  - Could not find tile 12690. Make sure the tilesets were successfully imported.
+  - Could not find tile 12691. Make sure the tilesets were successfully imported.
+  - Could not find tile 12557. Make sure the tilesets were successfully imported.
+  - Could not find tile 12558. Make sure the tilesets were successfully imported.
+  - Could not find tile 12559. Make sure the tilesets were successfully imported.
+  - Could not find tile 12601. Make sure the tilesets were successfully imported.
+  - Could not find tile 12602. Make sure the tilesets were successfully imported.
+  - Could not find tile 12603. Make sure the tilesets were successfully imported.
+  - Could not find tile 12560. Make sure the tilesets were successfully imported.
+  - Could not find tile 12561. Make sure the tilesets were successfully imported.
+  - Could not find tile 12604. Make sure the tilesets were successfully imported.
+  - Could not find tile 12605. Make sure the tilesets were successfully imported.
+  - Could not find tile 12778. Make sure the tilesets were successfully imported.
+  - Could not find tile 12693. Make sure the tilesets were successfully imported.
+  - Could not find tile 12650. Make sure the tilesets were successfully imported.
+  - Could not find tile 12695. Make sure the tilesets were successfully imported.
+  - Could not find tile 13182. Make sure the tilesets were successfully imported.
+  - Could not find tile 13183. Make sure the tilesets were successfully imported.
+  - Could not find tile 13184. Make sure the tilesets were successfully imported.
+  - Could not find tile 13185. Make sure the tilesets were successfully imported.
+  - Could not find tile 13186. Make sure the tilesets were successfully imported.
+  - Could not find tile 13226. Make sure the tilesets were successfully imported.
+  - Could not find tile 13227. Make sure the tilesets were successfully imported.
+  - Could not find tile 13228. Make sure the tilesets were successfully imported.
+  - Could not find tile 13229. Make sure the tilesets were successfully imported.
+  - Could not find tile 13230. Make sure the tilesets were successfully imported.
+  - Could not find tile 13270. Make sure the tilesets were successfully imported.
+  - Could not find tile 13271. Make sure the tilesets were successfully imported.
+  - Could not find tile 13272. Make sure the tilesets were successfully imported.
+  - Could not find tile 13273. Make sure the tilesets were successfully imported.
+  - Could not find tile 13274. Make sure the tilesets were successfully imported.
+  - Could not find tile 13145. Make sure the tilesets were successfully imported.
+  - Could not find tile 13314. Make sure the tilesets were successfully imported.
+  - Could not find tile 13315. Make sure the tilesets were successfully imported.
+  - Could not find tile 13316. Make sure the tilesets were successfully imported.
+  - Could not find tile 13317. Make sure the tilesets were successfully imported.
+  - Could not find tile 13318. Make sure the tilesets were successfully imported.
+  - Could not find tile 13358. Make sure the tilesets were successfully imported.
+  - Could not find tile 13359. Make sure the tilesets were successfully imported.
+  - Could not find tile 13360. Make sure the tilesets were successfully imported.
+  - Could not find tile 13361. Make sure the tilesets were successfully imported.
+  - Could not find tile 13362. Make sure the tilesets were successfully imported.
+  - Could not find tile 15821. Make sure the tilesets were successfully imported.
+  - Could not find tile 15501. Make sure the tilesets were successfully imported.
+  - Could not find tile 15502. Make sure the tilesets were successfully imported.
+  - Could not find tile 15789. Make sure the tilesets were successfully imported.
+  - Could not find tile 15790. Make sure the tilesets were successfully imported.
+  - Could not find tile 15517. Make sure the tilesets were successfully imported.
+  - Could not find tile 15518. Make sure the tilesets were successfully imported.
+  - Could not find tile 15805. Make sure the tilesets were successfully imported.
+  - Could not find tile 15806. Make sure the tilesets were successfully imported.
+  - Could not find tile 19229. Make sure the tilesets were successfully imported.
+  - Could not find tile 19230. Make sure the tilesets were successfully imported.
+  - Could not find tile 19243. Make sure the tilesets were successfully imported.
+  - Could not find tile 19244. Make sure the tilesets were successfully imported.
+  - Could not find tile 15854. Make sure the tilesets were successfully imported.
+  - Could not find tile 15855. Make sure the tilesets were successfully imported.
+  - Could not find tile 15868. Make sure the tilesets were successfully imported.
+  - Could not find tile 15869. Make sure the tilesets were successfully imported.
+  - Could not find tile 19521. Make sure the tilesets were successfully imported.
+  - Could not find tile 19522. Make sure the tilesets were successfully imported.
+  - Could not find tile 19537. Make sure the tilesets were successfully imported.
+  - Could not find tile 19538. Make sure the tilesets were successfully imported.
+  warnings:
+  - Tileset 'Sorcerer-Idle-All-Directions' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Monk-Idle-All-Directions' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Chi Orb Shadow' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'new_front-Sheet' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'front-Sheet-spell' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Boxes-Foilage4' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Monk-Punch-All-Directions' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Sorcerer-Run-All-Directions' is an embedded tileset. Exported tilesets
+    are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 26
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 10
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}

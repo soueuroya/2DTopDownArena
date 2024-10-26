@@ -1,0 +1,3418 @@
+fileFormatVersion: 2
+guid: dc213aecaa52377408162c480a82142b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3125907722885184024
+    second: leaves to transp_0
+  - first:
+      213: -4118512158232690188
+    second: leaves to transp_1
+  - first:
+      213: 3714477573059730046
+    second: leaves to transp_2
+  - first:
+      213: 1187676169574622170
+    second: leaves to transp_3
+  - first:
+      213: 6809424073577103797
+    second: leaves to transp_4
+  - first:
+      213: -542081321087131260
+    second: leaves to transp_5
+  - first:
+      213: -5078335090859282086
+    second: leaves to transp_6
+  - first:
+      213: 547217671929330195
+    second: leaves to transp_7
+  - first:
+      213: -5671330763838592564
+    second: leaves to transp_8
+  - first:
+      213: -1464123936563769916
+    second: leaves to transp_9
+  - first:
+      213: 2450065387469668299
+    second: leaves to transp_10
+  - first:
+      213: -8207448055365052654
+    second: leaves to transp_11
+  - first:
+      213: 8320601878168603158
+    second: leaves to transp_12
+  - first:
+      213: 4853915421706825836
+    second: leaves to transp_13
+  - first:
+      213: -1395343256394331207
+    second: leaves to transp_14
+  - first:
+      213: -2168767119409553086
+    second: leaves to transp_15
+  - first:
+      213: 6302321409490682954
+    second: leaves to transp_16
+  - first:
+      213: -2558742763050283584
+    second: leaves to transp_17
+  - first:
+      213: 702055620021178068
+    second: leaves to transp_18
+  - first:
+      213: -8241700218717320300
+    second: leaves to transp_19
+  - first:
+      213: 9150251337919703131
+    second: leaves to transp_20
+  - first:
+      213: 9115801297134515757
+    second: leaves to transp_21
+  - first:
+      213: 9102288605426450348
+    second: leaves to transp_22
+  - first:
+      213: -7531825769821621685
+    second: leaves to transp_23
+  - first:
+      213: 6841003260981687873
+    second: leaves to transp_24
+  - first:
+      213: -1218217004035510732
+    second: leaves to transp_25
+  - first:
+      213: 245633680516975324
+    second: leaves to transp_26
+  - first:
+      213: 257506331626788516
+    second: leaves to transp_27
+  - first:
+      213: -8109100531661010888
+    second: leaves to transp_28
+  - first:
+      213: 5954280277056281788
+    second: leaves to transp_29
+  - first:
+      213: -3681351623838685157
+    second: leaves to transp_30
+  - first:
+      213: -8522607824836515784
+    second: leaves to transp_31
+  - first:
+      213: 8189901791925878062
+    second: leaves to transp_32
+  - first:
+      213: -3995441911275899946
+    second: leaves to transp_33
+  - first:
+      213: -3638201445436241817
+    second: leaves to transp_34
+  - first:
+      213: 2059007559907752166
+    second: leaves to transp_35
+  - first:
+      213: -5494323734900348702
+    second: leaves to transp_36
+  - first:
+      213: -7310282887105129881
+    second: leaves to transp_37
+  - first:
+      213: -7275690247587110323
+    second: leaves to transp_38
+  - first:
+      213: -8190032940299109939
+    second: leaves to transp_39
+  - first:
+      213: 3925297439894383547
+    second: leaves to transp_40
+  - first:
+      213: 3978481695311484805
+    second: leaves to transp_41
+  - first:
+      213: 6801128042408209333
+    second: leaves to transp_42
+  - first:
+      213: -5890548791825007020
+    second: leaves to transp_43
+  - first:
+      213: 1062778027825036389
+    second: leaves to transp_44
+  - first:
+      213: -8079521366253218232
+    second: leaves to transp_45
+  - first:
+      213: 1314080560311386083
+    second: leaves to transp_46
+  - first:
+      213: 2643555793347746210
+    second: leaves to transp_47
+  - first:
+      213: -6663857345553955094
+    second: leaves to transp_48
+  - first:
+      213: -8999749747468017265
+    second: leaves to transp_49
+  - first:
+      213: -5664837457314440637
+    second: leaves to transp_50
+  - first:
+      213: -5274297999856545746
+    second: leaves to transp_51
+  - first:
+      213: -7522720723155698103
+    second: leaves to transp_52
+  - first:
+      213: -3398427131374597442
+    second: leaves to transp_53
+  - first:
+      213: -8313866976659809561
+    second: leaves to transp_54
+  - first:
+      213: 4687748076850000939
+    second: leaves to transp_55
+  - first:
+      213: -8525458914715861284
+    second: leaves to transp_56
+  - first:
+      213: 7579723550107555354
+    second: leaves to transp_57
+  - first:
+      213: -4226274982203157906
+    second: leaves to transp_58
+  - first:
+      213: -1305584273628012998
+    second: leaves to transp_59
+  - first:
+      213: 2404106009902568780
+    second: leaves to transp_60
+  - first:
+      213: 7226095888610822071
+    second: leaves to transp_61
+  - first:
+      213: -6187423555341619748
+    second: leaves to transp_62
+  - first:
+      213: 5664451447248705557
+    second: leaves to transp_63
+  - first:
+      213: -8225963253551719755
+    second: leaves to transp_64
+  - first:
+      213: -2466224920707362677
+    second: leaves to transp_65
+  - first:
+      213: -3429406027173202934
+    second: leaves to transp_66
+  - first:
+      213: 6231803256847975071
+    second: leaves to transp_67
+  - first:
+      213: -2044041628999444642
+    second: leaves to transp_68
+  - first:
+      213: -3924676320050550530
+    second: leaves to transp_69
+  - first:
+      213: 1887806131548191406
+    second: leaves to transp_70
+  - first:
+      213: 8673978184640718569
+    second: leaves to transp_71
+  - first:
+      213: -2880316726363958563
+    second: leaves to transp_72
+  - first:
+      213: -9139163999851285897
+    second: leaves to transp_73
+  - first:
+      213: 4717093787742211700
+    second: leaves to transp_74
+  - first:
+      213: 6025402084117232183
+    second: leaves to transp_75
+  - first:
+      213: 8681056473337106953
+    second: leaves to transp_76
+  - first:
+      213: -5413623685462638294
+    second: leaves to transp_77
+  - first:
+      213: -3845009672893103968
+    second: leaves to transp_78
+  - first:
+      213: 7473992948929151653
+    second: leaves to transp_79
+  - first:
+      213: 1608136703378080680
+    second: leaves to transp_80
+  - first:
+      213: 926043998104709400
+    second: leaves to transp_81
+  - first:
+      213: -1345664376785485505
+    second: leaves to transp_82
+  - first:
+      213: -5999436669893365633
+    second: leaves to transp_83
+  - first:
+      213: 7914305587219623885
+    second: leaves to transp_84
+  - first:
+      213: -659917631794011663
+    second: leaves to transp_85
+  - first:
+      213: -2676285438281295850
+    second: leaves to transp_86
+  - first:
+      213: -5958936801306058629
+    second: leaves to transp_87
+  - first:
+      213: 247057228302164504
+    second: leaves to transp_88
+  - first:
+      213: -8676178513148494807
+    second: leaves to transp_89
+  - first:
+      213: 6123877828490550151
+    second: leaves to transp_90
+  - first:
+      213: -5948079778637974639
+    second: leaves to transp_91
+  - first:
+      213: 2606733200065800292
+    second: leaves to transp_92
+  - first:
+      213: 4507289235167044716
+    second: leaves to transp_93
+  - first:
+      213: -3815309025880013294
+    second: leaves to transp_94
+  - first:
+      213: -3068659616776436495
+    second: leaves to transp_95
+  - first:
+      213: 3966841019744532192
+    second: leaves to transp_96
+  - first:
+      213: -2191235637166809806
+    second: leaves to transp_97
+  - first:
+      213: 6643048791097904503
+    second: leaves to transp_98
+  - first:
+      213: -8182484263104258810
+    second: leaves to transp_99
+  - first:
+      213: -4644752804648064373
+    second: leaves to transp_100
+  - first:
+      213: 7398613851366772062
+    second: leaves to transp_101
+  - first:
+      213: 3408781381577007488
+    second: leaves to transp_102
+  - first:
+      213: 3238798701259039314
+    second: leaves to transp_103
+  - first:
+      213: -2855894013174659800
+    second: leaves to transp_104
+  - first:
+      213: -1653346898812279878
+    second: leaves to transp_105
+  - first:
+      213: -8020883621231992893
+    second: leaves to transp_106
+  - first:
+      213: 274550350776186870
+    second: leaves to transp_107
+  - first:
+      213: 221727196487628651
+    second: leaves to transp_108
+  - first:
+      213: 1941269150470461694
+    second: leaves to transp_109
+  - first:
+      213: -1076558040782897358
+    second: leaves to transp_110
+  - first:
+      213: -4044868324274619280
+    second: leaves to transp_111
+  - first:
+      213: -8257300268734330802
+    second: leaves to transp_112
+  - first:
+      213: -8531419453672326449
+    second: leaves to transp_113
+  - first:
+      213: 5843034080164703658
+    second: leaves to transp_114
+  - first:
+      213: 1704240822723249175
+    second: leaves to transp_115
+  - first:
+      213: 6551390028474277667
+    second: leaves to transp_116
+  - first:
+      213: -2516662044579027868
+    second: leaves to transp_117
+  - first:
+      213: 1389046487652117598
+    second: leaves to transp_118
+  - first:
+      213: 3411175911389598068
+    second: leaves to transp_119
+  - first:
+      213: 5109853455171471439
+    second: leaves to transp_120
+  - first:
+      213: 5741226075328449375
+    second: leaves to transp_121
+  - first:
+      213: 182872617848054986
+    second: leaves to transp_122
+  - first:
+      213: -3812157045041069974
+    second: leaves to transp_123
+  - first:
+      213: 1259744256632740217
+    second: leaves to transp_124
+  - first:
+      213: 6414603310793609197
+    second: leaves to transp_125
+  - first:
+      213: -5596222460426336311
+    second: leaves to transp_126
+  - first:
+      213: -954431557344343281
+    second: leaves to transp_127
+  - first:
+      213: 6778668638399696066
+    second: leaves to transp_128
+  - first:
+      213: 1073795653997783648
+    second: leaves to transp_129
+  - first:
+      213: 2819114659370940991
+    second: leaves to transp_130
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: leaves to transp_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 277
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ab83f1384716b20800000000000000
+      internalID: 3125907722885184024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 282
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1c96d430b18d6c0800000000000000
+      internalID: -4118512158232690188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 279
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a516c2ca97c8330800000000000000
+      internalID: 3714477573059730046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 266
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad321b30f297b7010800000000000000
+      internalID: 1187676169574622170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 277
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b18e86fd1fef7e50800000000000000
+      internalID: 6809424073577103797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 264
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4812a3919e32a78f0800000000000000
+      internalID: -542081321087131260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 266
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a517eea14212689b0800000000000000
+      internalID: -5078335090859282086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 264
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31af926c29b189700800000000000000
+      internalID: 547217671929330195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 268
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9e7a1e7b26b41b0800000000000000
+      internalID: -5671330763838592564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 267
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd48f579036eabe0800000000000000
+      internalID: -1464123936563769916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 264
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcffb982d71600220800000000000000
+      internalID: 2450065387469668299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 272
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217de738a79491e80800000000000000
+      internalID: -8207448055365052654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_12
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 267
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a00b1e257b87370800000000000000
+      internalID: 8320601878168603158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 266
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6030a0eb529c5340800000000000000
+      internalID: 4853915421706825836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 266
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb01ee73beb2ace0800000000000000
+      internalID: -1395343256394331207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 255
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241eb07abcdf6e1e0800000000000000
+      internalID: -2168767119409553086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4408094ee7567750800000000000000
+      internalID: 6302321409490682954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd49c883058d7cd0800000000000000
+      internalID: -2558742763050283584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_18
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 171
+        width: 95
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4decde3edd33eb900800000000000000
+      internalID: 702055620021178068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 262
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b481641599f9d80800000000000000
+      internalID: -8241700218717320300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_20
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 262
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b582f3a9c193cfe70800000000000000
+      internalID: 9150251337919703131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 247
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d267fbe6bf4d18e70800000000000000
+      internalID: 9115801297134515757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 245
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf7789b243d15e70800000000000000
+      internalID: 9102288605426450348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 241
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4236af1e54997790800000000000000
+      internalID: -7531825769821621685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 227
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1463a1e783020fe50800000000000000
+      internalID: 6841003260981687873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_25
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 224
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e6f17d616081fe0800000000000000
+      internalID: -1218217004035510732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_26
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 203
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda0610f78aa86300800000000000000
+      internalID: 245633680516975324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_27
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 236
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a65700f4a8d29300800000000000000
+      internalID: 257506331626788516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 230
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8380a62c700b67f80800000000000000
+      internalID: -8109100531661010888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_29
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 216
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcdd076d5ad1a250800000000000000
+      internalID: 5954280277056281788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_30
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 213
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18a9c7e33639ecc0800000000000000
+      internalID: -3681351623838685157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_31
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 223
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838a7a8865d99b980800000000000000
+      internalID: -8522607824836515784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 214
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2db31da94068a170800000000000000
+      internalID: 8189901791925878062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_33
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 223
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d331bd10c65d88c0800000000000000
+      internalID: -3995441911275899946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768c577bf03828dc0800000000000000
+      internalID: -3638201445436241817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 209
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e835267770139c10800000000000000
+      internalID: 2059007559907752166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 201
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8644c5cad30c3b0800000000000000
+      internalID: -5494323734900348702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_37
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 202
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7625b7a1278ac8a90800000000000000
+      internalID: -7310282887105129881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_38
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 206
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42ebc0a44e870b90800000000000000
+      internalID: -7275690247587110323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_39
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 194
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc939b6fe68275e80800000000000000
+      internalID: -8190032940299109939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_40
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 187
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbba7a67935797630800000000000000
+      internalID: 3925297439894383547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_41
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5875f62e508663730800000000000000
+      internalID: 3978481695311484805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 199
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb60bfabe5726e50800000000000000
+      internalID: 6801128042408209333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_43
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ef9235511904ea0800000000000000
+      internalID: -5890548791825007020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cf9974cfebfbe00800000000000000
+      internalID: 1062778027825036389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_45
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 184
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8465c41ef16cfdf80800000000000000
+      internalID: -8079521366253218232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_46
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef3b9bae4d8c3210800000000000000
+      internalID: 1314080560311386083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_47
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 186
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a91b66ecfbcfa420800000000000000
+      internalID: 2643555793347746210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 167
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae601640d093583a0800000000000000
+      internalID: -6663857345553955094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_49
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 173
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81e1c299477a1380800000000000000
+      internalID: -8999749747468017265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_50
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 172
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a127e98547261b0800000000000000
+      internalID: -5664837457314440637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_51
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 176
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e205ffed9ededc6b0800000000000000
+      internalID: -5274297999856545746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_52
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 170
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94eb5dffb5de99790800000000000000
+      internalID: -7522720723155698103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_53
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 170
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba0e57978c56d0d0800000000000000
+      internalID: -3398427131374597442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_54
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 170
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea575298063f9c80800000000000000
+      internalID: -8313866976659809561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_55
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b243a250a0a3e0140800000000000000
+      internalID: 4687748076850000939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_56
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 170
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde7c21794c7fa980800000000000000
+      internalID: -8525458914715861284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_57
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 175
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16d2d3e866903960800000000000000
+      internalID: 7579723550107555354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_58
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 168
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6219a2ab414955c0800000000000000
+      internalID: -4226274982203157906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_59
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ed01a3502a1ede0800000000000000
+      internalID: -1305584273628012998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_60
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 154
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45df92bda91d5120800000000000000
+      internalID: 2404106009902568780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_61
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 146
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b70f89dcef384460800000000000000
+      internalID: 7226095888610822071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_62
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 155
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd6afc0f0bd12aa0800000000000000
+      internalID: -6187423555341619748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_63
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 160
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518d4b8649c2c9e40800000000000000
+      internalID: 5664451447248705557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba12a0010287dd80800000000000000
+      internalID: -8225963253551719755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 151
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b809501508536cdd0800000000000000
+      internalID: -2466224920707362677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_66
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 135
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04f1c7536d4860d0800000000000000
+      internalID: -3429406027173202934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_67
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 149
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92cb8a6b00db7650800000000000000
+      internalID: 6231803256847975071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_68
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 151
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57906dd7fa12a3e0800000000000000
+      internalID: -2044041628999444642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_69
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 131
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8eff44eafb889c0800000000000000
+      internalID: -3924676320050550530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_70
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 140
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaafbb3bca5d23a10800000000000000
+      internalID: 1887806131548191406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_71
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 137
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e66ff4c339206870800000000000000
+      internalID: 8673978184640718569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 139
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2d57ca23f0708d0800000000000000
+      internalID: -2880316726363958563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_73
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77273d473ca2b2180800000000000000
+      internalID: -9139163999851285897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_74
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 129
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e8396cecb767140800000000000000
+      internalID: 4717093787742211700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_75
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 107
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ab4b485478e9350800000000000000
+      internalID: 6025402084117232183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_76
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 116
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9021d584ede497870800000000000000
+      internalID: 8681056473337106953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_77
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 118
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21cb50d0f1fed4b0800000000000000
+      internalID: -5413623685462638294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_78
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 109
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a004410318c3aac0800000000000000
+      internalID: -3845009672893103968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_79
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 117
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a242b6fcf4f8b760800000000000000
+      internalID: 7473992948929151653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_80
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 113
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a34e1bbfcf315610800000000000000
+      internalID: 1608136703378080680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819e9612c18f9dc00800000000000000
+      internalID: 926043998104709400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31cdc2016d335de0800000000000000
+      internalID: -1345664376785485505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_83
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 84
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70bd869228bdbca0800000000000000
+      internalID: -5999436669893365633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_84
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf6d12fff245dd60800000000000000
+      internalID: 7914305587219623885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_85
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 83
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1a6e7096087d6f0800000000000000
+      internalID: -659917631794011663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 103
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61851bdc29cebdad0800000000000000
+      internalID: -2676285438281295850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_87
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 105
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70662f0d8a9d4da0800000000000000
+      internalID: -5958936801306058629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812a42c7d39bd6300800000000000000
+      internalID: 247057228302164504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_89
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 77
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c38e35c95089780800000000000000
+      internalID: -8676178513148494807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 79
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bd11770726cf450800000000000000
+      internalID: 6123877828490550151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1937992a4fc247da0800000000000000
+      internalID: -5948079778637974639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_92
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 79
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468a32ec80afc2420800000000000000
+      internalID: 2606733200065800292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 77
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64e212cdab1d8e30800000000000000
+      internalID: 4507289235167044716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_94
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 83
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2168414c7ac4d0bc0800000000000000
+      internalID: -3815309025880013294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_95
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 69
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f44475465ee965d0800000000000000
+      internalID: -3068659616776436495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_96
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 68
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e63256e3ec0d0730800000000000000
+      internalID: 3966841019744532192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_97
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 68
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dde733cca2791e0800000000000000
+      internalID: -2191235637166809806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_98
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 73
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d8afadda9d03c50800000000000000
+      internalID: 6643048791097904503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_99
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 42
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d52755ae9f17e80800000000000000
+      internalID: -8182484263104258810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ae371eee58a8fb0800000000000000
+      internalID: -4644752804648064373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_101
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 54
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d400929182da660800000000000000
+      internalID: 7398613851366772062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_102
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 52
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081ecd52b9c6e4f20800000000000000
+      internalID: 3408781381577007488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_103
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 54
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252aa87424682fc20800000000000000
+      internalID: 3238798701259039314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8254f84b683dd58d0800000000000000
+      internalID: -2855894013174659800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_105
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 33
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3eccd51c12e09e0800000000000000
+      internalID: -1653346898812279878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_106
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 21
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfd7bbc7d810b090800000000000000
+      internalID: -8020883621231992893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_107
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 34
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f739f2e6166fc300800000000000000
+      internalID: 274550350776186870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_108
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6730bfd5bbb31300800000000000000
+      internalID: 221727196487628651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_109
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 36
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8573fc106c0fa10800000000000000
+      internalID: 1941269150470461694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_110
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 31
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f7b0f6a2c4f01f0800000000000000
+      internalID: -1076558040782897358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_111
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 21
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cb16090bdbdd7c0800000000000000
+      internalID: -4044868324274619280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_112
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 38
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e484a56972d286d80800000000000000
+      internalID: -8257300268734330802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_113
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 20
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaf002553f4a9980800000000000000
+      internalID: -8531419453672326449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_114
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aade7b6c980a61150800000000000000
+      internalID: 5843034080164703658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 31
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7148322bffda6a710800000000000000
+      internalID: 1704240822723249175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fde3825863bea50800000000000000
+      internalID: 6551390028474277667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_117
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 11
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464a82d4435031dd0800000000000000
+      internalID: -2516662044579027868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_118
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 10
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c2209cb62e64310800000000000000
+      internalID: 1389046487652117598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_119
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 13
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4711fb01b6ee65f20800000000000000
+      internalID: 3411175911389598068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_120
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 15
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f484cc1f4a8d9e640800000000000000
+      internalID: 5109853455171471439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_121
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b892b72beecaf40800000000000000
+      internalID: 5741226075328449375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_122
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 10
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4aaf15da1b98200800000000000000
+      internalID: 182872617848054986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_123
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 11
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60035e7d5f781bc0800000000000000
+      internalID: -3812157045041069974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979de6c1ab28b7110800000000000000
+      internalID: 1259744256632740217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_125
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defc5e2a9bf350950800000000000000
+      internalID: 6414603310793609197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_126
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7c93282593652b0800000000000000
+      internalID: -5596222460426336311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_127
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 6
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b411e2e8d21c2f0800000000000000
+      internalID: -954431557344343281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_128
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc05e1363ba21e50800000000000000
+      internalID: 6778668638399696066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_129
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a65e54573e6ee00800000000000000
+      internalID: 1073795653997783648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves to transp_130
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ab6eca8d18f1720800000000000000
+      internalID: 2819114659370940991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
