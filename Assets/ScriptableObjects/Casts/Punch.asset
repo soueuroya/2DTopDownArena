@@ -18,6 +18,7 @@ MonoBehaviour:
   sprite: {fileID: -3349694655073911091, guid: 08fdfb4d45facd34d80c21b14259f6cc, type: 3}
   attackRate: 0
   length: 0
-  cooldown: 0.9
-  generalCooldown: 0.9
+  cooldown: 0.7
+  generalCooldown: 0.7
   castingCooldown: 0.4
+  shouldSlow: 0

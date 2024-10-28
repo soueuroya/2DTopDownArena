@@ -19,5 +19,6 @@ MonoBehaviour:
   attackRate: 0
   length: 0
   cooldown: 0.9
-  generalCooldown: 0.9
-  castingCooldown: 0.89
+  generalCooldown: 0.4
+  castingCooldown: 0.4
+  shouldSlow: 1

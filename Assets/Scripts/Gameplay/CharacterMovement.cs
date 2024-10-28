@@ -26,6 +26,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private Transform shieldSpawner;
     [SerializeField] private Transform shadow;
     [SerializeField] private GameObject target;
+    [SerializeField] private GameObject hover;
 
     [SerializeField] private TMP_InputField moveSpeedInput;
     [SerializeField] private TMP_InputField dashSpeedInput;
@@ -207,8 +208,23 @@ public class CharacterMovement : MonoBehaviour
         else // if mouse is being used
         {
             // Get mouse position relative to the player
-            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            lookDir = mousePosition - rb.position;
+            //mousePosition = Camera.main.ViewportToWorldPoint(new Vector3(Input.mousePosition.x / Screen.width, Input.mousePosition.y / Screen.height, Camera.main.nearClipPlane));
+            //mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            //Vector3 adjustedMousePosition = new Vector3(Input.mousePosition.x * (Screen.width / (float)Screen.currentResolution.width),
+            //                                Input.mousePosition.y * (Screen.height / (float)Screen.currentResolution.height),
+            //                                Camera.main.nearClipPlane);
+            //
+            //mousePosition = Camera.main.ScreenToWorldPoint(adjustedMousePosition);
+
+            //Vector3 viewportPosition = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+            //mousePosition = Camera.main.ViewportToWorldPoint(new Vector3(viewportPosition.x, viewportPosition.y, Camera.main.nearClipPlane));
+
+            Vector3 mousePos = Input.mousePosition;
+            mousePos.z += 10;
+            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(mousePos);
+
+            lookDir = mousePosition - directional.position;
             directionUpdated = true;
         }
     }
@@ -216,7 +232,7 @@ public class CharacterMovement : MonoBehaviour
     private void HandleDash()
     {
         // Handle dash input (e.g., pressing Space)
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("AButton"))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("AButton"))
         {
             if (dashingCooldown <= 0)
             {
@@ -228,20 +244,20 @@ public class CharacterMovement : MonoBehaviour
         }
     }
 
-    private void HandleJump()
-    {
-        // Handle jump input (e.g., pressing ctrl)
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("YButton"))
-        {
-            if (dashingCooldown <= 0)
-            {
-                if (CanAct())
-                {
-                    StartCoroutine(Dash());
-                }
-            }
-        }
-    }
+    //private void HandleJump()
+    //{
+    //    // Handle jump input (e.g., pressing ctrl)
+    //    if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("YButton"))
+    //    {
+    //        if (dashingCooldown <= 0)
+    //        {
+    //            if (CanAct())
+    //            {
+    //                StartCoroutine(Dash());
+    //            }
+    //        }
+    //    }
+    //}
 
     private void HandleAttacks()
     {
@@ -584,7 +600,11 @@ public class CharacterMovement : MonoBehaviour
         castingCooldown = cast.castingCooldown;
         GameObject castObject = null;
 
-        isSlow = true;
+        if (cast.shouldSlow)
+        {
+            isSlow = true;
+        }
+
         isAttacking = true;
         animator.SetBool("Attacking", true);
         animator.SetTrigger("Attack1");
@@ -649,7 +669,7 @@ public class CharacterMovement : MonoBehaviour
         yield return new WaitForSeconds(cast.castingCooldown);
         isInPlace = false;
 
-        if (cast.generalCooldown != cast.castingCooldown)
+        if (cast.generalCooldown != cast.castingCooldown || cast.cooldown != cast.castingCooldown)
         {
             isAttacking = false;
             animator.SetBool("Attacking", false);
@@ -834,6 +854,10 @@ public class CharacterMovement : MonoBehaviour
             {
                 isFalling = true;
                 CancelInvoke("Fall");
+                if (currentStatus == 1)
+                {
+                    hover.SetActive(true);
+                }
                 Invoke("Fall", playerStatusses[currentStatus].coyoteTime);
             }
         }
@@ -857,6 +881,7 @@ public class CharacterMovement : MonoBehaviour
                 isFalling = false;
                 shouldFall = false;
                 CancelInvoke("Fall");
+                hover.SetActive(false);
             }
         }
         //else if (collision.gameObject.CompareTag("Player"))
@@ -939,6 +964,7 @@ public class CharacterMovement : MonoBehaviour
 
 
         isDead = true;
+        hover.SetActive(false);
         directional.gameObject.SetActive(false);
         animator.SetFloat("Speed", 0);
         ResetDirectionWASDBools();

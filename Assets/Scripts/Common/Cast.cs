@@ -13,4 +13,5 @@ public class Cast : ScriptableObject
     public float cooldown;
     public float generalCooldown;
     public float castingCooldown;
+    public bool shouldSlow;
 }
