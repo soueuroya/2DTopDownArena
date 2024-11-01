@@ -260,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Animated-Lantern-Swaying_0: 5406985910318167228
+      Animated-Lantern-Swaying_1: 7444476133051493612
+      Animated-Lantern-Swaying_2: 8268742635615536967
+      Animated-Lantern-Swaying_3: -1823537870926089925
+      Animated-Lantern-Swaying_4: 7934280297726877629
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

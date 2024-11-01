@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hole-extra grass shade(fall)_0: -1305335513154794910
+      hole-extra grass shade(fall)_1: -3572556686091293293
+      hole-extra grass shade(fall)_2: -5652882858312850231
+      hole-extra grass shade(fall)_3: -7424154480127538483
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

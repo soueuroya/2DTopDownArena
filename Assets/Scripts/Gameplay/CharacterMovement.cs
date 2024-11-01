@@ -210,13 +210,10 @@ public class CharacterMovement : MonoBehaviour
             // Get mouse position relative to the player
             //mousePosition = Camera.main.ViewportToWorldPoint(new Vector3(Input.mousePosition.x / Screen.width, Input.mousePosition.y / Screen.height, Camera.main.nearClipPlane));
             //mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
             //Vector3 adjustedMousePosition = new Vector3(Input.mousePosition.x * (Screen.width / (float)Screen.currentResolution.width),
-            //                                Input.mousePosition.y * (Screen.height / (float)Screen.currentResolution.height),
-            //                                Camera.main.nearClipPlane);
-            //
+            //Input.mousePosition.y * (Screen.height / (float)Screen.currentResolution.height),
+            //Camera.main.nearClipPlane);
             //mousePosition = Camera.main.ScreenToWorldPoint(adjustedMousePosition);
-
             //Vector3 viewportPosition = Camera.main.ScreenToViewportPoint(Input.mousePosition);
             //mousePosition = Camera.main.ViewportToWorldPoint(new Vector3(viewportPosition.x, viewportPosition.y, Camera.main.nearClipPlane));
 

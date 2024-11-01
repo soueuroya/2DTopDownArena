@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" infinite="0" nextlayerid="82" nextobjectid="123">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" infinite="0" nextlayerid="112" nextobjectid="139">
  <editorsettings>
   <export target="LandofSavages..tmx" format="tmx"/>
  </editorsettings>
@@ -263,11 +263,52 @@
   </tile>
  </tileset>
  <tileset firstgid="12362" source="Sewer Props(Fall)-2.tsx"/>
- <tileset firstgid="15489" name="Boxes-Foilage4" tilewidth="32" tileheight="32" tilecount="192" columns="16">
-  <image source="../../Game Design/Tile Assets/Dystopian Assets/Scene Props/Boxes-Foilage4.png" width="512" height="384"/>
- </tileset>
- <tileset firstgid="15681" name="Monk-Punch-All-Directions" tilewidth="32" tileheight="32" tilecount="224" columns="14">
+ <tileset firstgid="15489" name="Monk-Punch-All-Directions" tilewidth="32" tileheight="32" tilecount="224" columns="14">
   <image source="../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Monk/Character/Yellow/Monk-Punch-All-Directions.png" width="448" height="512"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="70"/>
+    <frame tileid="2" duration="70"/>
+    <frame tileid="4" duration="70"/>
+    <frame tileid="6" duration="70"/>
+    <frame tileid="8" duration="70"/>
+    <frame tileid="10" duration="70"/>
+    <frame tileid="12" duration="70"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="70"/>
+    <frame tileid="3" duration="70"/>
+    <frame tileid="5" duration="70"/>
+    <frame tileid="7" duration="70"/>
+    <frame tileid="9" duration="70"/>
+    <frame tileid="11" duration="70"/>
+    <frame tileid="13" duration="70"/>
+   </animation>
+  </tile>
+  <tile id="14">
+   <animation>
+    <frame tileid="14" duration="70"/>
+    <frame tileid="16" duration="70"/>
+    <frame tileid="18" duration="70"/>
+    <frame tileid="20" duration="70"/>
+    <frame tileid="22" duration="70"/>
+    <frame tileid="24" duration="70"/>
+    <frame tileid="26" duration="70"/>
+   </animation>
+  </tile>
+  <tile id="15">
+   <animation>
+    <frame tileid="15" duration="70"/>
+    <frame tileid="17" duration="70"/>
+    <frame tileid="19" duration="70"/>
+    <frame tileid="21" duration="70"/>
+    <frame tileid="23" duration="70"/>
+    <frame tileid="25" duration="70"/>
+    <frame tileid="27" duration="70"/>
+   </animation>
+  </tile>
   <tile id="28">
    <animation>
     <frame tileid="28" duration="60"/>
@@ -312,8 +353,96 @@
     <frame tileid="55" duration="60"/>
    </animation>
   </tile>
+  <tile id="56">
+   <animation>
+    <frame tileid="56" duration="60"/>
+    <frame tileid="58" duration="60"/>
+    <frame tileid="60" duration="60"/>
+    <frame tileid="62" duration="60"/>
+    <frame tileid="64" duration="60"/>
+    <frame tileid="66" duration="60"/>
+    <frame tileid="68" duration="60"/>
+   </animation>
+  </tile>
+  <tile id="57">
+   <animation>
+    <frame tileid="57" duration="60"/>
+    <frame tileid="59" duration="60"/>
+    <frame tileid="61" duration="60"/>
+    <frame tileid="63" duration="60"/>
+    <frame tileid="65" duration="60"/>
+    <frame tileid="67" duration="60"/>
+    <frame tileid="69" duration="60"/>
+   </animation>
+  </tile>
+  <tile id="70">
+   <animation>
+    <frame tileid="70" duration="60"/>
+    <frame tileid="72" duration="60"/>
+    <frame tileid="74" duration="60"/>
+    <frame tileid="76" duration="60"/>
+    <frame tileid="78" duration="60"/>
+    <frame tileid="80" duration="60"/>
+    <frame tileid="82" duration="60"/>
+   </animation>
+  </tile>
+  <tile id="71">
+   <animation>
+    <frame tileid="71" duration="60"/>
+    <frame tileid="73" duration="60"/>
+    <frame tileid="75" duration="60"/>
+    <frame tileid="77" duration="60"/>
+    <frame tileid="79" duration="60"/>
+    <frame tileid="81" duration="60"/>
+    <frame tileid="83" duration="60"/>
+   </animation>
+  </tile>
+  <tile id="112">
+   <animation>
+    <frame tileid="112" duration="60"/>
+    <frame tileid="114" duration="60"/>
+    <frame tileid="116" duration="60"/>
+    <frame tileid="118" duration="60"/>
+    <frame tileid="120" duration="60"/>
+    <frame tileid="122" duration="60"/>
+    <frame tileid="124" duration="60"/>
+   </animation>
+  </tile>
+  <tile id="113">
+   <animation>
+    <frame tileid="113" duration="60"/>
+    <frame tileid="115" duration="60"/>
+    <frame tileid="117" duration="60"/>
+    <frame tileid="119" duration="60"/>
+    <frame tileid="121" duration="60"/>
+    <frame tileid="123" duration="60"/>
+    <frame tileid="125" duration="60"/>
+   </animation>
+  </tile>
+  <tile id="126">
+   <animation>
+    <frame tileid="126" duration="60"/>
+    <frame tileid="128" duration="60"/>
+    <frame tileid="130" duration="60"/>
+    <frame tileid="132" duration="60"/>
+    <frame tileid="134" duration="60"/>
+    <frame tileid="136" duration="60"/>
+    <frame tileid="138" duration="60"/>
+   </animation>
+  </tile>
+  <tile id="127">
+   <animation>
+    <frame tileid="127" duration="60"/>
+    <frame tileid="129" duration="60"/>
+    <frame tileid="131" duration="60"/>
+    <frame tileid="133" duration="60"/>
+    <frame tileid="135" duration="60"/>
+    <frame tileid="137" duration="60"/>
+    <frame tileid="139" duration="60"/>
+   </animation>
+  </tile>
  </tileset>
- <tileset firstgid="15905" name="Sorcerer-Run-All-Directions" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+ <tileset firstgid="15713" name="Sorcerer-Run-All-Directions" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Sorcerer/Character Colors/Red/Sorcerer-Run-All-Directions.png" width="512" height="512"/>
   <tile id="96">
    <animation>
@@ -364,10 +493,10 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="16161" source="deep water.tsx"/>
- <tileset firstgid="16361" source="leaves to transp.tsx"/>
- <tileset firstgid="16406" source="crashed-ship2-red-small.tsx"/>
- <tileset firstgid="16433" name="Hover-Animation(4 frames)" tilewidth="32" tileheight="32" tilecount="4" columns="1">
+ <tileset firstgid="15969" source="deep water.tsx"/>
+ <tileset firstgid="16169" source="leaves to transp.tsx"/>
+ <tileset firstgid="16214" source="crashed-ship2-red-small.tsx"/>
+ <tileset firstgid="16241" name="Hover-Animation(4 frames)" tilewidth="32" tileheight="32" tilecount="4" columns="1">
   <image source="../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Sorcerer/Spell Effects/Hover-Animation(4 frames).png" width="32" height="128"/>
   <tile id="0">
    <animation>
@@ -378,26 +507,332 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="16437" source="Rocks-Trees-Props.tsx"/>
- <group id="3" name="Terrain">
+ <tileset firstgid="16245" source="Rocks-Trees-Props.tsx"/>
+ <tileset firstgid="19765" source="Boxes-Foilage4.tsx"/>
+ <tileset firstgid="19957" source="space-corpse-final-suit.tsx"/>
+ <tileset firstgid="19959" name="water tiles to use around wall 2" tilewidth="32" tileheight="32" tilecount="200" columns="5">
+  <image source="../water tiles to use around wall 2.png" width="160" height="1280"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="26" duration="100"/>
+    <frame tileid="51" duration="100"/>
+    <frame tileid="76" duration="100"/>
+    <frame tileid="101" duration="100"/>
+    <frame tileid="126" duration="100"/>
+    <frame tileid="151" duration="100"/>
+    <frame tileid="176" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="2">
+   <animation>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="27" duration="100"/>
+    <frame tileid="52" duration="100"/>
+    <frame tileid="77" duration="100"/>
+    <frame tileid="102" duration="100"/>
+    <frame tileid="127" duration="100"/>
+    <frame tileid="152" duration="100"/>
+    <frame tileid="177" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="28" duration="100"/>
+    <frame tileid="53" duration="100"/>
+    <frame tileid="78" duration="100"/>
+    <frame tileid="103" duration="100"/>
+    <frame tileid="128" duration="100"/>
+    <frame tileid="153" duration="100"/>
+    <frame tileid="178" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="5">
+   <animation>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="30" duration="100"/>
+    <frame tileid="55" duration="100"/>
+    <frame tileid="80" duration="100"/>
+    <frame tileid="105" duration="100"/>
+    <frame tileid="130" duration="100"/>
+    <frame tileid="155" duration="100"/>
+    <frame tileid="180" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="6">
+   <animation>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="31" duration="100"/>
+    <frame tileid="56" duration="100"/>
+    <frame tileid="81" duration="100"/>
+    <frame tileid="106" duration="100"/>
+    <frame tileid="131" duration="100"/>
+    <frame tileid="156" duration="100"/>
+    <frame tileid="181" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="8">
+   <animation>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="33" duration="100"/>
+    <frame tileid="58" duration="100"/>
+    <frame tileid="83" duration="100"/>
+    <frame tileid="108" duration="100"/>
+    <frame tileid="133" duration="100"/>
+    <frame tileid="158" duration="100"/>
+    <frame tileid="183" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="9">
+   <animation>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="34" duration="100"/>
+    <frame tileid="59" duration="100"/>
+    <frame tileid="84" duration="100"/>
+    <frame tileid="109" duration="100"/>
+    <frame tileid="134" duration="100"/>
+    <frame tileid="159" duration="100"/>
+    <frame tileid="184" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="35" duration="100"/>
+    <frame tileid="60" duration="100"/>
+    <frame tileid="85" duration="100"/>
+    <frame tileid="110" duration="100"/>
+    <frame tileid="135" duration="100"/>
+    <frame tileid="160" duration="100"/>
+    <frame tileid="185" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="12">
+   <animation>
+    <frame tileid="12" duration="100"/>
+    <frame tileid="37" duration="100"/>
+    <frame tileid="62" duration="100"/>
+    <frame tileid="87" duration="100"/>
+    <frame tileid="112" duration="100"/>
+    <frame tileid="137" duration="100"/>
+    <frame tileid="162" duration="100"/>
+    <frame tileid="187" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="14">
+   <animation>
+    <frame tileid="14" duration="100"/>
+    <frame tileid="39" duration="100"/>
+    <frame tileid="64" duration="100"/>
+    <frame tileid="89" duration="100"/>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="139" duration="100"/>
+    <frame tileid="164" duration="100"/>
+    <frame tileid="189" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="15">
+   <animation>
+    <frame tileid="15" duration="100"/>
+    <frame tileid="40" duration="100"/>
+    <frame tileid="65" duration="100"/>
+    <frame tileid="90" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="140" duration="100"/>
+    <frame tileid="165" duration="100"/>
+    <frame tileid="190" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="16">
+   <animation>
+    <frame tileid="16" duration="100"/>
+    <frame tileid="41" duration="100"/>
+    <frame tileid="66" duration="100"/>
+    <frame tileid="91" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="141" duration="100"/>
+    <frame tileid="166" duration="100"/>
+    <frame tileid="191" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="18">
+   <animation>
+    <frame tileid="18" duration="100"/>
+    <frame tileid="43" duration="100"/>
+    <frame tileid="68" duration="100"/>
+    <frame tileid="93" duration="100"/>
+    <frame tileid="118" duration="100"/>
+    <frame tileid="143" duration="100"/>
+    <frame tileid="168" duration="100"/>
+    <frame tileid="193" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="19">
+   <animation>
+    <frame tileid="19" duration="100"/>
+    <frame tileid="44" duration="100"/>
+    <frame tileid="69" duration="100"/>
+    <frame tileid="94" duration="100"/>
+    <frame tileid="119" duration="100"/>
+    <frame tileid="144" duration="100"/>
+    <frame tileid="169" duration="100"/>
+    <frame tileid="194" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="21">
+   <animation>
+    <frame tileid="21" duration="100"/>
+    <frame tileid="46" duration="100"/>
+    <frame tileid="71" duration="100"/>
+    <frame tileid="96" duration="100"/>
+    <frame tileid="121" duration="100"/>
+    <frame tileid="146" duration="100"/>
+    <frame tileid="171" duration="100"/>
+    <frame tileid="196" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="22">
+   <animation>
+    <frame tileid="22" duration="100"/>
+    <frame tileid="47" duration="100"/>
+    <frame tileid="72" duration="100"/>
+    <frame tileid="97" duration="100"/>
+    <frame tileid="122" duration="100"/>
+    <frame tileid="147" duration="100"/>
+    <frame tileid="172" duration="100"/>
+    <frame tileid="197" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="23">
+   <animation>
+    <frame tileid="23" duration="100"/>
+    <frame tileid="48" duration="100"/>
+    <frame tileid="73" duration="100"/>
+    <frame tileid="98" duration="100"/>
+    <frame tileid="123" duration="100"/>
+    <frame tileid="148" duration="100"/>
+    <frame tileid="173" duration="100"/>
+    <frame tileid="198" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="20159" name="Monk-Punch-Visual-Hitbox" tilewidth="32" tileheight="32" tilecount="24" columns="2">
+  <image source="../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Monk/Spell Abilities/Monk-Punch-Visual-Hitbox.png" width="64" height="384"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="90"/>
+    <frame tileid="4" duration="90"/>
+    <frame tileid="8" duration="90"/>
+    <frame tileid="12" duration="90"/>
+    <frame tileid="16" duration="90"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="90"/>
+    <frame tileid="5" duration="90"/>
+    <frame tileid="9" duration="90"/>
+    <frame tileid="13" duration="90"/>
+    <frame tileid="17" duration="90"/>
+   </animation>
+  </tile>
+  <tile id="2">
+   <animation>
+    <frame tileid="2" duration="90"/>
+    <frame tileid="6" duration="90"/>
+    <frame tileid="10" duration="90"/>
+    <frame tileid="14" duration="90"/>
+    <frame tileid="18" duration="90"/>
+   </animation>
+  </tile>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="90"/>
+    <frame tileid="7" duration="90"/>
+    <frame tileid="11" duration="90"/>
+    <frame tileid="15" duration="90"/>
+    <frame tileid="19" duration="90"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="20183" name="Sorcerer-Run-All-Directions" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Sorcerer/Character Colors/Purple/Sorcerer-Run-All-Directions.png" width="512" height="512"/>
+  <tile id="32">
+   <animation>
+    <frame tileid="32" duration="90"/>
+    <frame tileid="34" duration="90"/>
+    <frame tileid="36" duration="90"/>
+    <frame tileid="38" duration="90"/>
+    <frame tileid="40" duration="90"/>
+    <frame tileid="42" duration="90"/>
+    <frame tileid="44" duration="90"/>
+    <frame tileid="46" duration="90"/>
+   </animation>
+  </tile>
+  <tile id="33">
+   <animation>
+    <frame tileid="33" duration="90"/>
+    <frame tileid="35" duration="90"/>
+    <frame tileid="37" duration="90"/>
+    <frame tileid="39" duration="90"/>
+    <frame tileid="41" duration="90"/>
+    <frame tileid="43" duration="90"/>
+    <frame tileid="45" duration="90"/>
+    <frame tileid="47" duration="90"/>
+   </animation>
+  </tile>
+  <tile id="48">
+   <animation>
+    <frame tileid="48" duration="90"/>
+    <frame tileid="50" duration="90"/>
+    <frame tileid="52" duration="90"/>
+    <frame tileid="54" duration="90"/>
+    <frame tileid="56" duration="90"/>
+    <frame tileid="58" duration="90"/>
+    <frame tileid="60" duration="90"/>
+    <frame tileid="62" duration="90"/>
+   </animation>
+  </tile>
+  <tile id="49">
+   <animation>
+    <frame tileid="49" duration="90"/>
+    <frame tileid="51" duration="90"/>
+    <frame tileid="53" duration="90"/>
+    <frame tileid="55" duration="90"/>
+    <frame tileid="57" duration="90"/>
+    <frame tileid="59" duration="90"/>
+    <frame tileid="61" duration="90"/>
+    <frame tileid="63" duration="90"/>
+   </animation>
+  </tile>
+ </tileset>
+ <group id="3" name="Ground">
   <layer id="23" name="Ground" width="200" height="200">
    <data encoding="base64" compression="zlib">
    eJzt1TEKAkEUREFzz6BeSr3/UVwwWkyFfkEFA5VNJ593u14u9+M9jndj5pOfx3sd783MP17fJ3PZ6/tkLnt9n8xlr++Tuez1fTKXvb5P5rLX98lc9vo+mcte3ydz2ev7ZC57fZ/MZa/vk7ns9X0yl72+T+ay1/fJXPb6PpnLXt8nc9nr+2Que32fzGWv75O57PV9Mpe9vk/mstf3yVz2+j6Zy17fJ3PZ6/tkLnt9n8xlr++Tuez1fTKXvb5P5rLX98lc9vo+mcte3ydz2ev7ZC57fZ/MZa/vk7ns9X0yl72+T+ay1/fJXPb6PpnLXt8nc9nr+2Que32fzGWv75O57PV9Mpe9vk/mstf3yVz2+j6Zy17f57+8/p/PruzQj6/X//PZlR36oR9FV3boh34UXdmhH/pRdGWHfuhH0ZUd+qEfRVd26Id+FF3ZoR/6UXRlh37oR9GVHfqhH0VXduiHfhRd2aEf+lF0ZYd+6EfRlR36oR9FV3boh34UXdmhH/pRdGWHfuhH0ZUd+qEfRVd26Id+FF3ZoR/6UXRlh37oR9GVHfqhH0VXduiHfhRd2aEf+lF0ZYd+6EfRlR36oR9FV3boh34UXdmhH/pRdGWHfuhH0ZUd+qEfRVd26Id+FF3ZoR/6UXRlh37oR9GVHfqhH0VXduiHfhRd2aEf+lF0ZYd+6EfRlR36oR9FV3boh34UXdmhH/pRdGWHfuhH0ZUd+qEfRVd26Id+FF3ZoR/6UXRlh37oR9GVHfqhH0VXduiHfhRd2aEf+lF0ZYd+6EfRlR36oR9FV3boh34UXdmhH/pRdGWHfuhH0ZUd+qEfRVd26Id+FF3ZoR/6UXRlh37oR9GVHfqhH0VXduiHfhRd2aEf+lF0ZYd+6EfRlR36oR9FV3boh34UXdmhH/pRdGWHfuhH0ZUd+qEfRVd26Id+FF3ZoR/6UXRlh37oR9GVHfqhH0VXduiHfhRd2aEf+lF0ZYd+6EfRlR36oR9FV3boh34UXdmhH/pRdGWHfuhH0ZUd+qEfRVd26Id+FF3ZoR/6UXRlh37oR9GVHfqhH0VXduiHfhRd2aEf+lF0ZYd+6EfRlR36oR9FV3boh34UXdmhH/pRdGWHfuhH0ZUd+qEfRVd26Id+FF3ZoR/6UXRlh37oR9GVHfqhH0VXduiHfhRd2aEf+lF0ZYd+6EfRlR36oR9FV3boh34UXdmhH8z6wawfzC2v75O57PV9Mpe9vk/mstf3yVz2+j6Zy17fJ3PZ6/tkLnt9n8xlr++Tuez1fTKXvb5P5rLX98lc9vo+mcte3ydz2ev7ZC57fZ/MZa/vk7ns9X0yl72+T+ay1/fJXPb6PpnLXt8nc9nr+2Que32fzGWv75O57PV9Mpe9vk/mstf3yVz2+j6Zy17fJ3PZ6/tkLnt9n8xlr++Tuez1fTKXvb5P5rLX98lc9vo+mcte3ydz2ev7ZC57fZ/MZa/vk7ns9X0yl72+T+ay1/fJXPb6PpnLXt8nc9nr+2Qu+wNuIc/4
   </data>
   </layer>
-  <layer id="15" name="Pathways" width="200" height="200">
+  <layer id="98" name="Water" width="200" height="200">
    <data encoding="base64" compression="zlib">
-   eJzt3FtS3EYUAFCVY/t/JEjCrCCvDZDEVVkASWAnQ8IC+BiKLMUmS8jDCzB2lgAhK8iL73R7uks9kjAqxxQwc06VSiNG0uijm9u3H6oqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/o+zuqrO68X+aX3bTwN3y/tNVX3QLPZn6gdrYrNpy/6HTf84x4yvw+dvmnY/9jq4z3aKMv9t0z+O5TyW93nYjor92OtgHeyGsr6Xyv2FuMCaiP/jt5pFzv0sbCd1m4tvFe2kadF+2mrGXwf3WWwL7XbKefl5L33fzT/GXgfrIMaEaZF/wDoo+52mTf84tpF2mjb/eFYPn3fVdXCflf1Oe03/OG9bTZtfDJ2X21ZlG0ucYV10xzeAVnd8A2jF+BHHPf7QZws9MX78ErZfta+gJ/br/hO2f7WvYFCMHc/VDeg5DvViP+Qel2H/2+S2nwbuls00xnEp/4CenTQ++Jf8A3pi/PizWdSPqfrBmjuvq8NZ2E4n1WH8vB1ix0cbVfXxRrsO5FXIQ2Zpzgmsg8ehLoRYcTgP21Hah7ZVrCuv68fDsH+U5h6WawpjfHmsnrDCDkLdCDnG6/rQ/e5BKPufF+vQu3J+cqCOsILmKVZc9X1sX31XX7/+Y57iCayKlF8cvumcWZq7/v2IGLEtJ2FFPAn14vgNceNtxfHEJ+oI99h5yjdu6v5nA3HkdFJVLyeLvi9414bew1aWuTj34+yKv+Xy+nvdzlUv7/UqXRNz8ffqtq9qqF/qxcB5OXePv9d9znj+dsrxvwjbl7X4wrvXXacUy2ied/489bHmcpvHKz4J26dh+2yjLa/5fQvlvR6mtbNjyvHLTnnP9zlKzzD0nDGH2U95/pg8Bt5GOfaQ8+a85vugc7yfPufyWL6bp1w3fpL2+b7Hne+6TifLv52vK6+ZN/316GX9gLtsdsP/w89qeQb322Yzri825zOPRvbdxrphni+r4GREHIn5w0+hvP88Yn57rHNyC1bJ7Jr+pO00t/3va+a371gfwoqKbaLYhhoq37H+5L6woXeYXKR2l7jBKsvvQOyOn1wU7atp0/Yh5/nt3pfIupil3Lrsm91q2vZVt1841I+vbvuZ4TbF8ZLcvvpBnIAlu8UYvXcowrLj9G64S+vPoSevH4xzrbz/CpZtF3MLrTOHZeVcRPPSYdmLSbt+xBggLHuQ1lJZtwHDnqbxwB/VDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuBH/AdAuDuM=
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwGcR4AAQ==
   </data>
   </layer>
+  <layer id="15" name="Pathways" width="200" height="200">
+   <data encoding="base64" compression="zlib">
+   eJzt3FlyG0UYAOApk+RdMzYgnYAAFzBLFQcQJLmJnPgAepDLHCUOR2A7QEJyBBlzAjY/0x111yySbBXEOJn5vqqukSyNPA/9V/ffW1EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwXyzLojgvV9en5W0/Dbxd3q+K4oNqdV2KDwbioKrr/ofV+vvcZnwdXn9T1ddFKA9CmVar9mTbfTAEMR5OqvoK1B6GmHiU2oUL7QIDEftC49RHOgvlWVnn4uNGP2nS6D+Nq93vgyHo5h9ALbYJE/kHA9Mcd5pU6+9jHymOUeX846zc/L1t98EQjKs6v3ik3kNLd34DqE0bufkD8QEtsf2I8x6/GbOFNbH9+DGUn/SvYE0c1/0rlL/1r2DNXrlqO34O5Z4+FrQchpg4CuUyxMeX4gNaDtJaq0v5B6yZpvnBP+QfsCa2H79Xq/iYiA8G7rws5rNQXo1Wa9dj/vHRflHc36/3gbwMn83SmhMYgnshJkJbMV+EchLK2WqdYYyV1/FxJ1zvprWHMW7ynsID41r03HGIjZBjzGM8dD+L47ufhfJFuXn8Kucnx2KEHlqkNmPb57F/9TiUJ9fEwCK1J9AXMdcI9X9+1Xdm6dyrJ2kv7VUO5ST0ROgrzU+vaDf+rVPziLzjzlO+cVO/v9SO8D/bdA7bi1FR/DJajbfG8djllr/l+vprWa9Vb/7Wy3RPzMXfK1ev41jVpnGp543v5TGt/Gx7G86Ly++bz7Us7bnizeruU4p1Ma87z2sHc73N8xUfh/JJKJ/u13Uxn7fQ/K07ae/sYRqr+vyK8apYx5vfy79zkp5h03POGvF01Mj3xQdv0rRxjkjOm/MZVMed90fpdR53yvU1n7fQ/G685t897XzW9WLU/t/5vuY9i8775uf2I/K2m93wfMUyzbHDu+qg2i2HznnD3R1z7hgb+kz0wbMd2pGYP3wf6vsPO+QKMebMo9Mnsy15eHaY1rb/eU2+MJVr01PLNKa7qX7H+MljYZvOMLlI/S7tBn12lsakuvMnF43+1aSqx5Dz+vY8PgV9N0u5dXNsdlzV/avuuHCIj69u+5nhNsX5kty/+lY7AS0PG3P0zlCEttN0Ntyl/eewJu8fjGutXpkTh5Z8PtzjLet5YciaaxHte4K256N6/4g5QGjbS3uZrjufAYbqaZoP/E58AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAjfgHa8LwtA==
+  </data>
+  </layer>
+ </group>
+ <group id="89" name="Ground Overwrite">
   <layer id="4" name="Craters" width="200" height="200" offsetx="-10.6667" offsety="2.66667">
    <data encoding="base64" compression="zlib">
    eJzt2ctNw1AQBdC3SSANhNRg919CPhQAgQIgSQH57TIWDkIiZvkyQudId20vfN/I80oBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyemlKWUbem3u/CeTzEb1YR3YV+7HoO7nSSZIbtaU8RWZtned18+q17+SbuUUiP8/t5zt9l928+oxsItvKcwuGZDm3p/28umZSaW7BX5zbMKz7zxhHjtGLR+c2/DKt/C8OAMCweZNjPwwZZdkPQ0b2wzBsH304NF/74VPkrB/w7Xp/8tC6P4Fb3J8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPx/F6DLPHc=
   </data>
   </layer>
-  <layer id="25" name="Walls" width="200" height="200">
+  <layer id="65" name="Blood Pool" width="200" height="200" offsetx="16" offsety="-55.1111">
    <data encoding="base64" compression="zlib">
-   eJzt2E1KA0EQBtDeKPEAGj2Ak597KSjRnYISJcf0AooewEV2VsMMBOnJzEaTMO9BbUJSvemvq0hKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMPzNUurHZwJB2G9g3ys5YMDcTJPq9H8/zISZ+Uz4SBcRDbOe2bkc1bejd7js48eMyFnI87KZ8Jeeivc42mdkUXUddTVlryUdqPvlmzkPESvFD3Tos7GVDbYsXwvb6Juo45/3cc8A9oysox6jHpomSltu9FR4ZxmVkSvFD3TUjbYA829fIp6npff9rY9aVMzU5qcjbfsRqfx2Vk9I+6i7s0K9tCocC9Lb3vW9R/SZfym2sjZpO47K/RqvptnxEvUa0c2Sj3gr5Xe7OZt38yI/5AYorY3u6ozMu7Yk2CoqnpHmnTsPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAffwA45o+0w==
+   eJzt0zkWgkAARME5GXdxAxUXUFC5vR1N4AUkqHrv5510KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKzdpillm3Zpnw7NvxfBerT5Q5eO6ZTO/gFVnz9c0jXd0t0/oBryhzE90jNN/gHVnD+80jt90uIfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz4AmL0ELQ=
   </data>
   </layer>
   <layer id="5" name="Wooden Planks" width="200" height="200" offsetx="-12.4444" offsety="-7.11111">
@@ -405,214 +840,155 @@
    eJzt08kNgDAUQ8FfVdpn6yokCB/oASRmpHf3xVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/tLSqNW1pT0d7exF8R88fzjTSTJd/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI8bbR8Kzg==
   </data>
   </layer>
-  <layer id="44" name="Wooden Planks 2" width="200" height="200" offsetx="-2.22222" offsety="17.3333">
+  <layer id="8" name="Corpses" width="200" height="200" offsetx="-3.9444" offsety="32">
    <data encoding="base64" compression="zlib">
-   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwGcR4AAQ==
+   eJzt3UFqg0AUBmBNIYteRei2WQd6lu6zSmmP0X1CEnqDNiE5RK9U3Y+oVB0nfh+4URn+hQ9GxudkGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEB33w3Xd/koMWCyLoFzh7IujoHaeF4NHgeStVEfAAAAAAAAAADJ+1zETgDT9as+oNbjQ+wEkKafxMaFsT0N0PNU5OE+EkjdtjzeehzvVc8hdBLqRYQ5O6kJCLrGDgDA6L5ycyOos2y5vvg+bAwAAACYtVvL+6yJMydVXew98wD80znr9p1I014icC8K8yzoRbWXzkfsEDBB3ucBAIApqf79s44dAhL0EjsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzB+UExWX
   </data>
   </layer>
   <layer id="67" name="Ground Leaves" width="200" height="200">
    <data encoding="base64" compression="zlib">
-   eJzt3etO2zAUAODsIm3TLn/2QPX7v0kZdBd2KRuFOQJrkbFJKrSmTr9POgqoQvIPn9jHPhVdBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAi25Wc48A2vQyzD0CmN86riFnMT7FOI9xsZIb0Nus7uJzjC8xvsb4FuNFkCOctn7duI5xGeN7jB8xfsb4FeN16Lo3Ye4Rwvy2MR+uYvyO8ec+Zz6GuUcFx2G3ujvHuu3PskLXPQszDwiORH6+e3v/+7VzXwAA4ADcfUCduw8A9rF1pguj9LzDQ6mHF07dsJ99vXrY456cyxdO0DrraS/1uKcntKb2vp8q72kv9binJ7Sm9L7fR97TXupxT09oTel9nzubOLf73NDjzpKU3ve7LB+Gc3y4F9M7wtLt875/6l4sl9c++rVo1U2l9k6G9cVmYt5sCufBF+oUGlXaiz3FZeU8GI7NlHf+vrX3WB/WdmRNghb8r37DXeU8GI7Voeen82Bal68ftfUkze3S56V7+qn3KrB06nCWaGy/ldaK9Hwf/n3W//whxrtQr8N9R4QlmTKfS/smdThLlfeblKS8Gc77YR2iDmfJ0rx/7L67dodSqtftq1iiUp29rawZjxmuM3KFpZh63z3Mk7fhIEOD2VXr7FD/m6n9itC6sTo731/ZO4E8AACY2/Pg+7RQ8yr4/wcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGn5C9/oJbY=
+   eJzt3etu2jAUAGBeB0rZpbtkHZBu5cemrpOmvf+7zLRYNcYJYd0oJN8nHUEvavvDx/GxT9LRCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAc7SsX/ovgPO0kjswGoc8mIS4CDENcVnLDVib1Y/xKsTrEG9CvA1xK0cYuPV1Yx7iKsS7EO9DfAjxMcS3EN/lB4yqkAefQlyH+LzJmd9yAx4s6sd9rDrETYgvcgMe5Pu79ebjuRyBHfICdlVJXsgReJLmw3jz3rk6bLvY5MSt3IAt6fqqkh8AHMB1A/ZTm8Ou2MMLQ5f2s4/r3R73aCpfGKBx1tNe6nGPr3Dqvib3ZExa5vuu8p72Uo97fP3b3wHHEOf2+2ROL833h8h72ks97unrL/nBiSqN3dJ8n5u0jOn8PFCPO+eqysbuvGG+X2RjOh3j6VpsVdvDpd9WB8z3z12L5feh57WPe9U5NV3vDV82rMXi/bNp7+6s4Wfmv2tW2B+4lB+cqdJa7Dmu/sH+ABxD05yfOrT23teHVXXcH4BT9r/6DRcN+wNwqo49Pu0Hc+7y60fT9SSO7dLXS+f0becq0Gd5jqjD6aN9660qu2bcJ9+/fv8zxI+WOtz5In3SZTyX1k3qcPoq7zcpiXmTjvt0jaUOp8/iuG877246QynV69ZV9FGpzm57pk/TXld6nZEr9EXX8+40L+6Mfwaiqc6+acmBLr0r0Af76ux8PWXtBPIAAOAlrev19DlD83p7feb5vQxZ3COO//s59vOWzuDVNQxN3CPO6cmCp2c9pOL/u70u3CcCQ1Nt+lLSXJhvzlWm9e66all79g/Dkp81lmqN9HNdn0UEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHCIP2E+oms=
+  </data>
+  </layer>
+  <layer id="27" name="Tree Roots" width="200" height="200">
+   <data encoding="base64" compression="zlib">
+   eJzt1rENgDAMBEAPAQskUwDLZWGYgQBKRVoQQnel34ULW3IEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMB3zTliyf1sTRFbOvNS+8qrg8FHHPcxdfZ/qPXxygD4kfb/AHft/wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ63A6AICSk=
+  </data>
+  </layer>
+  <layer id="95" name="Bridge" width="200" height="200">
+   <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwGcR4AAQ==
   </data>
   </layer>
  </group>
- <group id="9" name="Terrain Props">
-  <group id="71" name="Misc">
-   <layer id="24" name="Structures" width="200" height="200">
-    <data encoding="base64" compression="zlib">
+ <group id="90" name="Tall Objects">
+  <layer id="25" name="Walls" width="200" height="200">
+   <data encoding="base64" compression="zlib">
+   eJzt2E1KA0EQBtDeKPEAGj2A+Zl7qSjRnYoSJcf0AooewEV2VsMMDNKTyUaTkPegNiGp3vTXVSQlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgP3zNU2LDZwJO2G5gXws5YMdcVSlxaD6v4zEWflM2AlnkY3TNTPyOS3vRu/x2ccaMyFnI87KZ8JWeivc40mdkVnUZdTFiryUdqPvjmzkPESvFD3TrM7GRDbYsHwvr6Nuog5/3cc8A7oyMo96iLrvmCldu9FB4ZxmVkSvFD3TXDbYAs29fIp6rspve9ee1NbMlCZnwxW70XF8dlLPiNuoO7OCLTQo3MvS2571/Yd0Hr8ZtXI2rvtOC72a7+YZ8RL12pONUg/4KzkXVx1vdvO2tzPiPyT2zeOKN3tUZ2TYsyfBvhrVO9K4Z/cBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFjHD1GeQDc=
+  </data>
+  </layer>
+  <layer id="24" name="Structures" width="200" height="200">
+   <data encoding="base64" compression="zlib">
    eJzt2rERwkAMRUFVckXYLYHBDQE2zaICTjYRM8zthi//iUYRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAByZWsTcvu8wkktu4NrZQdVhJI/cwLOzg6oDAAAAAAAAAAAAnLm3iLXzh7hku/lPZHB7buDd2cEr22YfAAAA8BPV/arqMJLqflV1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPgHH7MGEA8=
   </data>
-   </layer>
-   <layer id="30" name="Statue Crosses" width="200" height="200" offsetx="-13.3333" offsety="0">
-    <data encoding="base64" compression="zlib">
+  </layer>
+  <layer id="30" name="Statue Crosses" width="200" height="200" offsetx="-13.3333" offsety="0">
+   <data encoding="base64" compression="zlib">
    eJztyDENAAAIA7CJwf+LPSQQXtKeTQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYdN0eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvhquRwG3
   </data>
-   </layer>
-   <layer id="79" name="Props Leaves" width="200" height="200" offsetx="-10.5" offsety="0.5">
-    <data encoding="base64" compression="zlib">
-   eJztzjENADAIADCcMf+KOEHFCEmroBEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAZZXbAwAAAAAYbzsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAvDSDzAXg=
+  </layer>
+  <layer id="82" name="Boxes 1" width="200" height="200" offsetx="-136.444" offsety="28">
+   <data encoding="base64" compression="zlib">
+   eJzt2bEJADAIAEEXdA9HyPgpLEVIG7iDn+IjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4F1lB0wnOwAAAAAA/uF9wM77AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYHMBDXgF6Q==
   </data>
-   </layer>
-   <layer id="19" name="Tree Shadows" width="200" height="200">
-    <data encoding="base64" compression="zlib">
-   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwGcR4AAQ==
+  </layer>
+  <layer id="81" name="Boxes 2" width="200" height="200" offsetx="-72.4444" offsety="45.3333">
+   <data encoding="base64" compression="zlib">
+   eJzt2bENACAMA8FMl46W/UfJBKB0AeluAjeuPgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6ck0vgHdt/wAAAAAA+I72AWfaBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcFeOkCbQ==
   </data>
-   </layer>
-   <layer id="13" name="Rocks " width="200" height="200">
-    <data encoding="base64" compression="zlib">
-   eJzt3F1OwkAQAOC5DPiGQe/QPquP6FH8w9P4B9fhOE6iGBMQSqEtod+XzFuT7kNnd2d30ggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAfrovIh4yHouuRwLH5zXz4i3jXX4AABydURlxXnY9CgCadpFz/WUL830b74AmTHy7UEvVeX9cfq9F0Eeb6u5BETHMOHN/Qg/sev50lXlxnXEjPwAAtt7nLXsXt1n888xYzc4J07sIq6aZDy8/OVH3DtGdIKdqlrkxt2ZAJbc11gK9igAAwCZqBmjO8iz4qYh4dv4Fv/728X5kfMoPeqLKvksfL6x3p2YBADgo+ysA9tXWP7UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6MYXh+4mvg==
+  </layer>
+  <layer id="85" name="Boxes 3" width="200" height="200" offsetx="-8" offsety="66.6667">
+   <data encoding="base64" compression="zlib">
+   eJzt0zERADAIADEM4gMJlV8LbHBHouCXjwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA7KqcLYK/nDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABo+eb8Bew==
   </data>
-   </layer>
-   <layer id="81" name="Boxes" width="200" height="200">
-    <data encoding="base64" compression="zlib">
-   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwGcR4AAQ==
+  </layer>
+  <layer id="84" name="Boxes 2 Foilage" width="200" height="200" offsetx="-8" offsety="-3.11111">
+   <data encoding="base64" compression="zlib">
+   eJzt2SERAAAIADGCYQhA/zpoPHeYLcH7jwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuFX9XQAAAAAAAHAnvQ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFgGYOsBGA==
   </data>
-   </layer>
-   <layer id="12" name="Trees Back Layer" width="200" height="200">
-    <data encoding="base64" compression="zlib">
-   eJzt27dNBUEARdHpBNhPQgGYCvCmAUwFeNMApgK8aQBTAd4UxtPfgA0RCYg9R7rJRJO8aDSlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDfM1D99g0AAAAAAAAAAAAAAAAAfm6wU8pQGk4jna/z6aqUmTSb5vyjoqXms4mFtJiWGvvYzCa20nbasQ9aajeb2Ev76aCxj/Ns4iJdpiv7oKWus4mbdJvuGvt4zSbe0nv6sA8AAAAAAOAf6KnqelNfqlIn9XsLga7RbGEsjaeJNJmm7AO6lrOFlbSa1tJ62rAPKIdV3VE6TifpNJ3ZB5T7qu4hPaan9Jxe7AMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgG/6BJKEJw0=
+  </layer>
+  <layer id="83" name="Boxes 1 Foilage" width="200" height="200" offsetx="-9.77778" offsety="-19.5556">
+   <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6AFs4L969jBQx9IQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFyq/h4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOwNrEQAig==
   </data>
-   </layer>
-   <layer id="29" name="Trees Front Layer" width="200" height="200">
-    <data encoding="base64" compression="zlib">
-   eJzt3DlOW1EAheHbksASTGEaDCmAZCGBFEwNwyIYmgxLAGqGggD7YFoHEJYQoONUlgx6YBeRHb3vk/7CkovXHFm6us+lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBgu2mWcpvu0p903+z3E8HgGBor5UP6mIbTyFi/nwj6Z73R+Xkqe5hOM+lz+mIf0DafPSykxbSUlu0DOnzPJn6kn+mXfUDbcfbwO52k03RmH9TY5Gi/nwAAAAAAAAAAAAAYRK1mKRNpMn3yPix0+JpNzKa59M0+oMNGNrGZttJ2F/tYaZSymtYa738X/nf72cRBOkxHXexjJ7vYTXv2QQ1cZBOX6Spdd7GP8+ziIl3aB7zyN7t4SI/2Aa+Mj5bSShPerYU3vfz/KwB4i98NeN+TnUAl/38FQC/8bkA1d36hmju/UK3XO79QJ73e+YU66fXOLwAA/54zYqjmjBiqOSOGas6IoZozYgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgbp4BUIhCgg==
+  </layer>
+  <layer id="86" name="Boxes 3 Foilage" width="200" height="200" offsetx="-8.88889" offsety="1.33333">
+   <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6DVMoT969jBQx9IQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALBT/T0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK4N7/gAhw==
   </data>
-   </layer>
-   <layer id="27" name="Tree Roots" width="200" height="200">
-    <data encoding="base64" compression="zlib">
-   eJzt1rENgDAMBEAPAQskUwDLZWGYgQiUirSgCN2VfhcubMkRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADjWnPElvvZniKOdOWl9pVPB4MBtPtYOvs/1fp8ZwD8SPt/gKf2/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO87AS98CYY=
+  </layer>
+  <layer id="59" name="Pilot Corpse Prop" width="200" height="200" offsetx="22.8889" offsety="171.222">
+   <data encoding="base64" compression="zlib">
+   eJzt0zENAEAIwEAM4l8JP78KAiR3Cro0AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGsqpwtgr+cPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaPUBd4oChg==
   </data>
-   </layer>
-   <layer id="8" name="Corpses" width="200" height="200" offsetx="-3.9444" offsety="32">
-    <data encoding="base64" compression="zlib">
-   eJzt3VlOwlAUBuBbanDYCoRtuQWNLkLFd4kSdqAY3YCzW+Lgm0lNaaAD8n3J/9I27Xnoyb2d0pQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqrsvWX+TNVIGdNZjwbLb6Is7vQEAAAAAAAAAwBqG3j9hC1z0UrqMXEXGkete2xVBd7xHP3xEPiNfkW/9AT/yPKW9yH7kIHIYOcrbrgq65TXGjLfIS8nY8VDT8evaLzRtVMN19SAr/o4Ett1J5HSD+zt2Xwsq8S0i/DbVE1Doqe0CAGjcLDM3gr/0V3y+eFZvGQAAALDTnlfczjNxdsmyLybOeQDWNE/V3hMp+5cI/BcD8yzYiOW/dM7bLgI6yPU8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVLMAcjIbhQ==
+  </layer>
+  <layer id="13" name="Large Rocks" width="200" height="200">
+   <data encoding="base64" compression="zlib">
+   eJzt3LkNwkAURdFpbkoBAqAYIACKYa+GvQV+goU0WMgJRvgc6eVObjL6ckoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3bTKKa1jm9z2l8DvOUYXp9hZH/BVw2huFBtrDwrz6GIRW+oDAAAAgJb0ckr92MAbFRQm0cU0NtMHAMBHz9tFoOR2EUr76OGgCXjrFm3c9QEAAADAn9rmlHbev6Dyesd7iV31ARV3vAAAAAAAAAAANOVOEeq5UwSgCf+shnpu3QEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrnAYmdK7c=
   </data>
-   </layer>
-   <layer id="80" name="Corpses 2" width="200" height="200" offsetx="9.5" offsety="1">
-    <data encoding="base64" compression="zlib">
-   eJzt07EJACAQBMEH+29IbUtN/SIEFWZg80suAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgjFoiWtbL7SXwnpG/mNnyDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgcxtetgUm
+  </layer>
+  <layer id="60" name="Crashed Ship" width="200" height="200" offsetx="45.5556" offsety="165">
+   <data encoding="base64" compression="zlib">
+   eJzt0zkOwlAQRMF/M98CMMZg8AJmv39E34DQQlRJL5+gpxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4BetqlLWaZPqtE1N2qU27aulL4TlHLL/Lh3TKfVpSGOa0tl/8Mcu2f+crumW7umRnumV3v4DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgC8+TdwRFw==
   </data>
-   </layer>
-   <layer id="76" name="Leaves" width="200" height="200">
-    <data encoding="base64" compression="zlib">
-   eJzt1zEKwkAURdGPsbFwTZn9L8VC0UoTUd80qQQbISLnwGPa39xiqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvmPTqoZsmx3GVU+Bn3JMD6ds36rOeS/6gMU1PdyyKZuzuz5g0ft4ZM/eRdMHfNL/IcB7u7b2BQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAv3kB9yIS0w==
+  </layer>
+  <layer id="93" name="Skull Pile 1" width="200" height="200">
+   <data encoding="base64" compression="zlib">
+   eJzt07ENwCAUQ8FfMA4JY0Gy/wDxEhEUd9Lr3bgKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4W29VV7rTaLvXwFlmPrHSk17/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADjeB6P5Ank=
   </data>
-   </layer>
-   <layer id="78" name="Hanging Tree Corpse" width="200" height="200" offsetx="-3" offsety="2.5">
-    <data encoding="base64" compression="zlib">
+  </layer>
+  <layer id="94" name="Skull Pile 2" width="200" height="200">
+   <data encoding="base64" compression="zlib">
+   eJzt07ENgDAUQ8FfZBgIYxHYfwQ8RCQS6U56vRtXAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMcbSqM/V0tb/XwFrufGKkJ73+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABs7APE9wJZ
+  </data>
+  </layer>
+  <layer id="79" name="Prop Leaves" width="200" height="200" offsetx="-10.5" offsety="0.5">
+   <data encoding="base64" compression="zlib">
+   eJzt2DEKgDAQBMB7TwpbLYREn+D/HxMhYKOVgWgxAyHtNccmGwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDekr+eAAAAAPA/BwAAAOAPip4KAAAAAIAHSX8MQLQ8mHK79/PM8gFuDnsBQIdNjgAADLN6ewEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwKUC/FAFmQ==
+  </data>
+  </layer>
+  <layer id="92" name="Prop Ferns" width="200" height="200">
+   <data encoding="base64" compression="zlib">
+   eJzt08EJg1AURNFXRGxAV5oUYFT4oOm/k6SGPBCyzEr4gufA3c9mIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjtGXiCG7Z49Sew2cy1r2tuzlH/Az5h+e2ZTN2eIf8Ne7jfi0tVfAOd26iKarvQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK7hC30OCJk=
+  </data>
+  </layer>
+  <layer id="12" name="Trees" width="200" height="200">
+   <properties>
+    <property name="dsdas" type="object" value="0"/>
+   </properties>
+   <data encoding="base64" compression="zlib">
+   eJzt3EduU2EAhdE3pS0hAWwGJGFAhxXQOwN6H9M7AzosAELvAzqsgF4SWAdtCZQZF0UKAcnCiYwS2+dIn+RIieXBu4r09PwXBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMPW2l368/5PXH9Cl9Tl9Klf8Oms2wclEMTyPSyDSqPNifCAbPlpY/f56YPUxKk9OUNNU+oNeK7GFlWpVWpzX2AX84kk0cTcfScfuAXrezhzvpbrqX7tsHTayjdbA/AQAAAAAAAAAA9WBauSimpxlpZp9nrhaUimJhWpQW+64UTWptNrEurU8b+uxjdzaxJ+1N++yDOvTr+7HtqSNNGOA1fCKbOJlOpdN99nE573clXU3X7IM6tCTX7dK0LC0f4DX8IJt4mB6lx3328Srv9zq9SW/tgzq0P9ftgXQwHariGt7YUhSb0uaWf/8u1Lvr2cSNdDPdqmIfZ7KLs6mzBvtw3glDXVeuye70Lr2v4vp8m110pe4a7MN5JzSar9nFt/S9Bvtw3gmNZnxrUbSl9hp8t9Z5JzSyv8+/6q/DZeedQCXOO6ERVft/Y3SppzFpbCqlchrnPhVN4EcVO5mVLcxOc9LcNC/Ntw+aQDXnX23NFral7WlH2pl22QcUnaWezqXz6UK6mC7ZBw2s2nMTn5R6epqepefpRXppHzSwWjzzC42qFs/8QqPq7zO/0Ez6+8wvNJP+PvMLAMD/5x4xVOYeMVTmHjFU5h4xVOYeMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQbH4Cy3l6yA==
+  </data>
+  </layer>
+  <layer id="43" name="Ferns Front" width="200" height="200">
+   <data encoding="base64" compression="zlib">
+   eJzt3MtOg0AUAFBWrrS6BeJ/+EnauPbxK7q1iY//qYkPvsUhltRUqIBYW+achDSZUMJibrn3MtMkAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhvaWfh6risXYUbbZ+4G/VjffAWDTDuVYRKDomXddhO9dytmIzKTlc+E+xMaD+GBH6ClBf+9p/1zqq6twjesO1xG3bJuuc/Kuw/mPITae5FVEYOjf9iGeTzBWVU9rnsmrGJ/f9mz1tNhFbXq2s2zY+S3XAhi3omatbjV2mifJWb4cL2uK8zwBgpsQC7cN8VDmbGUdLo8CYJ09eRU0OhEfRKrrmiqIyeqaqrJPVbcfVz0OP3sJMfKaLmsSMUMsnlu8a98P5xyEY6omAWBhevzfdwAA3/mfOmI0aegJN9HzAqBU7cGaLz7trwUAAIDt5f0HrDfT2wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA6HwA6MExkQ==
+  </data>
+  </layer>
+  <layer id="78" name="Hanging Tree Corpse" width="200" height="200" offsetx="-3" offsety="2.5">
+   <data encoding="base64" compression="zlib">
    eJzt07ENgDAUQ8Gf/ceBMBaBDXCZDYiUO+n1blwFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMyOVnWmnq729xpYy51PjPSk1z8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALb0AdjYBpk=
   </data>
-   </layer>
-   <layer id="43" name="Ferns" width="200" height="200">
-    <data encoding="base64" compression="zlib">
-   eJzt20sOgjAQAFBOoG4x8YIewM+NVK6knMU2amIIJoCAQt9L2DTQdDED00nJMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoG/X/HFVlc+x1Xrc9cDQ6uIdAMa2VGORgLJj3bULz+3VbCRm0fC7cAq5cZYfTISeEnR3y7vXUu8OYY5ji3nkLf9myJi8hNwo1FUkwLsdxqOnxZx9G996WkxRk55tvEd8A9BUWXNWt24sivv5PnrEMHevmk2+AAAAbbQ9UwUpqZ6pin2qT//j2o8DAAB92W5+vQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUnMH46QeHQ==
-  </data>
-   </layer>
-  </group>
-  <group id="58" name="Crashed Ship">
-   <layer id="74" name="Ferns Back" width="200" height="200" offsetx="30" offsety="165">
-    <data encoding="base64" compression="zlib">
-   eJzt07ENgDAMRUGv4UVJ2IiEJXEbREeFuOu+5fZFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABftGVEy/XWa+/5/A9/clQH49bCrH3qAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgtQuQxAVN
-  </data>
-   </layer>
-   <layer id="75" name="Leaves Back" width="200" height="200" offsetx="30" offsety="165">
-    <data encoding="base64" compression="zlib">
-   eJztzrENACAAw7AKOKz/X8XICQhhL1mTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvG01mT1evrQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/YlwoBTw==
-  </data>
-   </layer>
-   <layer id="60" name="Ship" width="200" height="200" offsetx="45.5556" offsety="165">
-    <data encoding="base64" compression="zlib">
-   eJztzscNw0AQBMGNgvLeS5QJ4fKPSpPFgUAV0P+uAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACmaGhVszRPi7RMq7ROm7Rt3dagu12r2qdDOqZTOqdLuqZb63UG/d1b1SM90yuN6Z0+6Zt+rdsaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPxB/ZjCnI=
-  </data>
-   </layer>
-   <layer id="61" name="Cargo" width="200" height="200" offsetx="30" offsety="165">
-    <data encoding="base64" compression="zlib">
-   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwGcR4AAQ==
-  </data>
-   </layer>
-   <layer id="59" name="Pilot Corpse" width="200" height="200" offsetx="30" offsety="165">
-    <data encoding="base64" compression="zlib">
-   eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwGcR4AAQ==
-  </data>
-   </layer>
-   <layer id="73" name="Leaves Front" width="200" height="200" offsetx="30" offsety="165">
-    <data encoding="base64" compression="zlib">
-   eJzt1SsOwzAQRdGXZmH2/pfSlpVEVX+WHBBS7Cg5RxpiNGCunAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR3Iryb2M3gL24dtauLa51GSu/U0jnN3jz/0/1140wpktpc+2hVfp/4kuIHm3Dj5rE6nJVAcvBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPMDWL4bSA==
-  </data>
-   </layer>
-   <layer id="72" name="Ferns Front" width="200" height="200" offsetx="27.7778" offsety="167.222">
-    <data encoding="base64" compression="zlib">
-   eJzt1qEKgAAMBNBFLWp1//9NWvRfXBME80TegwtrVw4WAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD80bl2N4B+W+1gf2zhsA2IKSOGypj3PVeW7O0FX+KXAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgHcXgKIFqQ==
-  </data>
-   </layer>
-  </group>
-  <group id="33" name="Skulls &amp; Pikes" offsetx="5.77778" offsety="-22.2222">
-   <layer id="39" name="Ferns 2" width="200" height="200" offsetx="-0.888889" offsety="5.33333">
-    <data encoding="base64" compression="zlib">
-   eJzt08ENgCAURMHfBm0qdiTaptsEEZKZ5N33slUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABz9FZ1pSOd7e81sJYnn3jTnYZ/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABv5AKuoBS0=
-  </data>
-   </layer>
-   <layer id="36" name="Tree" width="200" height="200">
-    <data encoding="base64" compression="zlib">
-   eJzt07cVwkAARMFLcU1IDeB6wfWC6wXXFq4OluRakIKZ936+yZYCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/D2bUl7pnT7p23S9CPpj0JYyTKM0TpO260XQH9P8YZbmaZGW/gHVKn9Yp03app1/QLXPHw7pmE7p7B9QXfKHa7qle3r4BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQO/8AMqpETs=
-  </data>
-   </layer>
-   <layer id="31" name="Pikes" width="200" height="200">
-    <data encoding="base64" compression="zlib">
+  </layer>
+  <layer id="31" name="Pikes" width="200" height="200">
+   <data encoding="base64" compression="zlib">
    eJzt07ENgDAMAEGP45UCyxCWYU0k5MISdaQUd9Uv8BEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABrnBlXa6C5648jv47hEfiZ9cXjDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgK28t+AF1g==
   </data>
-   </layer>
-   <layer id="32" name="Skulls" width="200" height="200" offsetx="1.77778" offsety="12">
-    <data encoding="base64" compression="zlib">
+  </layer>
+  <layer id="32" name="Skull 1" width="200" height="200" offsetx="1.77778" offsety="12">
+   <data encoding="base64" compression="zlib">
    eJzt07EJACAMRNGMI2YT9x/IwlKsUgThPbj+mh8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdMnR/QCAn615Btz0AW/aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKo2S0sCmA==
   </data>
-   </layer>
-   <layer id="34" name="Skulls 2" width="200" height="200" offsetx="-7.55556" offsety="11.5556">
-    <data encoding="base64" compression="zlib">
+  </layer>
+  <layer id="34" name="Skull 2" width="200" height="200" offsetx="-7.55556" offsety="11.5556">
+   <data encoding="base64" compression="zlib">
    eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwGcR4AAQ==
   </data>
-   </layer>
-   <layer id="35" name="Skull 3" width="200" height="200" offsetx="-28" offsety="44.8889">
-    <data encoding="base64" compression="zlib">
+  </layer>
+  <layer id="35" name="Skull 3" width="200" height="200" offsetx="-28" offsety="44.8889">
+   <data encoding="base64" compression="zlib">
    eJzt00EJAEAIAEHjiBEv/ZUQVJhJsJ+NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgU+V0Aez2PAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAp30O9AD1
   </data>
-   </layer>
-   <layer id="41" name="Skull 4" width="200" height="200" offsetx="-4" offsety="14.6667">
-    <data encoding="base64" compression="zlib">
+  </layer>
+  <layer id="41" name="Skull 4" width="200" height="200" offsetx="-4" offsety="14.6667">
+   <data encoding="base64" compression="zlib">
    eJztzjENAAAIA7D5N8yLiRGeVkETAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAG/MdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADqFnsCAPg=
   </data>
-   </layer>
-   <layer id="37" name="Tree Roots" width="200" height="200" offsetx="17.3333" offsety="-18.6667">
-    <data encoding="base64" compression="zlib">
-   eJzt0zENACAQA8DXAA54FbjDL4iABBEw3CVN1y6NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID/rBZjnrzeAT/pebtmjJL+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAGxsdqATj
-  </data>
-   </layer>
-   <layer id="38" name="Ferns" width="200" height="200">
-    <data encoding="base64" compression="zlib">
-   eJzt07ENwCAAA7Bc0B0upS+VlxC3wNAfYLClKGuWJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwl6cmrSTvziin18A95v+Hb3f3DQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADlmPzwS/
-  </data>
-   </layer>
-  </group>
-  <group id="57" name="Graveyard">
-   <group id="69" name="Grave Stones">
-    <layer id="49" name="Grave Ferns Back" width="200" height="200" offsetx="13.7778" offsety="201.333">
-     <data encoding="base64" compression="zlib">
-   eJzt2DsKAlEMBdCUCrqAmWX63ZDfDSnoZrzNoExj+QY9By55ZZrwQqoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoL1HV/VMNsk2uSX3rnVXMC2nzMQ5mfVV8751NwBM1XiPGvasXbK3X/HnxnvUIu9lcslsXM0HAF+s8lesP+5XQwWqDpmFY/e+Xw0VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+F0v2JkVZg==
-  </data>
-    </layer>
-    <layer id="47" name="Graves" width="200" height="200">
-     <data encoding="base64" compression="zlib">
-   eJzt1rEJgDAUBFB7QXGGZP8NtLAxgziIRX4GUBFE32uOFNd9yHUdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwHlTrllSzTVyTs92AQC+qm2kto2WyHJiX13pAvBN+40/4E4X3mSIjbTFTY/x7vOzXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAPzgAPmYQoQ==
-  </data>
-    </layer>
-    <layer id="48" name="Grave Ferns Front" width="200" height="200" offsetx="-26.6667" offsety="-17.7778">
-     <data encoding="base64" compression="zlib">
-   eJzt2D0KAjEQBtApFfxr4zE9k2dS0F3P4ohJIURshF30PQhDummGL5kIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODbbiVizDOU573VsUzXE8xVm4vtfto+AJi3lhObWne1el8B8MnhTVb4g/Cvhrq3euyvjp35MBsQccrZOPtrQNcic2IpK+DFJTPjKjega5WZsZYbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/rDkxGEDI=
-  </data>
-    </layer>
-   </group>
-   <group id="63" name="Blood Pool">
-    <layer id="65" name="Blood Pool" width="200" height="200" offsetx="16" offsety="-55.1111">
-     <data encoding="base64" compression="zlib">
-   eJzt0zsSgkAARMG9iigo4l9UjLj/rZhoAy8gQXfVyyeZUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFi7zVxKk7Zpl9r534tgPbr8YZ8OqU9H/4BqyB9O6Zwu6eofUN3yh3t6pGca/QOqV/7wTp80pa9/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBjASq6Co0=
-  </data>
-    </layer>
-    <layer id="64" name="Leaves" width="200" height="200" offsetx="10.2222" offsety="-24.8889">
-     <data encoding="base64" compression="zlib">
-   eJzt06ENACAMAMFuxv6jEBaoQCBBECyQ3E3w5iMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4SS+3C+A9uXzhEZjWH6o3YKt5A7bSGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcDA8ZCHI=
-  </data>
-    </layer>
-    <layer id="66" name="Corpses" width="200" height="200" offsetx="67.5556" offsety="-1.77778">
-     <data encoding="base64" compression="zlib">
-   eJztzjENADAIADA8cTD/qnYiAxJaBY0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBdfk0PYK980wMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArmu1DgGb
-  </data>
-    </layer>
-   </group>
-  </group>
+  </layer>
   <group id="46" name="Animated Props">
    <layer id="22" name="Crows" width="200" height="200">
     <data encoding="base64" compression="zlib">
-   eJzt1kERgDAUQ8F4ABmtRLBULIESKoAzv4ddBe+SmSQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAn+6WPK26Ata09WTv1RUAVDrmTzp9Jfg05jYu+wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAW8AICXAWn
+   eJzt2zERgDAQBMD3AA1oCErAElgCS6CECAgdkBS7Cq65mSv+IwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/nSniSrVTQJu6KaKfaqcAoKY176TNVoKiPXfj0A8AAAAAAAAAAF42pIjRXQoUzbkbi34AAHzO7y0883sLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAy249Jwm9
   </data>
    </layer>
    <layer id="45" name="Crows 2" width="200" height="200" offsetx="135.556" offsety="25.3333">
@@ -632,98 +1008,26 @@
    </layer>
   </group>
  </group>
- <objectgroup id="26" name="Collisions" visible="0">
-  <object id="39" x="2567.11" y="3840" width="51.5556" height="26.6667"/>
-  <object id="40" x="2759.11" y="3840" width="51.5556" height="26.6667"/>
-  <object id="41" x="2759.11" y="3648" width="51.5556" height="26.6667"/>
-  <object id="42" x="2566.11" y="3648" width="51.5556" height="26.6667"/>
-  <object id="58" x="2918.5" y="3882.89">
-   <polygon points="0,0 22.2222,10.2222 45.3333,2.22222 44.8889,-7.11111 43.1111,-13.3333 4.44444,-14.2223"/>
-  </object>
-  <object id="59" x="2863.56" y="3692.44">
-   <polygon points="0,0 29.7778,12.8889 48.8889,3.55556 48.4444,-1.77778 36.8889,-9.33333 6.22222,-7.11111"/>
-  </object>
-  <object id="69" x="2464.33" y="2995.33" width="30.6667" height="12"/>
-  <object id="76" x="2527.33" y="2995.33" width="30.6667" height="12"/>
-  <object id="77" x="2531" y="2899.33" width="28" height="12"/>
-  <object id="78" x="2463" y="2899.33" width="32.4444" height="12"/>
-  <object id="79" x="2400" y="2899.33" width="30.6667" height="12"/>
-  <object id="80" x="2339" y="2899.33" width="26.6667" height="12"/>
-  <object id="70" x="2400.33" y="2995.33" width="30.6667" height="12"/>
-  <object id="71" x="2339.33" y="2995.33" width="24" height="12"/>
-  <object id="72" x="2339.33" y="3091.33" width="24" height="12"/>
-  <object id="73" x="2467.33" y="3091.33" width="24" height="12"/>
-  <object id="75" x="2527.33" y="3091.33" width="32" height="12"/>
-  <object id="74" x="2404.33" y="3092.33" width="24" height="12"/>
-  <object id="81" x="2567.56" y="3191.11" width="52" height="36.4444"/>
-  <object id="83" x="2759.56" y="3191.11" width="52" height="36.4444"/>
-  <object id="84" x="2620.44" y="3228.89">
-   <polygon points="0,0 1.33333,107.111 -46.6667,157.333 -182.222,157.333 -220.889,95.5556 -331.556,92.4444 -411.111,15.1111 -412.444,-60.8889 -404,-80.4444 -382.667,-90.6667 -381.778,-81.3333 -392.889,-72 -392.889,-28 -369.333,-17.7778 -358.222,7.55556 -337.778,12.8889 -327.556,39.5556 -214.222,42.2222 -200,70.2222 -198.222,73.3333 -178.667,75.1111 -166.667,104.889 -51.5556,105.333 -16.4444,65.3333 -16.4444,26.6667 -53.3333,-1.33333"/>
-  </object>
-  <object id="85" x="2757.56" y="3228.78">
-   <polygon points="0,0 -1.33333,107.111 46.6667,157.333 182.222,157.333 220.889,95.5556 331.556,92.4444 411.111,15.1111 412.444,-60.8889 404,-80.4444 382.667,-90.6667 381.778,-81.3333 392.889,-72 392.889,-28 369.333,-17.7778 360.889,6.66667 337.778,12.8889 327.556,39.5556 214.222,42.2222 200,70.2222 198.222,73.3333 178.667,75.1111 166.667,104.889 51.5556,105.333 16.4444,65.3333 16.4444,26.6667 53.3333,-1.33333"/>
-  </object>
-  <object id="86" x="2757.78" y="3470.67">
-   <polygon points="0,0 40.8889,5.77778 69.3333,-1.77778 78.2222,-20.8889 33.7778,-21.7778"/>
-  </object>
-  <object id="88" x="3215.11" y="3416.44">
-   <polygon points="0,0 26.2222,-13.7778 23.5556,-33.3333 54.2222,-44.8889 80.8889,-34.6667 82.6667,-16 100.444,-1.33333 122.667,23.1111 108,52.8889 -4,53.7778 -10.2222,26.2222 0,13.3333"/>
-  </object>
-  <object id="89" x="3066.22" y="3520.44">
-   <polygon points="0,0 36,-10.6667 56,-30.2222 -2.66667,-32.4444 -16.8889,-5.33333"/>
-  </object>
-  <object id="94" x="2250.67" y="3164.44" width="66.6667" height="19.1111"/>
-  <object id="95" x="2021.78" y="3393.33" width="35.5556" height="20.4444"/>
-  <object id="96" x="2635.11" y="3728">
-   <polygon points="0,0 31.5556,-54.2222 52.8889,-61.7778 72.4444,-60.8889 85.7778,-51.5556 84.8889,-37.7778 102.222,-21.7778 125.333,-2.22222"/>
-  </object>
-  <object id="97" x="2626.67" y="3767.56">
-   <polygon points="0,0 128.889,1.33333 119.556,19.1111 110.222,19.1111 92.4444,40.4444 89.3333,50.2222 74.6667,51.5556 66.6667,58.2222 44.8889,48.8889 36.8889,36 39.1111,30.2222 11.1111,16.8889"/>
-  </object>
-  <object id="98" x="2118.67" y="3511.11">
-   <polygon points="0,0 62.2222,-68.4444 85.7778,-50.6667 128.889,-5.33333 115.556,17.3333 106.667,20 88,39.1111 84.8889,48.8889 61.3333,58.2222 32.8889,41.3333 32.8889,26.6667 9.33333,17.3333"/>
-  </object>
-  <object id="99" x="2964.17" y="4115.17">
-   <polygon points="0,0 0.444444,28.4444 147.111,37.3333 176.444,34.2222 180.889,33.7778 169.778,-25.3333 121.778,-22.2222 76.8889,-18.6667 20.8889,-5.77778"/>
-  </object>
-  <object id="100" x="2982" y="4065.11" width="33.7778" height="17.7778"/>
-  <object id="101" x="2827" y="3908.5">
-   <polygon points="0,0 44.5,-22.5 66.5,-19 74.5,-6.5 36,15.5"/>
-  </object>
-  <object id="102" x="2443" y="3839.5" width="30" height="21.5"/>
-  <object id="103" x="2402" y="3656">
-   <polygon points="0,0 52.5,12.5 59.5,4 41.5,-10.5 6.5,-10.5"/>
-  </object>
-  <object id="104" x="2470.5" y="3602">
-   <polygon points="0,0 70,0 73,-9.5 65,-17.5 11.5,-20.5"/>
-  </object>
-  <object id="105" x="2307.5" y="3397.5">
-   <polygon points="0,0 34,16 64,1.5 69.5,-25 64,-48 35.5,-55 14,-53 -1.5,-43.5 8,-28.5"/>
-  </object>
-  <object id="106" x="1954" y="3391.5">
-   <polygon points="0,0 17,-52.5 80.5,35.5 169.5,38.5 179,10.5 204.5,3.5 202,-49 124.5,-121 137.5,-125 211.5,-48 223,-26 217,47 168.5,90 77.5,89"/>
-  </object>
-  <object id="107" x="2668.5" y="2812.5">
-   <polygon points="0,0 34.5,-0.5 37,19 -1,21.5"/>
-  </object>
-  <object id="108" x="2582" y="3317.5">
-   <polygon points="0,0 -19,-11.5 -4.5,-28 21,-23.5"/>
-  </object>
-  <object id="109" x="2782.5" y="3300.5">
-   <polygon points="0,0 35.5,-3 55,4 54.5,10 21.5,26.5"/>
-  </object>
-  <object id="110" x="2944.66" y="2995" width="30.6667" height="12"/>
-  <object id="111" x="3007.66" y="2995" width="30.6667" height="12"/>
-  <object id="112" x="3011.34" y="2899" width="28" height="12"/>
-  <object id="113" x="2943.34" y="2899" width="32.4444" height="12"/>
-  <object id="114" x="2880.34" y="2899" width="30.6667" height="12"/>
-  <object id="115" x="2819.34" y="2899" width="26.6667" height="12"/>
-  <object id="116" x="2880.66" y="2995" width="30.6667" height="12"/>
-  <object id="117" x="2819.66" y="2995" width="24" height="12"/>
-  <object id="118" x="2819.66" y="3091" width="24" height="12"/>
-  <object id="119" x="2947.66" y="3091" width="24" height="12"/>
-  <object id="120" x="3007.66" y="3091" width="32" height="12"/>
-  <object id="121" x="2884.66" y="3092" width="24" height="12"/>
-  <object id="122" x="2417" y="3460" width="10.5" height="12.5"/>
- </objectgroup>
+ <group id="56" name="Classes">
+  <layer id="55" name="Shadows" width="200" height="200" offsetx="72.8889" offsety="-10.6667">
+   <data encoding="base64" compression="zlib">
+   eJzt2rENACAIBEAWcBf3n87KRisSiRR3JT15AkQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAfY+bqwE2/AAAAAAAAANCRezYAr53ZImsAAAAAAAAAAABq7P8sf1oAAAAAAABAljsjAEAdsxYAAAAAXdldAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALdUcCoA==
+  </data>
+  </layer>
+  <layer id="77" name="Hover Animation" width="200" height="200" offsetx="10.2223" offsety="-1.77777">
+   <data encoding="base64" compression="zlib">
+   eJzt2TENAAAIwDCcoQn/D0EFIbQK9i8CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGJXbBQAAAAAAAMAlHiMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBVA5UOAWE=
+  </data>
+  </layer>
+  <layer id="54" name="Spells" width="200" height="200" offsetx="-8" offsety="-89.7778">
+   <data encoding="base64" compression="zlib">
+   eJzt0zsNADEMREFDC4JgOKb5IIspnFI4xYy0/TYvAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7swe385V/4AXjWxj6QMAAAAAAAD4afVoO1f9A140so2pDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKHUAmFEK9Q==
+  </data>
+  </layer>
+  <layer id="53" name="Character" width="200" height="200" offsetx="88" offsety="4.44444">
+   <data encoding="base64" compression="zlib">
+   eJzt3LFNQlEYhuGv00Y30BG4DHDvCjCTLqAL6AK6gHbaaKOJ9LqBttpoPA1Br5iQGDkQniehoeFv3oovJwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/svdILkf/Pz+uUlemuXfA6vksbTxNKeP99LGx5c+TtrktF3eXbBOzkob5/oAAAAAAACAKnaaZLfS/mMwTJphnd+GReyVNvYr9dGWNjp9sKb6m0NbQ5jpbw77W0MAABb3OkreRrWvgNW0NU62x7WvAAAAAABgGaZ7rYs2ufSGD3wz3WvdlDZuy+eqS6672lfBanoobUz0AQAAAACwcQ7a5ND/jDDXUWnjWB8A/IGtCvzOVgUAAADq6r8jD8z035EHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADbTJzxTMfc=
+  </data>
+  </layer>
+ </group>
 </map>

@@ -15,12 +15,14 @@ ScriptedImporter:
   - ../../Chi Orb Shadow.png
   - ../../new_front-Sheet.png
   - ../../front-Sheet-spell.png
-  - ../../Game Design/Tile Assets/Dystopian Assets/Scene Props/Boxes-Foilage4.png
   - ../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Monk/Character/Yellow/Monk-Punch-All-Directions.png
   - ../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Sorcerer/Character
     Colors/Red/Sorcerer-Run-All-Directions.png
   - ../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Sorcerer/Spell Effects/Hover-Animation(4
     frames).png
+  - ../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Monk/Spell Abilities/Monk-Punch-Visual-Hitbox.png
+  - ../../Game Design/Tile Assets/Dystopian Assets/Class Sprites/Sorcerer/Character
+    Colors/Purple/Sorcerer-Run-All-Directions.png
   errors:
   - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Class
     Sprites/Sorcerer/Character Colors/Purple/Sorcerer-Idle-All-Directions.png'
@@ -29,8 +31,6 @@ ScriptedImporter:
   - 'Missing texture asset: ../../Chi Orb Shadow.png'
   - 'Missing texture asset: ../../new_front-Sheet.png'
   - 'Missing texture asset: ../../front-Sheet-spell.png'
-  - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Scene
-    Props/Boxes-Foilage4.png'
   - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Class
     Sprites/Monk/Character/Yellow/Monk-Punch-All-Directions.png'
   - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Class
@@ -39,35 +39,78 @@ ScriptedImporter:
     Sprites/Sorcerer/Spell Effects/Hover-Animation(4 frames).png'
   - Errors detected in tileset 'Rocks-Trees-Props.tsx'. Check the tileset inspector
     for more details. Your map may be broken until these are fixed.
-  - Could not find tile 18045. Make sure the tilesets were successfully imported.
-  - Could not find tile 18046. Make sure the tilesets were successfully imported.
-  - Could not find tile 18047. Make sure the tilesets were successfully imported.
-  - Could not find tile 18089. Make sure the tilesets were successfully imported.
-  - Could not find tile 18090. Make sure the tilesets were successfully imported.
-  - Could not find tile 18091. Make sure the tilesets were successfully imported.
-  - Could not find tile 18222. Make sure the tilesets were successfully imported.
-  - Could not find tile 18223. Make sure the tilesets were successfully imported.
-  - Could not find tile 18226. Make sure the tilesets were successfully imported.
-  - Could not find tile 18227. Make sure the tilesets were successfully imported.
-  - Could not find tile 18267. Make sure the tilesets were successfully imported.
-  - Could not find tile 18225. Make sure the tilesets were successfully imported.
-  - Could not find tile 17957. Make sure the tilesets were successfully imported.
-  - Could not find tile 17958. Make sure the tilesets were successfully imported.
-  - Could not find tile 17959. Make sure the tilesets were successfully imported.
-  - Could not find tile 18001. Make sure the tilesets were successfully imported.
-  - Could not find tile 18002. Make sure the tilesets were successfully imported.
-  - Could not find tile 18003. Make sure the tilesets were successfully imported.
-  - Could not find tile 18136. Make sure the tilesets were successfully imported.
-  - Could not find tile 18050. Make sure the tilesets were successfully imported.
-  - Could not find tile 18051. Make sure the tilesets were successfully imported.
-  - Could not find tile 18094. Make sure the tilesets were successfully imported.
-  - Could not find tile 18095. Make sure the tilesets were successfully imported.
-  - Could not find tile 18268. Make sure the tilesets were successfully imported.
-  - Could not find tile 18048. Make sure the tilesets were successfully imported.
-  - Could not find tile 18049. Make sure the tilesets were successfully imported.
-  - Could not find tile 18092. Make sure the tilesets were successfully imported.
-  - Could not find tile 18093. Make sure the tilesets were successfully imported.
-  - Could not find tile 18269. Make sure the tilesets were successfully imported.
+  - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Class
+    Sprites/Monk/Spell Abilities/Monk-Punch-Visual-Hitbox.png'
+  - 'Missing texture asset: ../../Game Design/Tile Assets/Dystopian Assets/Class
+    Sprites/Sorcerer/Character Colors/Purple/Sorcerer-Run-All-Directions.png'
+  - Could not find tile 17853. Make sure the tilesets were successfully imported.
+  - Could not find tile 17854. Make sure the tilesets were successfully imported.
+  - Could not find tile 17855. Make sure the tilesets were successfully imported.
+  - Could not find tile 17897. Make sure the tilesets were successfully imported.
+  - Could not find tile 17898. Make sure the tilesets were successfully imported.
+  - Could not find tile 17899. Make sure the tilesets were successfully imported.
+  - Could not find tile 17771. Make sure the tilesets were successfully imported.
+  - Could not find tile 17772. Make sure the tilesets were successfully imported.
+  - Could not find tile 17773. Make sure the tilesets were successfully imported.
+  - Could not find tile 17815. Make sure the tilesets were successfully imported.
+  - Could not find tile 17816. Make sure the tilesets were successfully imported.
+  - Could not find tile 17817. Make sure the tilesets were successfully imported.
+  - Could not find tile 17765. Make sure the tilesets were successfully imported.
+  - Could not find tile 17766. Make sure the tilesets were successfully imported.
+  - Could not find tile 17767. Make sure the tilesets were successfully imported.
+  - Could not find tile 17809. Make sure the tilesets were successfully imported.
+  - Could not find tile 17810. Make sure the tilesets were successfully imported.
+  - Could not find tile 17811. Make sure the tilesets were successfully imported.
+  - Could not find tile 17858. Make sure the tilesets were successfully imported.
+  - Could not find tile 17859. Make sure the tilesets were successfully imported.
+  - Could not find tile 17902. Make sure the tilesets were successfully imported.
+  - Could not find tile 17903. Make sure the tilesets were successfully imported.
+  - Could not find tile 17856. Make sure the tilesets were successfully imported.
+  - Could not find tile 17857. Make sure the tilesets were successfully imported.
+  - Could not find tile 17900. Make sure the tilesets were successfully imported.
+  - Could not find tile 17901. Make sure the tilesets were successfully imported.
+  - Could not find tile 12301. Make sure the tilesets were successfully imported.
+  - Could not find tile 16241. Make sure the tilesets were successfully imported.
+  - Could not find tile 20160. Make sure the tilesets were successfully imported.
+  - Could not find tile 20162. Make sure the tilesets were successfully imported.
+  - Could not find tile 20159. Make sure the tilesets were successfully imported.
+  - Could not find tile 20161. Make sure the tilesets were successfully imported.
+  - Could not find tile 11981. Make sure the tilesets were successfully imported.
+  - Could not find tile 11982. Make sure the tilesets were successfully imported.
+  - Could not find tile 12269. Make sure the tilesets were successfully imported.
+  - Could not find tile 12270. Make sure the tilesets were successfully imported.
+  - Could not find tile 11997. Make sure the tilesets were successfully imported.
+  - Could not find tile 11998. Make sure the tilesets were successfully imported.
+  - Could not find tile 12285. Make sure the tilesets were successfully imported.
+  - Could not find tile 12286. Make sure the tilesets were successfully imported.
+  - Could not find tile 15517. Make sure the tilesets were successfully imported.
+  - Could not find tile 15518. Make sure the tilesets were successfully imported.
+  - Could not find tile 15531. Make sure the tilesets were successfully imported.
+  - Could not find tile 15532. Make sure the tilesets were successfully imported.
+  - Could not find tile 12045. Make sure the tilesets were successfully imported.
+  - Could not find tile 12046. Make sure the tilesets were successfully imported.
+  - Could not find tile 12334. Make sure the tilesets were successfully imported.
+  - Could not find tile 12335. Make sure the tilesets were successfully imported.
+  - Could not find tile 12061. Make sure the tilesets were successfully imported.
+  - Could not find tile 12062. Make sure the tilesets were successfully imported.
+  - Could not find tile 12348. Make sure the tilesets were successfully imported.
+  - Could not find tile 12349. Make sure the tilesets were successfully imported.
+  - Could not find tile 20215. Make sure the tilesets were successfully imported.
+  - Could not find tile 20216. Make sure the tilesets were successfully imported.
+  - Could not find tile 20231. Make sure the tilesets were successfully imported.
+  - Could not find tile 20232. Make sure the tilesets were successfully imported.
+  - Could not find tile 15545. Make sure the tilesets were successfully imported.
+  - Could not find tile 15546. Make sure the tilesets were successfully imported.
+  - Could not find tile 15559. Make sure the tilesets were successfully imported.
+  - Could not find tile 15560. Make sure the tilesets were successfully imported.
+  - Could not find tile 15809. Make sure the tilesets were successfully imported.
+  - Could not find tile 15810. Make sure the tilesets were successfully imported.
+  - Could not find tile 15825. Make sure the tilesets were successfully imported.
+  - Could not find tile 15826. Make sure the tilesets were successfully imported.
+  - Could not find tile 15489. Make sure the tilesets were successfully imported.
+  - Could not find tile 15490. Make sure the tilesets were successfully imported.
+  - Could not find tile 15503. Make sure the tilesets were successfully imported.
+  - Could not find tile 15504. Make sure the tilesets were successfully imported.
   warnings:
   - Tileset 'Sorcerer-Idle-All-Directions' is an embedded tileset. Exported tilesets
     are preferred.
@@ -76,12 +119,17 @@ ScriptedImporter:
   - Tileset 'Chi Orb Shadow' is an embedded tileset. Exported tilesets are preferred.
   - Tileset 'new_front-Sheet' is an embedded tileset. Exported tilesets are preferred.
   - Tileset 'front-Sheet-spell' is an embedded tileset. Exported tilesets are preferred.
-  - Tileset 'Boxes-Foilage4' is an embedded tileset. Exported tilesets are preferred.
   - Tileset 'Monk-Punch-All-Directions' is an embedded tileset. Exported tilesets
     are preferred.
   - Tileset 'Sorcerer-Run-All-Directions' is an embedded tileset. Exported tilesets
     are preferred.
   - Tileset 'Hover-Animation(4 frames)' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'water tiles to use around wall 2' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Monk-Punch-Visual-Hitbox' is an embedded tileset. Exported tilesets
+    are preferred.
+  - Tileset 'Sorcerer-Run-All-Directions' is an embedded tileset. Exported tilesets
     are preferred.
   missingSortingLayers: []
   missingLayers: []
@@ -89,12 +137,14 @@ ScriptedImporter:
   importerVersion: 26
   pixelsPerUnit: 100
   edgesPerEllipse: 32
-  numberOfObjectsImported: 11
+  numberOfObjectsImported: 414
   tilesAsObjects: 0
   sortingMode: 0
   isIsometric: 0
   customImporterClassName: 
   internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
   - {instanceID: 0}
   - {instanceID: 0}
   - {instanceID: 0}

@@ -1,0 +1,2067 @@
+fileFormatVersion: 2
+guid: fb69dd522dd576a4cb841a580d648bd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6098029738628821750
+    second: Boxes-Foilage4_0
+  - first:
+      213: 5562309105647521695
+    second: Boxes-Foilage4_1
+  - first:
+      213: -6602754378165584445
+    second: Boxes-Foilage4_2
+  - first:
+      213: -7469666799338862256
+    second: Boxes-Foilage4_3
+  - first:
+      213: -7116134427969813752
+    second: Boxes-Foilage4_4
+  - first:
+      213: -5902260683983315458
+    second: Boxes-Foilage4_5
+  - first:
+      213: 636089371291426481
+    second: Boxes-Foilage4_6
+  - first:
+      213: 1245359072473499946
+    second: Boxes-Foilage4_7
+  - first:
+      213: -3003326275098378379
+    second: Boxes-Foilage4_8
+  - first:
+      213: 238605978386398479
+    second: Boxes-Foilage4_9
+  - first:
+      213: -3229384800253708959
+    second: Boxes-Foilage4_10
+  - first:
+      213: -462032900507568819
+    second: Boxes-Foilage4_11
+  - first:
+      213: -8652301838176004203
+    second: Boxes-Foilage4_12
+  - first:
+      213: 1627189343255780976
+    second: Boxes-Foilage4_13
+  - first:
+      213: -123426683719050976
+    second: Boxes-Foilage4_14
+  - first:
+      213: -4674738731916728099
+    second: Boxes-Foilage4_15
+  - first:
+      213: -2946350564314702284
+    second: Boxes-Foilage4_16
+  - first:
+      213: 1674964482040216944
+    second: Boxes-Foilage4_17
+  - first:
+      213: -5405603567754649699
+    second: Boxes-Foilage4_18
+  - first:
+      213: 4339288948596924141
+    second: Boxes-Foilage4_19
+  - first:
+      213: 8168193793372324322
+    second: Boxes-Foilage4_20
+  - first:
+      213: -7595362655440402243
+    second: Boxes-Foilage4_21
+  - first:
+      213: -8593272966223628900
+    second: Boxes-Foilage4_22
+  - first:
+      213: 2678677967034017490
+    second: Boxes-Foilage4_23
+  - first:
+      213: -7821578334342488658
+    second: Boxes-Foilage4_24
+  - first:
+      213: -3609149384763863970
+    second: Boxes-Foilage4_25
+  - first:
+      213: -5539025606462385795
+    second: Boxes-Foilage4_26
+  - first:
+      213: 3101835505642448625
+    second: Boxes-Foilage4_27
+  - first:
+      213: -7690195336174779912
+    second: Boxes-Foilage4_28
+  - first:
+      213: 7562922838099847081
+    second: Boxes-Foilage4_29
+  - first:
+      213: 9140783497336014251
+    second: Boxes-Foilage4_30
+  - first:
+      213: 4689966164172374458
+    second: Boxes-Foilage4_31
+  - first:
+      213: -9086142072716546654
+    second: Boxes-Foilage4_32
+  - first:
+      213: -8239215430749458994
+    second: Boxes-Foilage4_33
+  - first:
+      213: 2217829317127496043
+    second: Boxes-Foilage4_34
+  - first:
+      213: 3878142872696221121
+    second: Boxes-Foilage4_35
+  - first:
+      213: 2868818612202277821
+    second: Boxes-Foilage4_36
+  - first:
+      213: 1426249579013821515
+    second: Boxes-Foilage4_37
+  - first:
+      213: 4649144903085794535
+    second: Boxes-Foilage4_38
+  - first:
+      213: 9088498025638047174
+    second: Boxes-Foilage4_39
+  - first:
+      213: 7052542851430305346
+    second: Boxes-Foilage4_40
+  - first:
+      213: 6530070148400028460
+    second: Boxes-Foilage4_41
+  - first:
+      213: -9054156950539013897
+    second: Boxes-Foilage4_42
+  - first:
+      213: 4414026279888780023
+    second: Boxes-Foilage4_43
+  - first:
+      213: 3648162245047112836
+    second: Boxes-Foilage4_44
+  - first:
+      213: -6664764287901771671
+    second: Boxes-Foilage4_45
+  - first:
+      213: 4672368288426965382
+    second: Boxes-Foilage4_46
+  - first:
+      213: 6344130815915572016
+    second: Boxes-Foilage4_47
+  - first:
+      213: -6653861861267107277
+    second: Boxes-Foilage4_48
+  - first:
+      213: -2344417951937784613
+    second: Boxes-Foilage4_49
+  - first:
+      213: -1119527210675911077
+    second: Boxes-Foilage4_50
+  - first:
+      213: 7250365457101604356
+    second: Boxes-Foilage4_51
+  - first:
+      213: -501329491777063574
+    second: Boxes-Foilage4_52
+  - first:
+      213: -2377766733032766270
+    second: Boxes-Foilage4_53
+  - first:
+      213: 4747166495300050823
+    second: Boxes-Foilage4_54
+  - first:
+      213: -436839396925923394
+    second: Boxes-Foilage4_55
+  - first:
+      213: 5242289839679669767
+    second: Boxes-Foilage4_56
+  - first:
+      213: 6844814298881467025
+    second: Boxes-Foilage4_57
+  - first:
+      213: 8988755629581127779
+    second: Boxes-Foilage4_58
+  - first:
+      213: 829961449180807724
+    second: Boxes-Foilage4_59
+  - first:
+      213: -1521268322747814685
+    second: Boxes-Foilage4_60
+  - first:
+      213: -6066257635882358371
+    second: Boxes-Foilage4_61
+  - first:
+      213: 40911966778580660
+    second: Boxes-Foilage4_62
+  - first:
+      213: 2156143994024252986
+    second: Boxes-Foilage4_63
+  - first:
+      213: 7787395831427392572
+    second: Boxes-Foilage4_64
+  - first:
+      213: -9070437919725193134
+    second: Boxes-Foilage4_65
+  - first:
+      213: 5408737882243134120
+    second: Boxes-Foilage4_66
+  - first:
+      213: -467230992311065088
+    second: Boxes-Foilage4_67
+  - first:
+      213: -1533843194523505459
+    second: Boxes-Foilage4_68
+  - first:
+      213: 6183565371461682673
+    second: Boxes-Foilage4_69
+  - first:
+      213: 4529746671862025159
+    second: Boxes-Foilage4_70
+  - first:
+      213: 657586031670747368
+    second: Boxes-Foilage4_71
+  - first:
+      213: -8857147834170473697
+    second: Boxes-Foilage4_72
+  - first:
+      213: -1969359309062208342
+    second: Boxes-Foilage4_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boxes-Foilage4_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 351
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0dc24fe2427f5ba0800000000000000
+      internalID: -6098029738628821750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 351
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f8a0549aa413d40800000000000000
+      internalID: 5562309105647521695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 351
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdf84e30ed4e54a0800000000000000
+      internalID: -6602754378165584445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 351
+        width: 65
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059c0ea3f99665890800000000000000
+      internalID: -7469666799338862256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 351
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8038eeec0796e3d90800000000000000
+      internalID: -7116134427969813752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 351
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd9b6fed25f61ea0800000000000000
+      internalID: -5902260683983315458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 351
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be1a3db9e7d3d800800000000000000
+      internalID: 636089371291426481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 351
+        width: 65
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29c79c6a77684110800000000000000
+      internalID: 1245359072473499946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_8
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 351
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ff9244aaa0256d0800000000000000
+      internalID: -3003326275098378379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 289
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d71078fd2bf4300800000000000000
+      internalID: 238605978386398479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 289
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165f4d952abee23d0800000000000000
+      internalID: -3229384800253708959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 289
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45f3b266878699f0800000000000000
+      internalID: -462032900507568819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 290
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5975f0ee159dce780800000000000000
+      internalID: -8652301838176004203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 290
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07edf032610f49610800000000000000
+      internalID: 1627189343255780976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_14
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 287
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0291f19c510894ef0800000000000000
+      internalID: -123426683719050976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 287
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8e75224edff1fb0800000000000000
+      internalID: -4674738731916728099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_16
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 287
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e104ea5c57c17d0800000000000000
+      internalID: -2946350564314702284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 287
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d3763725bae3710800000000000000
+      internalID: 1674964482040216944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_18
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 287
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f566bf1307bf4b0800000000000000
+      internalID: -5405603567754649699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_19
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 328
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deed5e6ee40483c30800000000000000
+      internalID: 4339288948596924141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_20
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 329
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e102866af04b5170800000000000000
+      internalID: 8168193793372324322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_21
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 309
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8053628e9d79690800000000000000
+      internalID: -7595362655440402243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_22
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 315
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95f54e24cf8eb880800000000000000
+      internalID: -8593272966223628900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_23
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 316
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d66ab43b639c2520800000000000000
+      internalID: 2678677967034017490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_24
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 312
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaddf9602fb247390800000000000000
+      internalID: -7821578334342488658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_25
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 296
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c84d3b1c9b9edc0800000000000000
+      internalID: -3609149384763863970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_26
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 296
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d715405de8d6123b0800000000000000
+      internalID: -5539025606462385795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 296
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6238945feeb0b20800000000000000
+      internalID: 3101835505642448625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 225
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1cfed0610f64590800000000000000
+      internalID: -7690195336174779912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 225
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a761ac4046e4f860800000000000000
+      internalID: 7562922838099847081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 225
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5477f29269ade70800000000000000
+      internalID: 9140783497336014251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 225
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab18818b06b161140800000000000000
+      internalID: 4689966164172374458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 225
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adaff0ece987e180800000000000000
+      internalID: -9086142072716546654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 225
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecde24e083d68ad80800000000000000
+      internalID: -8239215430749458994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_34
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 223
+        width: 194
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61e4db630057ce10800000000000000
+      internalID: 2217829317127496043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_35
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 261
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd654b356ee1d530800000000000000
+      internalID: 3878142872696221121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_36
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 260
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb8851045710d720800000000000000
+      internalID: 2868818612202277821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_37
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 244
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b445b2e7f6e0bc310800000000000000
+      internalID: 1426249579013821515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_38
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 248
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e42fb938a4158040800000000000000
+      internalID: 4649144903085794535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_39
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 247
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdaef72dc4d02e70800000000000000
+      internalID: 9088498025638047174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_40
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 241
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e49be7b5aafd160800000000000000
+      internalID: 7052542851430305346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_41
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 228
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b14c1c3387f9a50800000000000000
+      internalID: 6530070148400028460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_42
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 228
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0fc76793c295280800000000000000
+      internalID: -9054156950539013897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 228
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa720ad385c14d30800000000000000
+      internalID: 4414026279888780023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 161
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484560bab30e0a230800000000000000
+      internalID: 3648162245047112836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968d7eb01300283a0800000000000000
+      internalID: -6664764287901771671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 161
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6893d7bf33697d040800000000000000
+      internalID: 4672368288426965382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 161
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bb14b4d51ea0850800000000000000
+      internalID: 6344130815915572016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 161
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33297ae04ebb8a3a0800000000000000
+      internalID: -6653861861267107277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 161
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd413b14b44f67fd0800000000000000
+      internalID: -2344417951937784613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_50
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 159
+        width: 194
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b564743fee3a670f0800000000000000
+      internalID: -1119527210675911077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_51
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 190
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406cd4a18f87e9460800000000000000
+      internalID: 7250365457101604356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_52
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 181
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65733fbb7bea09f0800000000000000
+      internalID: -501329491777063574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_53
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 181
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c447d611c9700fd0800000000000000
+      internalID: -2377766733032766270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_54
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 173
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fdef1a6c251e140800000000000000
+      internalID: 4747166495300050823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_55
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 168
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf955a02e800f9f0800000000000000
+      internalID: -436839396925923394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_56
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 168
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7060fb795da50c840800000000000000
+      internalID: 5242289839679669767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_57
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 170
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1922856e65aadfe50800000000000000
+      internalID: 6844814298881467025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_58
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 162
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360d9f1ee997ebc70800000000000000
+      internalID: 8988755629581127779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_59
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 161
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22c0bb6a8d948b00800000000000000
+      internalID: 829961449180807724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_60
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 97
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecef8e358e53eae0800000000000000
+      internalID: -1521268322747814685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 97
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d992b3112d250dba0800000000000000
+      internalID: -6066257635882358371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 97
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be56ee8739519000800000000000000
+      internalID: 40911966778580660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 97
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a365860f9892ced10800000000000000
+      internalID: 2156143994024252986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 97
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c346691df33621c60800000000000000
+      internalID: 7787395831427392572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 97
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258fb8de4c45f1280800000000000000
+      internalID: -9070437919725193134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_66
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 95
+        width: 194
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2fc4a7272bf0b40800000000000000
+      internalID: 5408737882243134120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006ee3353ef0489f0800000000000000
+      internalID: -467230992311065088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 33
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcca641cdb1b6bae0800000000000000
+      internalID: -1533843194523505459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_69
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 33
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5416381ff60d550800000000000000
+      internalID: 6183565371461682673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 33
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb08d23994ecde30800000000000000
+      internalID: 4529746671862025159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 33
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e06ef20307302900800000000000000
+      internalID: 657586031670747368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 33
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f130625d8f6151580800000000000000
+      internalID: -8857147834170473697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes-Foilage4_73
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 31
+        width: 194
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa40d3c742e6ba4e0800000000000000
+      internalID: -1969359309062208342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boxes-Foilage4_0: -6098029738628821750
+      Boxes-Foilage4_1: 5562309105647521695
+      Boxes-Foilage4_10: -3229384800253708959
+      Boxes-Foilage4_11: -462032900507568819
+      Boxes-Foilage4_12: -8652301838176004203
+      Boxes-Foilage4_13: 1627189343255780976
+      Boxes-Foilage4_14: -123426683719050976
+      Boxes-Foilage4_15: -4674738731916728099
+      Boxes-Foilage4_16: -2946350564314702284
+      Boxes-Foilage4_17: 1674964482040216944
+      Boxes-Foilage4_18: -5405603567754649699
+      Boxes-Foilage4_19: 4339288948596924141
+      Boxes-Foilage4_2: -6602754378165584445
+      Boxes-Foilage4_20: 8168193793372324322
+      Boxes-Foilage4_21: -7595362655440402243
+      Boxes-Foilage4_22: -8593272966223628900
+      Boxes-Foilage4_23: 2678677967034017490
+      Boxes-Foilage4_24: -7821578334342488658
+      Boxes-Foilage4_25: -3609149384763863970
+      Boxes-Foilage4_26: -5539025606462385795
+      Boxes-Foilage4_27: 3101835505642448625
+      Boxes-Foilage4_28: -7690195336174779912
+      Boxes-Foilage4_29: 7562922838099847081
+      Boxes-Foilage4_3: -7469666799338862256
+      Boxes-Foilage4_30: 9140783497336014251
+      Boxes-Foilage4_31: 4689966164172374458
+      Boxes-Foilage4_32: -9086142072716546654
+      Boxes-Foilage4_33: -8239215430749458994
+      Boxes-Foilage4_34: 2217829317127496043
+      Boxes-Foilage4_35: 3878142872696221121
+      Boxes-Foilage4_36: 2868818612202277821
+      Boxes-Foilage4_37: 1426249579013821515
+      Boxes-Foilage4_38: 4649144903085794535
+      Boxes-Foilage4_39: 9088498025638047174
+      Boxes-Foilage4_4: -7116134427969813752
+      Boxes-Foilage4_40: 7052542851430305346
+      Boxes-Foilage4_41: 6530070148400028460
+      Boxes-Foilage4_42: -9054156950539013897
+      Boxes-Foilage4_43: 4414026279888780023
+      Boxes-Foilage4_44: 3648162245047112836
+      Boxes-Foilage4_45: -6664764287901771671
+      Boxes-Foilage4_46: 4672368288426965382
+      Boxes-Foilage4_47: 6344130815915572016
+      Boxes-Foilage4_48: -6653861861267107277
+      Boxes-Foilage4_49: -2344417951937784613
+      Boxes-Foilage4_5: -5902260683983315458
+      Boxes-Foilage4_50: -1119527210675911077
+      Boxes-Foilage4_51: 7250365457101604356
+      Boxes-Foilage4_52: -501329491777063574
+      Boxes-Foilage4_53: -2377766733032766270
+      Boxes-Foilage4_54: 4747166495300050823
+      Boxes-Foilage4_55: -436839396925923394
+      Boxes-Foilage4_56: 5242289839679669767
+      Boxes-Foilage4_57: 6844814298881467025
+      Boxes-Foilage4_58: 8988755629581127779
+      Boxes-Foilage4_59: 829961449180807724
+      Boxes-Foilage4_6: 636089371291426481
+      Boxes-Foilage4_60: -1521268322747814685
+      Boxes-Foilage4_61: -6066257635882358371
+      Boxes-Foilage4_62: 40911966778580660
+      Boxes-Foilage4_63: 2156143994024252986
+      Boxes-Foilage4_64: 7787395831427392572
+      Boxes-Foilage4_65: -9070437919725193134
+      Boxes-Foilage4_66: 5408737882243134120
+      Boxes-Foilage4_67: -467230992311065088
+      Boxes-Foilage4_68: -1533843194523505459
+      Boxes-Foilage4_69: 6183565371461682673
+      Boxes-Foilage4_7: 1245359072473499946
+      Boxes-Foilage4_70: 4529746671862025159
+      Boxes-Foilage4_71: 657586031670747368
+      Boxes-Foilage4_72: -8857147834170473697
+      Boxes-Foilage4_73: -1969359309062208342
+      Boxes-Foilage4_8: -3003326275098378379
+      Boxes-Foilage4_9: 238605978386398479
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2335,7 +2335,95 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tileset-Terrain-new grass(fall)_0: -1879807585813857360
+      Tileset-Terrain-new grass(fall)_1: -8569045095895914153
+      Tileset-Terrain-new grass(fall)_10: 7454698416411269417
+      Tileset-Terrain-new grass(fall)_11: -6262675738941301322
+      Tileset-Terrain-new grass(fall)_12: -2013703645713940517
+      Tileset-Terrain-new grass(fall)_13: 7873028587767746539
+      Tileset-Terrain-new grass(fall)_14: 5700326174137705903
+      Tileset-Terrain-new grass(fall)_15: -3726444571103574945
+      Tileset-Terrain-new grass(fall)_16: 7553179346631173739
+      Tileset-Terrain-new grass(fall)_17: 8198961993388626673
+      Tileset-Terrain-new grass(fall)_18: -5043617588042590406
+      Tileset-Terrain-new grass(fall)_19: 1027290146608851421
+      Tileset-Terrain-new grass(fall)_2: -3850949375641205981
+      Tileset-Terrain-new grass(fall)_20: -2842659359943192146
+      Tileset-Terrain-new grass(fall)_21: -6884338564439098277
+      Tileset-Terrain-new grass(fall)_22: -7060813871314987130
+      Tileset-Terrain-new grass(fall)_23: 8937003374192662437
+      Tileset-Terrain-new grass(fall)_24: -5804942164484930694
+      Tileset-Terrain-new grass(fall)_25: -863588053637296729
+      Tileset-Terrain-new grass(fall)_26: -3407606898072992324
+      Tileset-Terrain-new grass(fall)_27: -5594069077609052537
+      Tileset-Terrain-new grass(fall)_28: 6136396458996559768
+      Tileset-Terrain-new grass(fall)_29: -3175306168816826823
+      Tileset-Terrain-new grass(fall)_3: 1253937833548996007
+      Tileset-Terrain-new grass(fall)_30: 2902686823082566367
+      Tileset-Terrain-new grass(fall)_31: 408559631374636432
+      Tileset-Terrain-new grass(fall)_32: -8718361986242845866
+      Tileset-Terrain-new grass(fall)_33: -1161523555101817425
+      Tileset-Terrain-new grass(fall)_34: 2754812060880298713
+      Tileset-Terrain-new grass(fall)_35: -4708580778992857326
+      Tileset-Terrain-new grass(fall)_36: -8643456137365721670
+      Tileset-Terrain-new grass(fall)_37: -9192264160366645637
+      Tileset-Terrain-new grass(fall)_38: 3722511262210200921
+      Tileset-Terrain-new grass(fall)_39: -7856696407954179690
+      Tileset-Terrain-new grass(fall)_4: -1568090426155870526
+      Tileset-Terrain-new grass(fall)_40: -4738252880604387582
+      Tileset-Terrain-new grass(fall)_41: 5944067007881581246
+      Tileset-Terrain-new grass(fall)_42: -2443903578091962722
+      Tileset-Terrain-new grass(fall)_43: -8026288674972625931
+      Tileset-Terrain-new grass(fall)_44: -83486917305504506
+      Tileset-Terrain-new grass(fall)_45: 6458418518997985843
+      Tileset-Terrain-new grass(fall)_46: -7326522896288584266
+      Tileset-Terrain-new grass(fall)_47: 735688112443657407
+      Tileset-Terrain-new grass(fall)_48: -5820231891460643310
+      Tileset-Terrain-new grass(fall)_49: 1004973054444544824
+      Tileset-Terrain-new grass(fall)_5: 3453665492269096838
+      Tileset-Terrain-new grass(fall)_50: 3883746317249935767
+      Tileset-Terrain-new grass(fall)_51: 1785837651283270459
+      Tileset-Terrain-new grass(fall)_52: -6977143022695520553
+      Tileset-Terrain-new grass(fall)_53: -4362018258491011275
+      Tileset-Terrain-new grass(fall)_54: 3484507117016262816
+      Tileset-Terrain-new grass(fall)_55: -7067180945861920817
+      Tileset-Terrain-new grass(fall)_56: -4120575207020079465
+      Tileset-Terrain-new grass(fall)_57: -2422792277502886696
+      Tileset-Terrain-new grass(fall)_58: -563429764190026510
+      Tileset-Terrain-new grass(fall)_59: -2950617098149986664
+      Tileset-Terrain-new grass(fall)_6: -8815756732754622644
+      Tileset-Terrain-new grass(fall)_60: 7506646122693207382
+      Tileset-Terrain-new grass(fall)_61: -2300262987430960716
+      Tileset-Terrain-new grass(fall)_62: 790748776016124484
+      Tileset-Terrain-new grass(fall)_63: -7328999371614870071
+      Tileset-Terrain-new grass(fall)_64: 5314425892944517069
+      Tileset-Terrain-new grass(fall)_65: 864706248532851763
+      Tileset-Terrain-new grass(fall)_66: -613682226481501725
+      Tileset-Terrain-new grass(fall)_67: -5423990768976274355
+      Tileset-Terrain-new grass(fall)_68: 2522324941899369039
+      Tileset-Terrain-new grass(fall)_69: -8772372771927674208
+      Tileset-Terrain-new grass(fall)_7: -6385666030051099063
+      Tileset-Terrain-new grass(fall)_70: 6604834127802296845
+      Tileset-Terrain-new grass(fall)_71: 209705042755394554
+      Tileset-Terrain-new grass(fall)_72: 3424012819961498587
+      Tileset-Terrain-new grass(fall)_73: -5934287564504059582
+      Tileset-Terrain-new grass(fall)_74: 2615071221554857227
+      Tileset-Terrain-new grass(fall)_75: 4596376210027419537
+      Tileset-Terrain-new grass(fall)_76: 1945088504414762850
+      Tileset-Terrain-new grass(fall)_77: -3000631368355696869
+      Tileset-Terrain-new grass(fall)_78: 197955240274323248
+      Tileset-Terrain-new grass(fall)_79: -374233421958246847
+      Tileset-Terrain-new grass(fall)_8: -5173295833706823851
+      Tileset-Terrain-new grass(fall)_80: 4975053761059576363
+      Tileset-Terrain-new grass(fall)_81: -2893449011477948474
+      Tileset-Terrain-new grass(fall)_82: 9145383883253240394
+      Tileset-Terrain-new grass(fall)_83: 2695281072994893494
+      Tileset-Terrain-new grass(fall)_84: 7292278461606762644
+      Tileset-Terrain-new grass(fall)_85: -8925107575353655225
+      Tileset-Terrain-new grass(fall)_86: -6425575344095030895
+      Tileset-Terrain-new grass(fall)_87: -3496331274378505499
+      Tileset-Terrain-new grass(fall)_9: -3992284747249865464
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
