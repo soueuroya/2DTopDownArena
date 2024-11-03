@@ -176,10 +176,10 @@ public class Projectile : MonoBehaviour
             }
             Destroy(gameObject);
         }
-        //else if (collision.CompareTag("Object"))
-        //{
-        //    Destroy(gameObject);
-        //}
+        else if (collision.CompareTag("Object"))
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)

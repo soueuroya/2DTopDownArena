@@ -7,6 +7,7 @@ TagManager:
   - AreaOfEffect
   - Abyss
   - Projectile
+  - Object
   layers:
   - Default
   - TransparentFX

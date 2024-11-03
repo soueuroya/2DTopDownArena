@@ -19,7 +19,7 @@ MonoBehaviour:
   jumpGeneralCooldown: 0
   dashSpeed: 40
   dashDuration: 0.2
-  dashCooldown: 12
+  dashCooldown: 1
   coyoteTime: 1.5
   anim: {fileID: 22100000, guid: 79250443ee79545409163d68dc7b63f3, type: 2}
   attack1: {fileID: 11400000, guid: 862043eb7231428479012799c1fd3399, type: 2}
@@ -27,4 +27,5 @@ MonoBehaviour:
   attack3: {fileID: 11400000, guid: 9feef578cff539e4d9695324c4ca34f3, type: 2}
   shield: {fileID: 11400000, guid: 8e4067f159311694da11727b0263eb59, type: 2}
   dashIcon: {fileID: -8005296566590839328, guid: c5df493fd86a77749bbfbb5fbf789d48, type: 3}
+  dashIconCooldown: {fileID: 9073345468727366240, guid: 3c228cc11dadb684b8db0cccbbb24ae1, type: 3}
   dashAudio: {fileID: 8300000, guid: 6f548232706589c4292e91c0c2ede5e6, type: 3}

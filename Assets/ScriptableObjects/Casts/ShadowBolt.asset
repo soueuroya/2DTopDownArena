@@ -16,9 +16,11 @@ MonoBehaviour:
   position: 1
   prefab: {fileID: 9031799967256116833, guid: e8ef73c2d1b746d42a927162cb9478d8, type: 3}
   sprite: {fileID: -1312184173316791102, guid: 371d61117f8567e4c8bb2afdf0634cb1, type: 3}
+  spriteCooldown: {fileID: 3782589890683152038, guid: 9095b93e0519ff34e837bb9c5e3023cb, type: 3}
   attackRate: 0
   length: 0
   cooldown: 0.9
-  generalCooldown: 0.4
-  castingCooldown: 0.4
+  generalCooldown: 0.9
+  castingCooldown: 0.3
+  shouldStop: 0
   shouldSlow: 1

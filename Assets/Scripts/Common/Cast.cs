@@ -8,10 +8,12 @@ public class Cast : ScriptableObject
     public Positions position = Positions.Center;
     public GameObject prefab;
     public Sprite sprite;
+    public Sprite spriteCooldown;
     public float attackRate;
     public float length;
     public float cooldown;
     public float generalCooldown;
     public float castingCooldown;
+    public bool shouldStop;
     public bool shouldSlow;
 }

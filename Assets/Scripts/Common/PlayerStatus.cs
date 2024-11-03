@@ -21,6 +21,7 @@ public class PlayerStatus : ScriptableObject
     public Cast shield;
 
     public Sprite dashIcon;
+    public Sprite dashIconCooldown;
 
     public AudioClip dashAudio;
 }

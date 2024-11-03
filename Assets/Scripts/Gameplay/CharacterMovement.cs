@@ -15,16 +15,17 @@ public class CharacterMovement : MonoBehaviour
     private float directionRange = 0.3f;
     private float deadZone = 0.05f;
     private float maxDistance = 1f;
+    private float currentSpeed;
     private bool readingWASD;
-    [SerializeField]private Rigidbody2D rb;
-    [SerializeField]private Animator animator;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Animator animator;
     [SerializeField] private AudioSource audioSource;
-    [SerializeField]private Transform directional;
+    [SerializeField] private Transform directional;
     [SerializeField] private Transform spawnerAxis;
     [SerializeField] private Transform spawner;
     [SerializeField] private Transform meleeSpawner;
     [SerializeField] private Transform shieldSpawner;
-    [SerializeField] private Transform shadow;
+    [SerializeField] private Animator shadow;
     [SerializeField] private GameObject target;
     [SerializeField] private GameObject hover;
 
@@ -40,7 +41,7 @@ public class CharacterMovement : MonoBehaviour
 
     private CharacterMovement targetedPlayer;
 
-    private bool directionUpdated = false;
+    //private bool directionUpdated = false;
     private bool isSlow = false;
     private bool isDead = false;
     private bool isFalling = false;
@@ -120,7 +121,7 @@ public class CharacterMovement : MonoBehaviour
         aim.x = Input.GetAxis("Horizontal_Aim");
         aim.y = Input.GetAxis("Vertical_Aim");
 
-        directionUpdated = false;
+        //directionUpdated = false;
 
         // Detect Mouse vs Directional
         if (prevMousePosition != mousePosition || Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
@@ -130,25 +131,16 @@ public class CharacterMovement : MonoBehaviour
         prevMousePosition = mousePosition;
 
         // Calculate movement speed
-        float currentSpeed = movement.magnitude;
-
-        // Normalize the movement vector if the player is moving diagonally
-        movement.Normalize();
+        currentSpeed = movement.magnitude;
 
         // Normalize the look direction for comparison
-        lookDir.Normalize();
+        //lookDir.Normalize();
 
         // Reset all direction WASD booleans
         ResetDirectionWASDBools();                                          // IsLookingRight_K = false;
 
         // Reset all directions with cursor
         ResetDirectionCursorBools();                                        // IsLookingRight_C = false;
-
-        // Reads the direction of the cursor
-        ReadDirectionWithCursor(lookDir);                                   // if (lookDir.x > deadZone && Mathf.Abs(lookDir.y) < deadZone)  { IsLookingRight_C = true; }
-
-        // Reads the direction from WASD
-        ReadDirectionWithWASD();
 
         // Reads cast inputs
         HandleAttacks();
@@ -168,17 +160,70 @@ public class CharacterMovement : MonoBehaviour
         // Handles the time of cooldowns
         HandleCooldowns();
     }
+    void FixedUpdate()
+    {
+        if (!localPlayer)
+        {
+            return;
+        }
+
+        if (Cursor.visible)
+        {
+            Vector3 mousePos = Input.mousePosition;
+            mousePos.z += 10;
+            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(mousePos);
+            lookDir = mousePosition - directional.position;
+        }
+
+        // Move the character
+        if (CanWalk())
+        {
+            if (isInPlace)
+            {
+                movement = Vector2.zero;
+            }
+            else if (isSlow)
+            {
+                movement *= 0.5f;
+            }
+
+            // Scale movement if moving diagonally without normalizing
+            if (movement.x != 0 && movement.y != 0)
+            {
+                movement *= Mathf.Sqrt(0.5f); // Scale down by sqrt(0.5) for diagonal movement
+            }
+
+            // Apply movement and snap to pixel grid
+            Vector2 newPosition = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
+            newPosition.x = Mathf.Round(newPosition.x * 100) / 100f; // Snap to pixel grid
+            newPosition.y = Mathf.Round(newPosition.y * 100) / 100f;
+
+            rb.MovePosition(newPosition);
+
+            // Update the Animator with the current speed
+            animator.SetFloat("Speed", movement.magnitude);
+        }
+
+        // Handle targeting close players
+        HandlePlayerClose();
+    }
 
     private void HandleMovement(float currentSpeed)
     {
         if (currentSpeed != 0.0f && !isAttacking /* && attack1Cooldown <= 0*/ /*&& attack2Cooldown <= 0*/ /*&& dashingCooldown <= 0*/ /*&& generalCooldown <= 0*/ /*&& !isInPlace*/ && castingCooldown <= 0)
         {
+            // Reads the direction from WASD
+            ReadDirectionWithWASD();
+
             // Updates animator with cursor direction
             UpdateDirectionWithWASD();                                      // animator.SetBool("IsLookingUp", IsLookingUp_K);
             readingWASD = true;
         }
         else
         {
+            // Reads the direction of the cursor
+            ReadDirectionWithCursor(lookDir);                                   // if (lookDir.x > deadZone && Mathf.Abs(lookDir.y) < deadZone)  { IsLookingRight_C = true; }
+
             // Updates animator with cursor direction
             UpdateDirectionWithCursor();                                    // animator.SetBool("IsLookingUp", IsLookingUp_C);
             readingWASD = false;
@@ -197,12 +242,12 @@ public class CharacterMovement : MonoBehaviour
             if (aim != Vector2.zero)
             {
                 lookDir = aim; // overwrite direction with directional
-                directionUpdated = true;
+                //directionUpdated = true;
             }
             else if (movement != Vector2.zero)
             {
                 lookDir = movement; // use movement direction
-                directionUpdated = true;
+                //directionUpdated = true;
             }
         }
         else // if mouse is being used
@@ -217,12 +262,12 @@ public class CharacterMovement : MonoBehaviour
             //Vector3 viewportPosition = Camera.main.ScreenToViewportPoint(Input.mousePosition);
             //mousePosition = Camera.main.ViewportToWorldPoint(new Vector3(viewportPosition.x, viewportPosition.y, Camera.main.nearClipPlane));
 
-            Vector3 mousePos = Input.mousePosition;
-            mousePos.z += 10;
-            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(mousePos);
+            //Vector3 mousePos = Input.mousePosition;
+            //mousePos.z += 10;
+            //Vector3 mousePosition = Camera.main.ScreenToWorldPoint(mousePos);
+            //lookDir = mousePosition - directional.position;
 
-            lookDir = mousePosition - directional.position;
-            directionUpdated = true;
+            //directionUpdated = true;
         }
     }
 
@@ -419,33 +464,8 @@ public class CharacterMovement : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
-    {
-        if (!localPlayer)
-        {
-            return;
-        }
+    
 
-        // Move the character
-        if (CanWalk())
-        {
-            if (isInPlace)
-            {
-                movement *= 0;
-            }
-            else
-            if (isSlow)
-            {
-                movement *= 0.5f;
-            }
-            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-
-            // Update the Animator with the current speed
-            animator.SetFloat("Speed", movement.magnitude);
-        }
-
-        HandlePlayerClose();
-    }
 
     private void ResetDirectionWASDBools()
     {
@@ -502,11 +522,11 @@ public class CharacterMovement : MonoBehaviour
         maxHealth = playerStatusses[currentStatus].maxHealth;
         animator.runtimeAnimatorController = playerStatusses[currentStatus].anim;
 
-        AbilitiesManager.Instance.SetImageAbility1(playerStatusses[currentStatus].attack1.sprite);
-        AbilitiesManager.Instance.SetImageAbility2(playerStatusses[currentStatus].attack2.sprite);
-        AbilitiesManager.Instance.SetImageAbility3(playerStatusses[currentStatus].attack3.sprite);
-        AbilitiesManager.Instance.SetImageAbility4(playerStatusses[currentStatus].shield.sprite);
-        AbilitiesManager.Instance.SetImageAbility5(playerStatusses[currentStatus].dashIcon);
+        AbilitiesManager.Instance.SetImageAbility1(playerStatusses[currentStatus].attack1.sprite, playerStatusses[currentStatus].attack1.spriteCooldown);
+        AbilitiesManager.Instance.SetImageAbility2(playerStatusses[currentStatus].attack2.sprite, playerStatusses[currentStatus].attack2.spriteCooldown);
+        AbilitiesManager.Instance.SetImageAbility3(playerStatusses[currentStatus].attack3.sprite, playerStatusses[currentStatus].attack3.spriteCooldown);
+        AbilitiesManager.Instance.SetImageAbility4(playerStatusses[currentStatus].shield.sprite, playerStatusses[currentStatus].shield.spriteCooldown);
+        AbilitiesManager.Instance.SetImageAbility5(playerStatusses[currentStatus].dashIcon, playerStatusses[currentStatus].dashIconCooldown);
     }
 
     private void OnMoveSpeedChanged(string value)
@@ -538,6 +558,16 @@ public class CharacterMovement : MonoBehaviour
         Debug.Log("dashing: " + lookDir);
         isDashing = true;
 
+        // Convert movement vector to angle (in degrees)
+        float angle = Mathf.Atan2(movement.y, movement.x) * Mathf.Rad2Deg;
+
+        // Apply the rotation to the animator
+        animator.transform.localRotation = Quaternion.Euler(0f, 0f, angle);
+        shadow.transform.localRotation = Quaternion.Euler(0f, 0f, angle);
+
+        animator.SetBool("Dashing", true);
+        shadow.SetBool("Dashing", true);
+
         Vector2 dashDirection = movement; // Dash in the direction of the movement
         if (dashDirection == Vector2.zero)
         {
@@ -563,6 +593,10 @@ public class CharacterMovement : MonoBehaviour
         moveSpeed = originalMoveSpeed;
 
         isDashing = false;
+        animator.SetBool("Dashing", false);
+        shadow.SetBool("Dashing", false);
+        animator.transform.localRotation = Quaternion.identity;
+        shadow.transform.localRotation = Quaternion.identity;
 
         if (shouldFall)
         {
@@ -572,11 +606,18 @@ public class CharacterMovement : MonoBehaviour
 
     private void HandleDirectional()
     {
-        if (directionUpdated)
+        //if (directionUpdated)
         {
-            float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-            directional.rotation = Quaternion.Euler(0, 0, angle);
-            spawnerAxis.rotation = Quaternion.Euler(0, 0, angle);
+            if (!isAttacking)
+            {
+                float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+
+                // Smoothly interpolate the current angle towards the target angle (95% of the way)
+                float smoothedAngle = Mathf.LerpAngle(directional.rotation.eulerAngles.z, angle, 0.8f);
+
+                directional.rotation = Quaternion.Euler(0, 0, smoothedAngle);
+                spawnerAxis.rotation = Quaternion.Euler(0, 0, angle);
+            }
         }
     }
 
@@ -606,6 +647,13 @@ public class CharacterMovement : MonoBehaviour
         animator.SetBool("Attacking", true);
         animator.SetTrigger("Attack1");
 
+        if (cast.shouldStop)
+        {
+            isInPlace = true;
+        }
+
+        yield return new WaitForSeconds(cast.castingCooldown);
+
         if (cast.attackRate == 0 && cast.length == 0) // if this is a one time cast
         {
             castObject = Instantiate(cast.prefab, spawner.position, Quaternion.identity);
@@ -617,9 +665,7 @@ public class CharacterMovement : MonoBehaviour
                     break;
                 case Cast.Positions.Spawner: castObject.transform.position = spawner.position;
                     break;
-                case Cast.Positions.Melee: 
-                    castObject.transform.position = meleeSpawner.position;
-                    isInPlace = true;
+                case Cast.Positions.Melee: castObject.transform.position = meleeSpawner.position;
                     break;
                 default:
                     break;
@@ -663,7 +709,7 @@ public class CharacterMovement : MonoBehaviour
             }
         }
 
-        yield return new WaitForSeconds(cast.castingCooldown);
+        
         isInPlace = false;
 
         if (cast.generalCooldown != cast.castingCooldown || cast.cooldown != cast.castingCooldown)
@@ -849,6 +895,7 @@ public class CharacterMovement : MonoBehaviour
         {
             if (!isDashing && !isDead && !isFalling)
             {
+                shadow.gameObject.SetActive(false);
                 isFalling = true;
                 CancelInvoke("Fall");
                 if (currentStatus == 1)
@@ -875,6 +922,7 @@ public class CharacterMovement : MonoBehaviour
         {
             if (!isDead)
             {
+                shadow.gameObject.SetActive(false);
                 isFalling = false;
                 shouldFall = false;
                 CancelInvoke("Fall");
@@ -985,6 +1033,7 @@ public class CharacterMovement : MonoBehaviour
     {
         isDead = false;
         animator.SetTrigger("Reshow");
+        shadow.gameObject.SetActive(true);
         directional.gameObject.SetActive(true);
     }
 
