@@ -17,8 +17,8 @@ MonoBehaviour:
   speed: 2
   jumpCooldown: 0
   jumpGeneralCooldown: 0
-  dashSpeed: 40
-  dashDuration: 0.2
+  dashSpeed: 20
+  dashDuration: 0.5
   dashCooldown: 1
   coyoteTime: 0.1
   anim: {fileID: 22100000, guid: 392e67075d5b5c046840c1e31db7d82e, type: 2}

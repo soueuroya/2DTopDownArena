@@ -679,23 +679,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f091f2a7d57e44dae244ec760c3cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ability1: {fileID: 2265309962031184500}
+  ability1: {fileID: 3750263247261676091}
   abilityImg1: {fileID: 8421161046933422865}
   cooldown1: {fileID: 4237429828795942338}
   countdownText1: {fileID: 4459563129914206795}
-  ability2: {fileID: 129344613259768216}
+  ability2: {fileID: 8485793805043859319}
   abilityImg2: {fileID: 2974859281818946898}
   cooldown2: {fileID: 6740077594365756718}
   countdownText2: {fileID: 6946779749517234317}
-  ability3: {fileID: 8468498018958121063}
+  ability3: {fileID: 3395407988235233950}
   abilityImg3: {fileID: 5282038218749248589}
   cooldown3: {fileID: 2932589123156866718}
   countdownText3: {fileID: 3868873722939725115}
-  ability4: {fileID: 8828855280782548470}
+  ability4: {fileID: 4743458796454536756}
   abilityImg4: {fileID: 4344772183499840913}
   cooldown4: {fileID: 2609774625268049495}
   countdownText4: {fileID: 7231065399024278944}
-  ability5: {fileID: 6809114405562224281}
+  ability5: {fileID: 5323458483168077395}
   abilityImg5: {fileID: 968456825344204183}
   cooldown5: {fileID: 7403166744165151985}
   countdownText5: {fileID: 5324823108451061772}
@@ -1669,7 +1669,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SHIELD - E
+  m_text: NORMALIZATION
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2423,6 +2423,7 @@ MonoBehaviour:
   - {fileID: 2113624253031263002}
   - {fileID: 4710907698490708001}
   - {fileID: 7548192970084284195}
+  - {fileID: 2288291886672115740}
 --- !u!1 &3651470542275792121
 GameObject:
   m_ObjectHideFlags: 0
@@ -2974,7 +2975,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1\u200B"
+  m_text: "0.8\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6006,7 +6007,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 1
+  m_Text: 0.8
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -6191,8 +6192,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -103.99002, y: -143.26562}
-  m_SizeDelta: {x: 808.1043, y: 196.5314}
+  m_AnchoredPosition: {x: -103.99002, y: -169.82477}
+  m_SizeDelta: {x: 808.1043, y: 249.6497}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3743409656126407560
 CanvasRenderer:
@@ -7409,11 +7410,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a32e36b1818b2db41b87a3a6629f9331, type: 3}
---- !u!1 &2265309962031184500 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4049720160416824768, guid: a32e36b1818b2db41b87a3a6629f9331, type: 3}
+--- !u!114 &3750263247261676091 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1393614369423127951, guid: a32e36b1818b2db41b87a3a6629f9331, type: 3}
   m_PrefabInstance: {fileID: 2836283079975520180}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &3995677898054801729 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1166431821614538485, guid: a32e36b1818b2db41b87a3a6629f9331, type: 3}

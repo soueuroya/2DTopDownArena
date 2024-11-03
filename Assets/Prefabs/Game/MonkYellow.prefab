@@ -245,6 +245,7 @@ MonoBehaviour:
   dashSpeedInput: {fileID: 0}
   dashDurationInput: {fileID: 0}
   dashCooldownInput: {fileID: 0}
+  diagonalNormalization: {fileID: 0}
   playerStatusses:
   - {fileID: 11400000, guid: d4fba7c727c44d74b920eee6d559f348, type: 2}
   - {fileID: 11400000, guid: 027875d1a5bb9b2448049c60f97e6d38, type: 2}

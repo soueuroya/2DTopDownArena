@@ -13,8 +13,9 @@ public class CharacterMovement : MonoBehaviour
     private float jumpCooldown = 1f; // Time before the player can jump again
     private float maxHealth = 5f;
     private float directionRange = 0.3f;
-    private float deadZone = 0.05f;
+    private float deadZone = 0.0001f;
     private float maxDistance = 1f;
+    private float normalization = 0.8f;
     private float currentSpeed;
     private bool readingWASD;
     [SerializeField] private Rigidbody2D rb;
@@ -33,6 +34,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private TMP_InputField dashSpeedInput;
     [SerializeField] private TMP_InputField dashDurationInput;
     [SerializeField] private TMP_InputField dashCooldownInput;
+    [SerializeField] private TMP_InputField diagonalNormalization;
 
 
     [SerializeField] List<PlayerStatus> playerStatusses;
@@ -100,6 +102,7 @@ public class CharacterMovement : MonoBehaviour
         dashSpeedInput.onValueChanged.AddListener(OnDashSpeedChanged);
         dashDurationInput.onValueChanged.AddListener(OnDashDurationChanged);
         dashCooldownInput.onValueChanged.AddListener(OnDashCooldownChanged);
+        diagonalNormalization.onValueChanged.AddListener(OnDiagonalNormalizationChanged);
     }
 
     void Update()
@@ -117,6 +120,20 @@ public class CharacterMovement : MonoBehaviour
         // Get movement input (from controller directional and WASD)
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        // Scale movement if moving diagonally without normalizing
+        //if (movement.x != 0 && movement.y != 0)
+        {
+            //movement *= Mathf.Sqrt(normalization); // Scale down for diagonal movement
+            // Normalize the look direction for comparison
+            movement.Normalize();
+        }
+
+        if (movement.magnitude <= 0.3f)
+        {
+            movement = Vector2.zero;
+        }
+        // Calculate movement speed
+        currentSpeed = movement.magnitude;
 
         aim.x = Input.GetAxis("Horizontal_Aim");
         aim.y = Input.GetAxis("Vertical_Aim");
@@ -130,12 +147,6 @@ public class CharacterMovement : MonoBehaviour
         }
         prevMousePosition = mousePosition;
 
-        // Calculate movement speed
-        currentSpeed = movement.magnitude;
-
-        // Normalize the look direction for comparison
-        //lookDir.Normalize();
-
         // Reset all direction WASD booleans
         ResetDirectionWASDBools();                                          // IsLookingRight_K = false;
 
@@ -144,6 +155,9 @@ public class CharacterMovement : MonoBehaviour
 
         // Reads cast inputs
         HandleAttacks();
+
+        // Normalize the look direction for comparison
+        lookDir.Normalize();
 
         // Handle movement and velocity
         HandleMovement(currentSpeed);
@@ -187,12 +201,6 @@ public class CharacterMovement : MonoBehaviour
                 movement *= 0.5f;
             }
 
-            // Scale movement if moving diagonally without normalizing
-            if (movement.x != 0 && movement.y != 0)
-            {
-                movement *= Mathf.Sqrt(0.5f); // Scale down by sqrt(0.5) for diagonal movement
-            }
-
             // Apply movement and snap to pixel grid
             Vector2 newPosition = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
             newPosition.x = Mathf.Round(newPosition.x * 100) / 100f; // Snap to pixel grid
@@ -210,7 +218,7 @@ public class CharacterMovement : MonoBehaviour
 
     private void HandleMovement(float currentSpeed)
     {
-        if (currentSpeed != 0.0f && !isAttacking /* && attack1Cooldown <= 0*/ /*&& attack2Cooldown <= 0*/ /*&& dashingCooldown <= 0*/ /*&& generalCooldown <= 0*/ /*&& !isInPlace*/ && castingCooldown <= 0)
+        if (currentSpeed >= 0.1f && !isAttacking /* && attack1Cooldown <= 0*/ /*&& attack2Cooldown <= 0*/ /*&& dashingCooldown <= 0*/ /*&& generalCooldown <= 0*/ /*&& !isInPlace*/ && castingCooldown <= 0)
         {
             // Reads the direction from WASD
             ReadDirectionWithWASD();
@@ -336,38 +344,79 @@ public class CharacterMovement : MonoBehaviour
 
     private void ReadDirectionWithCursor(Vector2 lookDir)
     {
-        // Determine which direction the player is facing - CURSOR
-        if (lookDir.x > directionRange && Mathf.Abs(lookDir.y) < directionRange)
+        //// Determine which direction the player is facing - CURSOR
+        //if (lookDir.x > directionRange && Mathf.Abs(lookDir.y) < directionRange)
+        //{
+        //    IsLookingRight_C = true;
+        //}
+        //else if (lookDir.x < -directionRange && Mathf.Abs(lookDir.y) < directionRange)
+        //{
+        //    IsLookingLeft_C = true;
+        //}
+        //else if (lookDir.y > directionRange && Mathf.Abs(lookDir.x) < directionRange)
+        //{
+        //    IsLookingUp_C = true;
+        //}
+        //else if (lookDir.y < -directionRange && Mathf.Abs(lookDir.x) < directionRange)
+        //{
+        //    IsLookingDown_C = true;
+        //}
+        //else if (lookDir.x > directionRange && lookDir.y > directionRange)
+        //{
+        //    IsLookingUpRight_C = true;
+        //}
+        //else if (lookDir.x < -directionRange && lookDir.y > directionRange)
+        //{
+        //    IsLookingUpLeft_C = true;
+        //}
+        //else if (lookDir.x > directionRange && lookDir.y < -directionRange)
+        //{
+        //    IsLookingDownRight_C = true;
+        //}
+        //else if (lookDir.x < -directionRange && lookDir.y < -directionRange)
+        //{
+        //    IsLookingDownLeft_C = true;
+        //}
+
+        // Calculate the angle in degrees from the look direction
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+
+        // Normalize angle to a range of [0, 360) for easier range checks
+        if (angle < 0)
+            angle += 360;
+
+        // Set directional states based on angle ranges
+        if (angle >= 337.5 || angle < 22.5)
         {
-            IsLookingRight_C = true;
+            IsLookingRight_C = true;         // Right
         }
-        else if (lookDir.x < -directionRange && Mathf.Abs(lookDir.y) < directionRange)
+        else if (angle >= 22.5 && angle < 67.5)
         {
-            IsLookingLeft_C = true;
+            IsLookingUpRight_C = true;       // Up-Right
         }
-        else if (lookDir.y > directionRange && Mathf.Abs(lookDir.x) < directionRange)
+        else if (angle >= 67.5 && angle < 112.5)
         {
-            IsLookingUp_C = true;
+            IsLookingUp_C = true;            // Up
         }
-        else if (lookDir.y < -directionRange && Mathf.Abs(lookDir.x) < directionRange)
+        else if (angle >= 112.5 && angle < 157.5)
         {
-            IsLookingDown_C = true;
+            IsLookingUpLeft_C = true;        // Up-Left
         }
-        else if (lookDir.x > directionRange && lookDir.y > directionRange)
+        else if (angle >= 157.5 && angle < 202.5)
         {
-            IsLookingUpRight_C = true;
+            IsLookingLeft_C = true;          // Left
         }
-        else if (lookDir.x < -directionRange && lookDir.y > directionRange)
+        else if (angle >= 202.5 && angle < 247.5)
         {
-            IsLookingUpLeft_C = true;
+            IsLookingDownLeft_C = true;      // Down-Left
         }
-        else if (lookDir.x > directionRange && lookDir.y < -directionRange)
+        else if (angle >= 247.5 && angle < 292.5)
         {
-            IsLookingDownRight_C = true;
+            IsLookingDown_C = true;          // Down
         }
-        else if (lookDir.x < -directionRange && lookDir.y < -directionRange)
+        else if (angle >= 292.5 && angle < 337.5)
         {
-            IsLookingDownLeft_C = true;
+            IsLookingDownRight_C = true;     // Down-Right
         }
     }
 
@@ -397,70 +446,123 @@ public class CharacterMovement : MonoBehaviour
 
     private void ReadDirectionWithWASD()
     {
-        // Determine which direction the player is facing - WALK - WASD
-        if (movement.x > directionRange && Mathf.Abs(movement.y) < directionRange)
+        //// Determine which direction the player is facing - WALK - WASD
+        //if (movement.x > directionRange && Mathf.Abs(movement.y) < directionRange)
+        //{
+        //    IsLookingRight_K = true;
+        //    if (!Cursor.visible)
+        //    {
+        //        IsLookingRight_C = true;
+        //    }
+        //}
+        //else if (movement.x < -directionRange && Mathf.Abs(movement.y) < directionRange)
+        //{
+        //    IsLookingLeft_K = true;
+        //    if (!Cursor.visible)
+        //    {
+        //        IsLookingLeft_C = true;
+        //    }
+        //}
+        //else if (movement.y > directionRange && Mathf.Abs(movement.x) < directionRange)
+        //{
+        //    IsLookingUp_K = true;
+        //    if (!Cursor.visible)
+        //    {
+        //        IsLookingUp_C = true;
+        //    }
+        //}
+        //else if (movement.y < -directionRange && Mathf.Abs(movement.x) < directionRange)
+        //{
+        //    IsLookingDown_K = true;
+        //    if (!Cursor.visible)
+        //    {
+        //        IsLookingDown_C = true;
+        //    }
+        //}
+        //else if (movement.x > directionRange && movement.y > directionRange)
+        //{
+        //    IsLookingUpRight_K = true;
+        //    if (!Cursor.visible)
+        //    {
+        //        IsLookingUpRight_C = true;
+        //    }
+        //}
+        //else if (movement.x < -directionRange && movement.y > directionRange)
+        //{
+        //    IsLookingUpLeft_K = true;
+        //    if (!Cursor.visible)
+        //    {
+        //        IsLookingUpLeft_C = true;
+        //    }
+        //}
+        //else if (movement.x > directionRange && movement.y < -directionRange)
+        //{
+        //    IsLookingDownRight_K = true;
+        //    if (!Cursor.visible)
+        //    {
+        //        IsLookingDownRight_C = true;
+        //    }
+        //}
+        //else if (movement.x < -directionRange && movement.y < -directionRange)
+        //{
+        //    IsLookingDownLeft_K = true;
+        //    if (!Cursor.visible)
+        //    {
+        //        IsLookingDownLeft_C = true;
+        //    }
+        //}
+
+        // Calculate the angle in degrees from the movement direction
+        float angle = Mathf.Atan2(movement.y, movement.x) * Mathf.Rad2Deg;
+
+        // Normalize the angle to a range of [0, 360)
+        if (angle < 0)
+            angle += 360;
+
+        // Reset all directional flags
+        IsLookingRight_K = IsLookingLeft_K = IsLookingUp_K = IsLookingDown_K = false;
+        IsLookingUpRight_K = IsLookingUpLeft_K = IsLookingDownRight_K = IsLookingDownLeft_K = false;
+
+        // Set directional states based on angle ranges
+        if (angle >= 337.5 || angle < 22.5)
         {
             IsLookingRight_K = true;
-            if (!Cursor.visible)
-            {
-                IsLookingRight_C = true;
-            }
+            if (!Cursor.visible) IsLookingRight_C = true;
         }
-        else if (movement.x < -directionRange && Mathf.Abs(movement.y) < directionRange)
-        {
-            IsLookingLeft_K = true;
-            if (!Cursor.visible)
-            {
-                IsLookingLeft_C = true;
-            }
-        }
-        else if (movement.y > directionRange && Mathf.Abs(movement.x) < directionRange)
-        {
-            IsLookingUp_K = true;
-            if (!Cursor.visible)
-            {
-                IsLookingUp_C = true;
-            }
-        }
-        else if (movement.y < -directionRange && Mathf.Abs(movement.x) < directionRange)
-        {
-            IsLookingDown_K = true;
-            if (!Cursor.visible)
-            {
-                IsLookingDown_C = true;
-            }
-        }
-        else if (movement.x > directionRange && movement.y > directionRange)
+        else if (angle >= 22.5 && angle < 67.5)
         {
             IsLookingUpRight_K = true;
-            if (!Cursor.visible)
-            {
-                IsLookingUpRight_C = true;
-            }
+            if (!Cursor.visible) IsLookingUpRight_C = true;
         }
-        else if (movement.x < -directionRange && movement.y > directionRange)
+        else if (angle >= 67.5 && angle < 112.5)
+        {
+            IsLookingUp_K = true;
+            if (!Cursor.visible) IsLookingUp_C = true;
+        }
+        else if (angle >= 112.5 && angle < 157.5)
         {
             IsLookingUpLeft_K = true;
-            if (!Cursor.visible)
-            {
-                IsLookingUpLeft_C = true;
-            }
+            if (!Cursor.visible) IsLookingUpLeft_C = true;
         }
-        else if (movement.x > directionRange && movement.y < -directionRange)
+        else if (angle >= 157.5 && angle < 202.5)
         {
-            IsLookingDownRight_K = true;
-            if (!Cursor.visible)
-            {
-                IsLookingDownRight_C = true;
-            }
+            IsLookingLeft_K = true;
+            if (!Cursor.visible) IsLookingLeft_C = true;
         }
-        else if (movement.x < -directionRange && movement.y < -directionRange)
+        else if (angle >= 202.5 && angle < 247.5)
         {
             IsLookingDownLeft_K = true;
-            if (!Cursor.visible)
-            {
-                IsLookingDownLeft_C = true;
-            }
+            if (!Cursor.visible) IsLookingDownLeft_C = true;
+        }
+        else if (angle >= 247.5 && angle < 292.5)
+        {
+            IsLookingDown_K = true;
+            if (!Cursor.visible) IsLookingDown_C = true;
+        }
+        else if (angle >= 292.5 && angle < 337.5)
+        {
+            IsLookingDownRight_K = true;
+            if (!Cursor.visible) IsLookingDownRight_C = true;
         }
     }
 
@@ -547,6 +649,11 @@ public class CharacterMovement : MonoBehaviour
     private void OnDashCooldownChanged(string value)
     {
         dashCooldown = float.Parse(value);
+    }
+
+    private void OnDiagonalNormalizationChanged(string value)
+    {
+        normalization = float.Parse(value);
     }
 
     private IEnumerator Dash()
@@ -922,7 +1029,7 @@ public class CharacterMovement : MonoBehaviour
         {
             if (!isDead)
             {
-                shadow.gameObject.SetActive(false);
+                shadow.gameObject.SetActive(true);
                 isFalling = false;
                 shouldFall = false;
                 CancelInvoke("Fall");
